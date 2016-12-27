@@ -55,7 +55,7 @@
 					<img src="img/google.svg" alt="@@" width="24">
 				</a>
 			</div>
-			<a href="#" class="button button_green"><span class="button__border-top"></span>подобрать технику<span class="button__border-bottom"></span></a>
+			<a href="#" class="button button_green"><span class="button__border-top"></span>Оригинал статьи<span class="button__border-bottom"></span></a>
 		</div>
 	</div>
 	<div class="subscribe">
