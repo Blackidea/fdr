@@ -1,0 +1,2351 @@
+@media (min-width: 480px) {
+  /*-----------MAIN--------------*/
+  /* line 24, C:/wamp64/www/foderent/css/adaptive.scss */
+  .container {
+    width: 450px; }
+  /* line 25, C:/wamp64/www/foderent/css/adaptive.scss */
+  .sale .container {
+    width: 480px; }
+  /* line 26, C:/wamp64/www/foderent/css/adaptive.scss */
+  .sale__bg {
+    min-height: 210px; }
+  /* line 27, C:/wamp64/www/foderent/css/adaptive.scss */
+  .newsblocks div {
+    min-height: 240px; }
+  /* line 28, C:/wamp64/www/foderent/css/adaptive.scss */
+  .newsblocks div .bg:before {
+    height: 120%;
+    left: -117px;
+    bottom: -100px; }
+  /* line 29, C:/wamp64/www/foderent/css/adaptive.scss */
+  .newsblocks div:hover .bg:before {
+    left: -175px;
+    height: 250%;
+    bottom: -240px;
+    width: 240%; }
+  /* line 30, C:/wamp64/www/foderent/css/adaptive.scss */
+  .newsblocks div p {
+    font-size: 16px; }
+  /*-----------SEARCH--------------*/
+  /* line 33, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div .image {
+    height: 183px; }
+  /* line 34, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div p {
+    font-size: 14px;
+    padding: 0 5px; }
+  /*-----------SALES--------------*/
+  /* line 37, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .container {
+    width: 450px; }
+  /* line 38, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .sales__bg {
+    min-height: 217px; }
+  /*-----------PRODUCT CARD--------------*/
+  /* line 41, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__slide {
+    height: 375px; }
+  /* line 42, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__sliderdots {
+    top: 394px; }
+  /*-----------CUPLYA PRODAGA--------------*/
+  /* line 45, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block img {
+    height: 340px; }
+  /* line 46, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__container {
+    width: 100%; }
+  /* line 47, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block p {
+    width: 450px; }
+  /*-----------INVESTORS--------------*/
+  /* line 50, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__textblock ul li {
+    min-height: 20px; } }
+
+@media (min-width: 640px) {
+  /*-----------MAIN--------------*/
+  /* line 55, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen {
+    background-position: top -81px left 770px; }
+  /*-----------404--------------*/
+  /* line 58, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenotfound p.large {
+    font-size: 169px; }
+  /* line 59, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenotfound p.large img {
+    width: 174px;
+    margin: 0 -10px; }
+  /* line 60, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenotfound p.large + p {
+    font-size: 34px; } }
+
+@media (min-width: 769px) {
+  /*-----------MAIN--------------*/
+  /* line 65, C:/wamp64/www/foderent/css/adaptive.scss */
+  .container {
+    width: 755px; }
+  /* line 66, C:/wamp64/www/foderent/css/adaptive.scss */
+  .container.small {
+    width: 555px; }
+  /* line 67, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen {
+    text-align: left;
+    background-position: center; }
+  /* line 68, C:/wamp64/www/foderent/css/adaptive.scss */
+  .advantages__list li {
+    width: 17.245%; }
+  /* line 69, C:/wamp64/www/foderent/css/adaptive.scss */
+  .advantages__list li:nth-child(n+3) {
+    margin-top: 0; }
+  /* line 70, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks {
+    justify-content: flex-end; }
+  /* line 71, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div {
+    width: 280px;
+    margin-top: 0;
+    min-height: 175px; }
+  /* line 72, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div:last-child {
+    margin-left: 122px; }
+  /* line 73, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div p {
+    line-height: 1.4em; }
+  /* line 74, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div p.small {
+    color: #cccccc;
+    font-size: 24px;
+    position: absolute;
+    left: -95px;
+    top: 42px;
+    transform: rotate(-90deg);
+    letter-spacing: 0.1em; }
+  /* line 75, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div .bg:before {
+    left: -89px;
+    bottom: -55px;
+    height: 100%; }
+  /* line 76, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners__block:last-child {
+    justify-content: space-between; }
+  /* line 77, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners__block:last-child img {
+    margin-bottom: 0; }
+  /* line 78, C:/wamp64/www/foderent/css/adaptive.scss */
+  .accordion p {
+    text-align: center; }
+  /* line 79, C:/wamp64/www/foderent/css/adaptive.scss */
+  .accordion p img {
+    position: static;
+    vertical-align: middle;
+    margin-left: 45px; }
+  /*-----------NEWS--------------*/
+  /* line 82, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews select {
+    width: 262px; }
+  /* line 83, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks > div {
+    width: 44.83%; }
+  /* line 84, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks div:nth-child(2) {
+    margin-top: 0; }
+  /* line 85, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks div .bg {
+    background-size: cover; }
+  /* line 86, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks div .bg:before {
+    width: 120%;
+    left: -127px; }
+  /* line 88, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks div:hover .bg:before {
+    left: -156px;
+    height: 250%;
+    bottom: -240px;
+    width: 240%; }
+  /* line 92, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .button {
+    width: auto;
+    padding: 12px 21px 14px; }
+  /*-----------NEWS PAGE--------------*/
+  /* line 95, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .top .heading {
+    width: 43.5%;
+    text-align: left;
+    padding: 43px 20px; }
+  /* line 96, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .top .image {
+    width: 56.5%; }
+  /* line 97, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .top .heading p {
+    font-size: 30px; }
+  /* line 98, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .content .container {
+    width: 740px; }
+  /* line 99, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .share {
+    padding-top: 0;
+    border: 0; }
+  /* line 100, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .share .container {
+    width: 750px;
+    padding-top: 3px;
+    border-top: 1px solid rgba(42, 44, 40, 0.7); }
+  /*-----------404--------------*/
+  /* line 103, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenotfound.firstscreen {
+    padding-top: 130px;
+    padding-bottom: 122px;
+    text-align: center; }
+  /*-----------SEARCH--------------*/
+  /* line 106, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div .image {
+    height: 307px; }
+  /*-----------SALES--------------*/
+  /* line 109, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .container {
+    width: 755px; }
+  /* line 110, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales select {
+    width: 262px; }
+  /* line 111, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .sales__bg {
+    width: 44.83%;
+    min-height: 210px;
+    background-position: 0 0; }
+  /* line 112, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .sales__bg:nth-child(2) {
+    margin-top: 0; }
+  /* line 113, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .button {
+    width: auto;
+    padding: 12px 21px 14px; }
+  /*-----------SALES PAGE--------------*/
+  /* line 116, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .sale__bg {
+    min-height: 310px;
+    background-position: 0 -170px; }
+  /* line 117, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .share {
+    padding-top: 0;
+    border: 0; }
+  /* line 118, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .share .container {
+    padding-top: 3px;
+    border-top: 1px solid rgba(42, 44, 40, 0.7); }
+  /*-----------CUPLYA PRODAGA--------------*/
+  /* line 121, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block img {
+    height: 540px; }
+  /* line 122, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__container {
+    width: 100%; }
+  /* line 123, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block p {
+    width: 755px; }
+  /*-----------PRESS PAGE--------------*/
+  /* line 126, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .top .heading {
+    width: 43.5%;
+    text-align: left;
+    padding: 43px 20px; }
+  /* line 127, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .top .image {
+    width: 56.5%; }
+  /* line 128, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .top .heading p {
+    font-size: 30px; }
+  /* line 129, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .content .container {
+    width: 740px; }
+  /* line 130, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .share {
+    padding-top: 0;
+    border: 0; }
+  /* line 131, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .share .container {
+    width: 750px;
+    padding-top: 3px;
+    border-top: 1px solid rgba(42, 44, 40, 0.7); } }
+
+@media (max-width: 768px) {
+  /*-----------NEWS--------------*/
+  /* line 136, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews p.toptext {
+    display: none; }
+  /*-----------NEWS PAGE--------------*/
+  /* line 139, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .content img {
+    display: none; }
+  /*-----------SALES--------------*/
+  /* line 142, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales p.toptext {
+    display: none; } }
+
+@media (min-width: 1024px) {
+  /*-----------MAIN--------------*/
+  /* line 163, C:/wamp64/www/foderent/css/adaptive.scss */
+  .container {
+    width: 990px; }
+  /* line 164, C:/wamp64/www/foderent/css/adaptive.scss */
+  .container.small {
+    width: 790px; }
+  /* line 165, C:/wamp64/www/foderent/css/adaptive.scss */
+  h1 {
+    font-size: 62px;
+    line-height: 1em; }
+  /* line 166, C:/wamp64/www/foderent/css/adaptive.scss */
+  h2 {
+    font-size: 32px; }
+  /* line 167, C:/wamp64/www/foderent/css/adaptive.scss */
+  .toup_button {
+    width: 35px;
+    height: 35px;
+    top: -36px;
+    right: 30px;
+    bottom: auto;
+    left: auto;
+    background-color: transparent;
+    border: 1px solid #2ca346;
+    background-image: url("../img/arrow_up_green.png");
+    border-bottom: 0; }
+  /* line 169, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header {
+    height: 60px; }
+  /* line 170, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header__menubutton {
+    width: 80px;
+    padding-left: 21px; }
+  /* line 171, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header__menubutton:after {
+    right: -42px;
+    bottom: -42px;
+    width: 84px;
+    height: 84px; }
+  /* line 172, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header__menubutton .burger div {
+    width: 24px;
+    height: 3px; }
+  /* line 173, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header__menubutton .burger {
+    top: -6px; }
+  /* line 174, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header__menubutton .burger div:first-child {
+    transform: translateY(9px); }
+  /* line 175, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header__menubutton .burger div:last-child {
+    transform: translateY(-9px); }
+  /* line 176, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header__menubutton:hover .burger div:first-child {
+    transform: translateY(6px); }
+  /* line 177, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header__menubutton:hover .burger div:last-child {
+    transform: translateY(-6px); }
+  /* line 178, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header__logo {
+    top: -5px; }
+  /* line 179, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header__logo img {
+    width: 193px; }
+  /* line 180, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header__icons {
+    padding-right: 30px; }
+  /* line 181, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header__icons img {
+    height: 20px; }
+  /* line 182, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header__icons a {
+    margin-right: 28px; }
+  /* line 184, C:/wamp64/www/foderent/css/adaptive.scss */
+  header .searchform > * {
+    display: inline-block;
+    border: 0;
+    border-right: 1px solid rgba(183, 207, 188, 0.35);
+    background-color: transparent;
+    margin-top: 0;
+    height: 54px;
+    vertical-align: top; }
+  /* line 185, C:/wamp64/www/foderent/css/adaptive.scss */
+  header .searchform div {
+    padding: 13px 18px; }
+  /* line 186, C:/wamp64/www/foderent/css/adaptive.scss */
+  header .searchform div p {
+    font-size: 20px;
+    font-weight: 300; }
+  /* line 187, C:/wamp64/www/foderent/css/adaptive.scss */
+  header .searchform .date {
+    padding: 9px 21px; }
+  /* line 188, C:/wamp64/www/foderent/css/adaptive.scss */
+  header .searchform .date > img {
+    margin-right: -1px; }
+  /* line 189, C:/wamp64/www/foderent/css/adaptive.scss */
+  header .searchform .date a {
+    right: 25px; }
+  /* line 190, C:/wamp64/www/foderent/css/adaptive.scss */
+  header .searchform div:first-child {
+    width: 332px; }
+  /* line 191, C:/wamp64/www/foderent/css/adaptive.scss */
+  header .searchform div:nth-child(2) {
+    width: 242px; }
+  /* line 192, C:/wamp64/www/foderent/css/adaptive.scss */
+  header .searchform div:nth-child(3) {
+    width: 290px; }
+  /* line 193, C:/wamp64/www/foderent/css/adaptive.scss */
+  header .searchform button {
+    border-right: 0;
+    width: 79px; }
+  /* line 194, C:/wamp64/www/foderent/css/adaptive.scss */
+  header .searchform button img {
+    width: 31px; }
+  /* line 195, C:/wamp64/www/foderent/css/adaptive.scss */
+  header .searchform .firstscreen__button {
+    display: none; }
+  /* line 196, C:/wamp64/www/foderent/css/adaptive.scss */
+  header .searchform div select, header .searchform div input {
+    font-size: 20px; }
+  /* line 198, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen {
+    background-image: url("../img/bg_1_screen_medium.jpg");
+    background-position: 0px -9px;
+    text-align: left;
+    padding-top: 150px;
+    padding-bottom: 220px; }
+  /* line 199, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen h1 span {
+    font-size: 52px; }
+  /* line 200, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform {
+    margin-top: 23px;
+    border: 1px solid #b7cfbc;
+    background-color: rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    height: 80px;
+    padding: 0; }
+  /* line 201, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform > * {
+    display: inline-flex;
+    align-items: center;
+    border: 0;
+    background-color: transparent;
+    margin-top: 0;
+    height: 100%;
+    vertical-align: top; }
+  /* line 202, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field p {
+    font-size: 20px;
+    font-weight: 300; }
+  /* line 203, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field_date > img {
+    margin-right: -1px; }
+  /* line 204, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field_date a {
+    right: 25px; }
+  /* line 205, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field {
+    padding: 0 22px; }
+  /* line 206, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field_date {
+    padding: 0 22px; }
+  /* line 207, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field:first-child {
+    width: 240px; }
+  /* line 208, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field:nth-child(2) {
+    width: 242px; }
+  /* line 209, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field:nth-child(3) {
+    width: 240px; }
+  /* line 210, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform button {
+    border-right: 0;
+    width: 66px;
+    padding: 0; }
+  /* line 211, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform button img {
+    width: 31px;
+    margin: auto; }
+  /* line 212, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen__button {
+    display: none !important; }
+  /* line 213, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform select, .firstscreen .searchform input {
+    font-size: 20px;
+    height: 100%; }
+  /* line 214, C:/wamp64/www/foderent/css/adaptive.scss */
+  .advantages {
+    padding-top: 79px;
+    padding-bottom: 73px; }
+  /* line 215, C:/wamp64/www/foderent/css/adaptive.scss */
+  .advantages__list {
+    margin-top: 90px; }
+  /* line 216, C:/wamp64/www/foderent/css/adaptive.scss */
+  .advantages__list li {
+    width: 23.0275%; }
+  /* line 217, C:/wamp64/www/foderent/css/adaptive.scss */
+  .advantages__list li .image {
+    height: 69px; }
+  /* line 218, C:/wamp64/www/foderent/css/adaptive.scss */
+  .advantages__list li p {
+    font-size: 14px;
+    margin-top: 22px; }
+  /* line 219, C:/wamp64/www/foderent/css/adaptive.scss */
+  .advantages__list li:nth-child(n+3) {
+    margin-top: 0; }
+  /* line 220, C:/wamp64/www/foderent/css/adaptive.scss */
+  .sale .container {
+    width: 990px; }
+  /* line 221, C:/wamp64/www/foderent/css/adaptive.scss */
+  .sale__bg {
+    min-height: 450px;
+    background-image: url("../img/bg_sale_medium.jpg");
+    background-position: bottom 172px left -34px;
+    background-size: auto;
+    padding: 0; }
+  /* line 222, C:/wamp64/www/foderent/css/adaptive.scss */
+  .sale__mobileblock {
+    display: none; }
+  /* line 223, C:/wamp64/www/foderent/css/adaptive.scss */
+  .sale__link {
+    text-align: right;
+    margin-top: 14px; }
+  /* line 224, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news {
+    padding-top: 48px; }
+  /* line 225, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks {
+    justify-content: flex-end;
+    margin-top: 70px; }
+  /* line 226, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div {
+    width: 410px;
+    margin-top: 0;
+    min-height: 271px;
+    padding: 18px 23px; }
+  /* line 227, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div .bg {
+    background-size: cover; }
+  /* line 228, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div:last-child {
+    margin-left: 122px; }
+  /* line 229, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div p {
+    font-size: 24px;
+    line-height: 1.4em; }
+  /* line 230, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div p.small {
+    color: #cccccc;
+    font-size: 24px;
+    position: absolute;
+    left: -95px;
+    top: 42px;
+    transform: rotate(-90deg);
+    letter-spacing: 0.1em; }
+  /* line 231, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div .bg:before {
+    left: -190px;
+    height: 100%;
+    width: 120%; }
+  /* line 232, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news__link {
+    text-align: right;
+    margin-top: 38px; }
+  /* line 233, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners {
+    margin-top: 42px; }
+  /* line 234, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners .container {
+    padding: 34px 0; }
+  /* line 235, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners__block {
+    width: 14.475%; }
+  /* line 236, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners__block_wide {
+    width: 31.58%; }
+  /* line 237, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners__block:last-child img {
+    margin-bottom: 30px;
+    height: 95px; }
+  /* line 238, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners__block:last-child {
+    width: 31.58%; }
+  /* line 239, C:/wamp64/www/foderent/css/adaptive.scss */
+  .accordion {
+    padding: 50px 0 47px; }
+  /* line 240, C:/wamp64/www/foderent/css/adaptive.scss */
+  .accordion p {
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center; }
+  /* line 241, C:/wamp64/www/foderent/css/adaptive.scss */
+  .accordion p img {
+    position: static;
+    vertical-align: middle;
+    margin-left: 45px;
+    width: 27px;
+    padding: 17px 12px; }
+  /* line 242, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__top-part {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  /* line 243, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__top-part img {
+    padding-right: 142px;
+    position: relative;
+    top: -7px; }
+  /* line 244, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer .button {
+    margin-top: 0 !important;
+    width: 262px; }
+  /* line 245, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__middle-part {
+    border-top: 1px solid rgba(183, 207, 188, 0.15);
+    border-bottom: 1px solid rgba(183, 207, 188, 0.15);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+    padding-top: 22px;
+    padding-bottom: 31px; }
+  /* line 246, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__form {
+    width: 31.58%;
+    padding-left: 30px; }
+  /* line 247, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__form p.big {
+    font-size: 20px;
+    font-weight: 500; }
+  /* line 248, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__form input {
+    margin-top: 32px; }
+  /* line 249, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__form button {
+    bottom: 64px; }
+  /* line 250, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__bottom-part {
+    border: 0;
+    margin-top: 10px; }
+  /* line 251, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__bottom-part .container {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  /* line 252, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__bottom-part p {
+    font-size: 13px; }
+  /* line 253, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__bottom-part p:last-child {
+    font-size: 12px; }
+  /* line 254, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__bottom-part p img {
+    width: 93px; }
+  /* line 256, C:/wamp64/www/foderent/css/adaptive.scss */
+  .authorization {
+    top: 0;
+    padding: 62px 0 120px; }
+  /* line 257, C:/wamp64/www/foderent/css/adaptive.scss */
+  .authorization .container {
+    width: 360px; }
+  /* line 258, C:/wamp64/www/foderent/css/adaptive.scss */
+  .authorization p.heading {
+    font-size: 36px; }
+  /* line 259, C:/wamp64/www/foderent/css/adaptive.scss */
+  .authorization p.heading + p {
+    margin-top: 7px; }
+  /* line 260, C:/wamp64/www/foderent/css/adaptive.scss */
+  .authorization form {
+    margin-top: 46px; }
+  /* line 261, C:/wamp64/www/foderent/css/adaptive.scss */
+  .authorization form p.big {
+    font-size: 18px; }
+  /* line 262, C:/wamp64/www/foderent/css/adaptive.scss */
+  .authorization form input {
+    margin-top: 13px; }
+  /* line 263, C:/wamp64/www/foderent/css/adaptive.scss */
+  .authorization form p.big:nth-of-type(2) {
+    margin-top: 47px; }
+  /* line 264, C:/wamp64/www/foderent/css/adaptive.scss */
+  .authorization form .button {
+    width: 165px;
+    display: block;
+    margin: 50px auto 0; }
+  /* line 265, C:/wamp64/www/foderent/css/adaptive.scss */
+  .authorization .close-button {
+    right: 30px;
+    top: 30px; }
+  /* line 266, C:/wamp64/www/foderent/css/adaptive.scss */
+  .authorization form .button:before {
+    width: 10px;
+    right: 48px; }
+  /* line 267, C:/wamp64/www/foderent/css/adaptive.scss */
+  .authorization form .button:after {
+    width: 10px;
+    left: 58px; }
+  /* line 269, C:/wamp64/www/foderent/css/adaptive.scss */
+  .registration {
+    top: 0;
+    padding: 62px 0 120px; }
+  /* line 270, C:/wamp64/www/foderent/css/adaptive.scss */
+  .registration p.heading {
+    font-size: 36px; }
+  /* line 271, C:/wamp64/www/foderent/css/adaptive.scss */
+  .registration p.heading + p {
+    margin-top: 6px; }
+  /* line 272, C:/wamp64/www/foderent/css/adaptive.scss */
+  .registration .button {
+    margin-top: 156px;
+    width: 262px;
+    margin-left: 30px; }
+  /* line 273, C:/wamp64/www/foderent/css/adaptive.scss */
+  .registration .button:first-of-type {
+    margin-top: auto;
+    margin-left: 0; }
+  /* line 274, C:/wamp64/www/foderent/css/adaptive.scss */
+  .registration .button:before {
+    width: 10px;
+    right: 97px; }
+  /* line 275, C:/wamp64/www/foderent/css/adaptive.scss */
+  .registration .button:after {
+    width: 10px;
+    left: 109px; }
+  /* line 276, C:/wamp64/www/foderent/css/adaptive.scss */
+  .registration .close-button {
+    right: 30px;
+    top: 30px; }
+  /* line 278, C:/wamp64/www/foderent/css/adaptive.scss */
+  .burgermenu {
+    width: 683px;
+    background-color: #fff;
+    color: #23692b;
+    padding: 20px 0 54px;
+    transform: translateX(-100%); }
+  /* line 279, C:/wamp64/www/foderent/css/adaptive.scss */
+  .burgermenu.active {
+    transform: translateX(0); }
+  /* line 280, C:/wamp64/www/foderent/css/adaptive.scss */
+  .burgermenu .container {
+    width: 556px;
+    margin: auto;
+    margin-left: 30px; }
+  /* line 281, C:/wamp64/www/foderent/css/adaptive.scss */
+  .burgermenu p.mobile {
+    display: none; }
+  /* line 282, C:/wamp64/www/foderent/css/adaptive.scss */
+  .burgermenu .close-button {
+    right: -66px;
+    top: -66px;
+    width: 130px;
+    height: 130px; }
+  /* line 283, C:/wamp64/www/foderent/css/adaptive.scss */
+  .burgermenu .close-button:before {
+    bottom: 25px;
+    right: 60px; }
+  /* line 284, C:/wamp64/www/foderent/css/adaptive.scss */
+  .burgermenu .close-button:after {
+    bottom: 25px;
+    right: 60px; }
+  /* line 285, C:/wamp64/www/foderent/css/adaptive.scss */
+  .burgermenu .button {
+    margin-top: 0;
+    width: 262px;
+    float: right; }
+  /* line 286, C:/wamp64/www/foderent/css/adaptive.scss */
+  .burgermenu .lists, .burgermenu.rent {
+    display: none; }
+  /*-----------NEWS--------------*/
+  /* line 289, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .top {
+    padding-left: 4px; }
+  /* line 290, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks div:hover .bg:before {
+    left: -206px; }
+  /* line 291, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .heading h2 {
+    font-size: 36px; }
+  /* line 292, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .heading {
+    padding: 42px 0; }
+  /* line 293, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews select {
+    margin-top: 29px; }
+  /* line 294, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks {
+    margin-top: 30px; }
+  /* line 295, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks div {
+    min-height: 270px;
+    padding: 19px 24px;
+    margin-top: 31px; }
+  /* line 296, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks > div {
+    width: 48.685%; }
+  /* line 297, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks div p {
+    font-size: 24px;
+    line-height: 1.4em; }
+  /* line 298, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks div p.small {
+    font-size: 14px;
+    font-weight: 400; }
+  /* line 299, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks div .bg:before {
+    left: -248px; }
+  /* line 300, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .button {
+    margin-top: 30px; }
+  /* line 301, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews {
+    padding-bottom: 25px; }
+  /*-----------NEWS PAGE--------------*/
+  /* line 304, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage p.toptext {
+    margin-top: 19px; }
+  /* line 305, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .top {
+    margin-top: 19px; }
+  /* line 306, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .top .heading p {
+    font-size: 45px; }
+  /* line 307, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .top .heading {
+    padding: 133px 77px; }
+  /* line 308, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .top .image {
+    height: 501px; }
+  /* line 309, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .content p {
+    font-size: 16px;
+    line-height: 1.5em; }
+  /* line 310, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .content {
+    padding-top: 50px; }
+  /* line 311, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .content img {
+    margin: 57px 0 9px; }
+  /* line 312, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .share p {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 14px; }
+  /* line 313, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .share .icons {
+    margin-top: 0;
+    display: inline-flex; }
+  /* line 314, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .share .button {
+    margin-top: 0;
+    width: 262px;
+    float: right; }
+  /* line 315, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .share {
+    text-align: left; }
+  /* line 316, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .share .container {
+    padding-top: 58px;
+    padding-bottom: 52px; }
+  /* line 317, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .share .icons a {
+    margin-right: 17px; }
+    /* line 318, C:/wamp64/www/foderent/css/adaptive.scss */
+    .pagenewspage .share .icons a:last-child {
+      margin-right: 0; }
+  /* line 320, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage {
+    padding-bottom: 0; }
+  /*-----------SEARCH--------------*/
+  /* line 323, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult {
+    padding-bottom: 56px; }
+  /* line 324, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform {
+    padding-bottom: 0; }
+  /* line 325, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform .container {
+    width: 100%; }
+  /* line 326, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field {
+    display: inline-flex;
+    height: 60px; }
+  /* line 327, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field:first-of-type {
+    width: 32.38%; }
+  /* line 328, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field_date {
+    width: 21.71%;
+    border: 0;
+    padding: 0 24px; }
+  /* line 329, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field:last-of-type {
+    width: 27.5%; }
+  /* line 330, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field:last-of-type:after {
+    display: none; }
+  /* line 331, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field_date > img {
+    width: 47px;
+    margin-left: 17px;
+    margin-right: 6px; }
+  /* line 332, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform select, .searchresult .searchform input {
+    padding: 0 25px; }
+  /* line 333, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field_date a {
+    right: 28px; }
+  /* line 334, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field_date a img {
+    width: 31px; }
+  /* line 335, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform select {
+    background-size: 27px 15px;
+    background-position: top 50% right 30px;
+    padding: 0 30px; }
+  /* line 336, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult__buttons {
+    display: none !important; }
+  /* line 337, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .main {
+    display: flex;
+    margin-top: 0; }
+  /* line 338, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards {
+    width: 48.685%;
+    margin-top: 29px; }
+  /* line 339, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div {
+    width: 47.3%;
+    margin-top: 25px; }
+  /* line 340, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div .image {
+    height: 77%; }
+  /* line 341, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div p {
+    font-size: 16px;
+    padding: 0 20px;
+    margin-top: 0; }
+  /* line 342, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div span {
+    font-size: 18px;
+    line-height: 2em; }
+  /* line 343, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div p br {
+    display: none; }
+  /* line 344, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult #map {
+    width: 48.75%;
+    height: 540px; }
+  /* line 345, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .button {
+    display: block;
+    margin: 55px auto 0;
+    width: auto;
+    padding: 12px 21px 14px; }
+  /* line 346, C:/wamp64/www/foderent/css/adaptive.scss */
+  .search.accordion {
+    padding: 31px 0 29px; }
+  /* line 347, C:/wamp64/www/foderent/css/adaptive.scss */
+  .search.accordion .container {
+    width: 990px; }
+  /* line 348, C:/wamp64/www/foderent/css/adaptive.scss */
+  .search.accordion .container:before {
+    top: -31px; }
+  /* line 349, C:/wamp64/www/foderent/css/adaptive.scss */
+  .search.accordion p img {
+    margin-left: 35px; }
+  /*-----------SALES--------------*/
+  /* line 352, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .container {
+    width: 990px; }
+  /* line 353, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .sales__bg {
+    width: 48.685%; }
+  /* line 354, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .sales__block p {
+    font-size: 24px; }
+  /* line 355, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .sales__block p.small {
+    font-size: 14px; }
+  /*-----------SALES PAGE--------------*/
+  /* line 358, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .sale__bg {
+    min-height: 450px;
+    background-position: 0 -270px; }
+  /* line 359, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage p.toptext {
+    margin-top: 19px; }
+  /* line 360, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .content p {
+    font-size: 16px;
+    line-height: 1.5em; }
+  /* line 361, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .content {
+    padding-top: 45px; }
+  /* line 362, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .content p {
+    margin-top: 10px; }
+  /* line 363, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .content .container {
+    width: 65.79%; }
+  /* line 364, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .share p {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 14px; }
+  /* line 365, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .share .icons {
+    margin-top: 0;
+    display: inline-flex; }
+  /* line 366, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .share .button {
+    margin-top: 0;
+    width: 262px;
+    float: right; }
+  /* line 367, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .share {
+    text-align: left;
+    margin-top: 63px; }
+  /* line 368, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .share .container {
+    padding-top: 58px;
+    padding-bottom: 52px;
+    width: 65.79%; }
+  /* line 369, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .share .icons a {
+    margin-right: 17px; }
+    /* line 370, C:/wamp64/www/foderent/css/adaptive.scss */
+    .pagesalespage .share .icons a:last-child {
+      margin-right: 0; }
+  /* line 372, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage {
+    padding-bottom: 0; }
+  /* line 373, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .sale__bg {
+    margin-top: 20px;
+    background-size: cover; }
+  /*-----------PRODUCT CARD--------------*/
+  /* line 376, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__slide {
+    height: 600px; }
+  /* line 377, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__slideinfo {
+    position: absolute;
+    bottom: 64px;
+    left: 20px;
+    text-align: left;
+    width: 300px;
+    box-sizing: border-box; }
+  /* line 378, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__slideinfo p {
+    font-size: 26px;
+    color: #f0f0f0; }
+  /* line 379, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__slideinfo .price {
+    font-weight: 400;
+    color: #f0f0f0; }
+  /* line 380, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__slideinfo .year {
+    font-size: 16px;
+    color: #999999; }
+  /* line 381, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__sliderdots {
+    top: auto;
+    right: auto;
+    left: 31px;
+    bottom: 44px; }
+  /* line 382, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__sliderdots .dot {
+    background-color: #fff;
+    opacity: 0.6; }
+  /* line 383, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__sliderdots .dot.active {
+    background-color: #2ca346; }
+  /* line 384, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__content .container {
+    width: 990px; }
+  /* line 385, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__block:before {
+    width: 100%; }
+  /* line 386, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__block {
+    width: 48.685%;
+    padding: 0;
+    text-align: left; }
+  /* line 387, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__delivery {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48.75%; }
+  /* line 388, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__choosedate {
+    position: absolute;
+    top: 335px;
+    right: 0;
+    width: 48.75%; }
+  /* line 389, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__topay {
+    position: absolute;
+    top: 539px;
+    right: 15px;
+    width: 48.75%;
+    text-align: center; }
+  /* line 390, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__characteristics:before, .productcard__delivery:before, .productcard__choosedate:before {
+    display: none; }
+  /* line 391, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__block .productcard__blockheading {
+    font-size: 24px; }
+  /* line 392, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__block p {
+    font-size: 16px; }
+  /* line 393, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__characteristicslist {
+    margin-top: 11px; }
+  /* line 394, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__delivery .map {
+    margin-top: 13px;
+    height: 270px; }
+  /* line 395, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__characteristics {
+    padding-bottom: 27px; }
+  /* line 396, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__characteristicslist li:last-child {
+    padding-right: 0; }
+  /* line 397, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__characteristicslist select {
+    width: 262px; }
+  /* line 398, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__addtocost {
+    padding-top: 15px;
+    padding-bottom: 27px; }
+  /* line 399, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__addtocost .checkdiv:first-of-type {
+    margin-top: 11px; }
+  /* line 400, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__addtocost .checkdiv {
+    margin-top: 13px; }
+  /* line 401, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__description {
+    padding-top: 19px; }
+  /* line 402, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__description p {
+    line-height: 1.5em;
+    margin-top: 5px; }
+  /* line 403, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__topay p {
+    font-size: 24px; }
+  /* line 404, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__topay .button {
+    margin-top: 8px;
+    width: auto;
+    padding: 12px 86px 14px; }
+  /* line 405, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__similarcard {
+    width: 23.0275%; }
+  /*-----------CUPLYA PRODAGA--------------*/
+  /* line 408, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block img {
+    height: 400px;
+    width: 48.685%;
+    position: absolute; }
+  /* line 409, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block p {
+    width: auto;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5em; }
+  /* line 410, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block {
+    position: relative; }
+  /* line 411, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block_top {
+    padding-left: 48.685%;
+    margin-top: 48px;
+    padding-bottom: 79px; }
+  /* line 412, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block_top img {
+    left: 0;
+    top: 0; }
+  /* line 413, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block_top p {
+    padding-left: 30px; }
+  /* line 414, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block_top p:last-child {
+    display: none; }
+  /* line 415, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block_bottom p:last-child {
+    display: none; }
+  /* line 416, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block_middle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px; }
+  /* line 417, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block_middle p {
+    width: 48.685%; }
+  /* line 418, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block_bottom {
+    padding-right: 48.685%;
+    margin-top: 44px;
+    padding-bottom: 69px; }
+  /* line 419, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block_bottom img {
+    right: 0;
+    top: 0; }
+  /* line 420, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block_bottom p {
+    padding-right: 30px; }
+  /* line 421, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale .heading {
+    padding: 48px 0 43px; }
+  /* line 422, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__blocktitle {
+    font-size: 24px !important; }
+  /* line 423, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block p:nth-child(3) {
+    margin-top: 5px;
+    line-height: 1.5em; }
+  /* line 424, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block p:nth-child(4) {
+    margin-top: 24px;
+    line-height: 1.5em; }
+  /* line 425, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block_bottom p:nth-child(3) {
+    margin-top: 25px; }
+  /* line 426, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__requestblock .container {
+    width: 65.79%; }
+  /* line 427, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__formheading {
+    font-size: 36px; }
+  /* line 428, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__formheading br {
+    display: none; }
+  /* line 429, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__formfield {
+    display: inline-block;
+    vertical-align: top;
+    width: 45.57%;
+    margin-top: 9px; }
+  /* line 430, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__formfield:nth-child(even) {
+    margin-right: 30px; }
+  /* line 431, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__form {
+    padding-top: 43px;
+    padding-bottom: 50px; }
+  /* line 432, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__formfield:nth-of-type(-n+2) {
+    margin-top: 50px; }
+  /* line 433, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__formfield p {
+    font-size: 16px;
+    font-weight: 300; }
+  /* line 434, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__formfield textarea {
+    height: 64px; }
+  /* line 435, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__formtext {
+    padding-left: 21px;
+    margin-top: 3px; }
+  /* line 436, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__formbutton {
+    margin-top: 26px;
+    width: auto; }
+  /*-----------CONTACTS--------------*/
+  /* line 439, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts .heading {
+    padding: 47px 0 43px; }
+  /* line 440, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__heading + p {
+    font-size: 16px;
+    line-height: 1.4em; }
+  /* line 441, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__heading + p:nth-child(6) {
+    margin-top: 3px; }
+  /* line 442, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__heading + p:nth-child(8) {
+    margin-top: 2px; }
+  /* line 443, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__heading + p:nth-child(10) {
+    margin-top: 6px; }
+  /* line 444, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__info {
+    line-height: 1.4em;
+    letter-spacing: 0.08em; }
+  /* line 445, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__mainblock {
+    margin-top: 35px;
+    padding-bottom: 52px; }
+  /* line 446, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__mainblock p {
+    padding-right: 65.79%; }
+  /* line 447, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__map {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    width: 682px;
+    margin: 0;
+    height: 513px; }
+  /* line 448, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__formheading {
+    font-size: 36px; }
+  /* line 449, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__formblock .container {
+    width: 62.3%; }
+  /* line 450, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__formfield {
+    width: 48%;
+    margin-top: 8px; }
+  /* line 451, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__formfield_message {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0; }
+  /* line 452, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__formfield textarea {
+    height: 306px; }
+  /* line 453, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__form {
+    padding-top: 36px;
+    padding-bottom: 43px; }
+  /* line 454, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__formfield p {
+    font-size: 16px; }
+  /* line 455, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__formfields {
+    margin-top: 27px; }
+  /* line 456, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__formbutton {
+    width: auto; }
+  /*-----------OFERTS--------------*/
+  /* line 459, C:/wamp64/www/foderent/css/adaptive.scss */
+  .oferts .heading {
+    padding: 47px 0 98px; }
+  /* line 460, C:/wamp64/www/foderent/css/adaptive.scss */
+  .oferts__text {
+    padding: 45px 0; }
+  /* line 461, C:/wamp64/www/foderent/css/adaptive.scss */
+  .oferts__text p {
+    width: 65.79%;
+    font-size: 16px; }
+  /* line 462, C:/wamp64/www/foderent/css/adaptive.scss */
+  .oferts__mainblock {
+    padding-bottom: 90px; }
+  /*-----------INVESTORS--------------*/
+  /* line 465, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__advantageslist {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 43px; }
+  /* line 466, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__advantageslist li {
+    width: 23.0275%;
+    flex-direction: column;
+    height: auto;
+    text-align: center; }
+  /* line 467, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__advantageslist .image {
+    width: auto;
+    height: 116px; }
+  /* line 468, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__advantageslist .image + p {
+    margin-left: 0;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 25px;
+    margin-top: 43px;
+    line-height: 1.2em; }
+  /* line 469, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__textblock .container {
+    width: 62.3%; }
+  /* line 470, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__textblock_top {
+    padding: 58px 0 25px; }
+  /* line 471, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__textblock_bottom {
+    padding: 46px 0 46px; }
+  /* line 472, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors .heading {
+    padding: 46px 0 43px; }
+  /* line 473, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__textheading {
+    font-size: 24px !important; }
+  /* line 474, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__textblock p {
+    font-size: 16px;
+    line-height: 1.4em; }
+  /* line 475, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__textblock_bottom p {
+    line-height: 1.5em; }
+  /* line 476, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__list {
+    margin-top: 41px; }
+  /* line 477, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__list li {
+    padding-left: 53px;
+    margin-top: 32px; }
+  /* line 478, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__advantagesheading {
+    font-size: 36px; }
+  /* line 479, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__advantages {
+    padding-top: 19px;
+    padding-bottom: 39px; }
+  /* line 480, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__advantageslist li:nth-child(1) img {
+    width: 94px; }
+  /* line 481, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__advantageslist li:nth-child(2) img {
+    width: 139px; }
+  /* line 482, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__advantageslist li:nth-child(3) img {
+    width: 98px; }
+  /* line 483, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__advantageslist li:nth-child(4) img {
+    width: 98px; }
+  /* line 484, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__contactsblock .container {
+    width: 62.3%; }
+  /*-----------FAQ--------------*/
+  /* line 487, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__searchfield_mobile {
+    display: none; }
+  /* line 488, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq .container {
+    width: 79%; }
+  /* line 489, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__categorylist {
+    display: inline-block;
+    width: 31%;
+    vertical-align: top; }
+  /* line 490, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__popular {
+    display: inline-block;
+    width: 69%;
+    vertical-align: top; }
+  /* line 491, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__details {
+    display: inline-block;
+    width: 69%;
+    vertical-align: top;
+    padding-bottom: 22px; }
+  /* line 492, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__formheading {
+    font-size: 36px; }
+  /* line 493, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__formfield {
+    width: 48%; }
+  /* line 494, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__formfield_message {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 0; }
+  /* line 495, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq .heading {
+    padding: 47px 0 77px; }
+  /* line 496, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__categorylist a {
+    font-size: 24px; }
+  /* line 497, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__popularheading {
+    font-size: 24px;
+    color: #000; }
+  /* line 498, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__main {
+    margin-top: 23px;
+    padding-bottom: 23px; }
+  /* line 499, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__categorylist li {
+    margin-top: 17px; }
+  /* line 500, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__popularlist {
+    margin-top: 20px; }
+  /* line 501, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__popularlist li {
+    padding: 25px 0 25px 68px; }
+  /* line 502, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__popularlist li:first-child svg {
+    width: 46px; }
+  /* line 503, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__popularlist li:nth-child(2) svg {
+    width: 49px; }
+  /* line 504, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__popularlist li:nth-child(3) svg {
+    width: 38px; }
+  /* line 505, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__popularlist li:last-child svg {
+    width: 46px; }
+  /* line 506, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__popularlist svg {
+    left: 5px; }
+  /* line 507, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__form {
+    padding-top: 44px;
+    padding-bottom: 51px; }
+  /* line 508, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__formblock .container {
+    width: 62.5%; }
+  /* line 509, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__formfields {
+    margin-top: 42px; }
+  /* line 510, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__form p.small {
+    margin-top: 10px; }
+  /* line 511, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__formfield textarea {
+    height: 221px; }
+  /* line 512, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__formbutton {
+    margin-top: 14px;
+    width: auto; }
+  /* line 513, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__detailstoptext {
+    display: none; }
+  /* line 514, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__detailsheading {
+    font-size: 24px !important;
+    margin-top: 21px !important;
+    margin-bottom: 3px; }
+  /* line 515, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__details p {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-top: 24px; }
+  /*-----------PISMA--------------*/
+  /* line 518, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters .heading h2 {
+    font-size: 32px; }
+  /* line 519, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters__main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 21px; }
+  /* line 520, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters__main p {
+    width: 48.685%;
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.5em; }
+  /* line 521, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters__slider {
+    display: none; }
+  /* line 522, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters__images .image {
+    width: 23.0275%; }
+  /* line 523, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters .heading {
+    padding: 47px 0 43px; }
+  /*-----------PRESS PAGE--------------*/
+  /* line 526, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage p.toptext {
+    margin-top: 19px; }
+  /* line 527, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .top {
+    margin-top: 19px; }
+  /* line 528, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .top .heading p {
+    font-size: 45px; }
+  /* line 529, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .top .heading {
+    padding: 133px 77px; }
+  /* line 530, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .top .image {
+    height: 501px; }
+  /* line 531, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .content p {
+    font-size: 16px;
+    line-height: 1.5em; }
+  /* line 532, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .content {
+    padding-top: 50px; }
+  /* line 533, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .content img {
+    margin: 57px 0 9px; }
+  /* line 534, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .share p {
+    display: inline-block;
+    font-size: 24px;
+    margin-right: 14px; }
+  /* line 535, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .share .icons {
+    margin-top: 0;
+    display: inline-flex; }
+  /* line 536, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .share .button {
+    margin-top: 0;
+    width: 262px;
+    float: right; }
+  /* line 537, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .share {
+    text-align: left; }
+  /* line 538, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .share .container {
+    padding-top: 58px;
+    padding-bottom: 52px; }
+  /* line 539, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .share .icons a {
+    margin-right: 17px; }
+    /* line 540, C:/wamp64/www/foderent/css/adaptive.scss */
+    .pagepresspage .share .icons a:last-child {
+      margin-right: 0; }
+  /* line 542, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage {
+    padding-bottom: 0; } }
+
+@media (max-width: 1023px) {
+  /*-----------MAIN--------------*/
+  /* line 547, C:/wamp64/www/foderent/css/adaptive.scss */
+  .header__icons .button {
+    display: none; }
+  /* line 548, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .desktop {
+    display: none; }
+  /* line 549, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen__mouseicon {
+    display: none; }
+  /* line 550, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen__vert-line {
+    display: none; }
+  /* line 551, C:/wamp64/www/foderent/css/adaptive.scss */
+  .technics {
+    display: none; }
+  /* line 552, C:/wamp64/www/foderent/css/adaptive.scss */
+  .sale__desktopblock {
+    display: none; }
+  /* line 553, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners__block:nth-child(-n+3) {
+    display: none; }
+  /* line 554, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__top-part img {
+    display: none; }
+  /* line 555, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__list {
+    display: none; }
+  /* line 556, C:/wamp64/www/foderent/css/adaptive.scss */
+  .burgermenu p.desktop {
+    display: none; }
+  /* line 557, C:/wamp64/www/foderent/css/adaptive.scss */
+  .burgermenu .desktop_lists {
+    display: none; }
+  /* line 558, C:/wamp64/www/foderent/css/adaptive.scss */
+  .burgermenu .desktop_links {
+    display: none; }
+  /*-----------NEWS--------------*/
+  /* line 561, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks > div:nth-child(n+5) {
+    display: none; }
+  /*-----------NEWS PAGE--------------*/
+  /* line 564, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenewspage .subscribe {
+    display: none; }
+  /*-----------SEARCH--------------*/
+  /* line 567, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field:after {
+    display: none; }
+  /* line 568, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform .button {
+    display: none; }
+  /* line 569, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult #map {
+    display: none; }
+  /* line 570, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div:nth-child(n+7) {
+    display: none; }
+  /*-----------SALES--------------*/
+  /* line 573, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .sale__bg:nth-child(n+5) {
+    display: none; }
+  /*-----------SALES PAGE--------------*/
+  /* line 576, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .subscribe {
+    display: none; }
+  /*-----------PRODUCT CARD--------------*/
+  /* line 579, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__sliderarrows {
+    display: none; }
+  /* line 580, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__description {
+    display: none; }
+  /* line 581, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__similarmodels {
+    display: none; }
+  /*-----------CUPLYA PRODAGA--------------*/
+  /* line 584, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block_middle {
+    display: none; }
+  /*-----------INVESTORS--------------*/
+  /* line 587, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__textblock .desktop {
+    display: none; }
+  /* line 588, C:/wamp64/www/foderent/css/adaptive.scss */
+  .investors__graphicslist {
+    display: none; }
+  /*-----------FAQ--------------*/
+  /* line 591, C:/wamp64/www/foderent/css/adaptive.scss */
+  .faq__searchfield_desktop {
+    display: none; }
+  /*-----------PISMA--------------*/
+  /* line 594, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters__blockheading {
+    display: none; }
+  /* line 595, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters__images {
+    display: none; }
+  /*-----------PRESS PAGE--------------*/
+  /* line 598, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagepresspage .subscribe {
+    display: none; } }
+
+@media (min-width: 1170px) {
+  /*-----------MAIN--------------*/
+  /* line 603, C:/wamp64/www/foderent/css/adaptive.scss */
+  .container {
+    width: 1140px; }
+  /* line 604, C:/wamp64/www/foderent/css/adaptive.scss */
+  .container.small {
+    width: 945px; }
+  /* line 606, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field:first-child {
+    width: 35.2%; }
+  /* line 607, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field:nth-child(2) {
+    width: 25.6%; }
+  /* line 608, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field:nth-child(3) {
+    width: 30.8%; }
+  /* line 609, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform button {
+    width: 8.4%; }
+  /* line 610, C:/wamp64/www/foderent/css/adaptive.scss */
+  .technics div:last-child p {
+    font-size: 26px; }
+  /* line 611, C:/wamp64/www/foderent/css/adaptive.scss */
+  .sale .container {
+    width: 1140px; }
+  /* line 612, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div {
+    width: 487px; }
+  /* line 613, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div:hover .bg:before {
+    left: -215px;
+    height: 250%;
+    bottom: -240px;
+    width: 240%; }
+  /* line 614, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners__block:last-child img {
+    height: auto; }
+  /* line 615, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__bottom-part .container {
+    width: 1140px; }
+  /*-----------NEWS--------------*/
+  /* line 618, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks div:hover .bg:before {
+    left: -306px; }
+  /*-----------SEARCH--------------*/
+  /* line 621, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field_date p {
+    font-size: 18px; }
+  /* line 622, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform select, .searchresult .searchform input {
+    font-size: 18px; }
+  /* line 623, C:/wamp64/www/foderent/css/adaptive.scss */
+  .search.accordion .container {
+    width: 1140px; }
+  /*-----------SALES--------------*/
+  /* line 626, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .heading {
+    padding: 47px 0 43px; }
+  /* line 627, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales select {
+    margin-top: 29px; }
+  /* line 628, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .top {
+    padding-left: 4px; }
+  /* line 629, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks {
+    margin-top: 30px; }
+  /* line 630, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .container {
+    width: 1140px; }
+  /* line 631, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .sales__bg {
+    padding: 18px 16px;
+    margin-top: 28px; }
+  /* line 632, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .sales__block p {
+    line-height: 1em; }
+  /* line 633, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .sales__block p.small {
+    margin-bottom: 7px; }
+  /* line 634, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .button {
+    margin-top: 31px; }
+  /* line 635, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales {
+    padding-bottom: 30px; }
+  /*-----------PRODUCT CARD--------------*/
+  /* line 638, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__content .container {
+    width: 1140px; } }
+
+@media (min-width: 1250px) {
+  /*-----------MAIN--------------*/
+  /* line 643, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen {
+    background-size: cover; }
+  /* line 644, C:/wamp64/www/foderent/css/adaptive.scss */
+  .technics {
+    height: 760px; } }
+
+@media (min-width: 1440px) {
+  /*-----------MAIN--------------*/
+  /* line 649, C:/wamp64/www/foderent/css/adaptive.scss */
+  .container {
+    width: 1410px; }
+  /* line 650, C:/wamp64/www/foderent/css/adaptive.scss */
+  .container.small {
+    width: 1210px; }
+  /* line 652, C:/wamp64/www/foderent/css/adaptive.scss */
+  .technics div:first-child img {
+    width: 100%; }
+  /* line 653, C:/wamp64/www/foderent/css/adaptive.scss */
+  .sale .container {
+    width: 1410px; }
+  /* line 654, C:/wamp64/www/foderent/css/adaptive.scss */
+  .sale__bg {
+    min-height: 520px;
+    background-size: cover;
+    background-position: center; }
+  /* line 655, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div {
+    width: 547px; }
+  /* line 656, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div .bg:before {
+    left: -232px; }
+  /* line 657, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div:last-child {
+    margin-left: 260px; }
+  /* line 658, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div:hover .bg:before {
+    left: -295px;
+    height: 250%;
+    bottom: -240px;
+    width: 240%; }
+  /* line 659, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners .container {
+    padding: 34px 170px;
+    box-sizing: border-box; }
+  /* line 660, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners__block:last-child img {
+    height: 103px; }
+  /* line 661, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__bottom-part .container {
+    width: 1410px; }
+  /* line 662, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__top-part img {
+    padding-right: 116px; }
+  /*-----------NEWS--------------*/
+  /* line 665, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks div:hover .bg:before {
+    left: -446px; }
+  /*-----------SEARCH--------------*/
+  /* line 668, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div p {
+    margin-top: 10px;
+    padding: 0 55px; }
+  /* line 669, C:/wamp64/www/foderent/css/adaptive.scss */
+  .search.accordion .container {
+    width: 1410px; }
+  /*-----------SALES--------------*/
+  /* line 672, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .container {
+    width: 1410px; }
+  /*-----------PRODUCT CARD--------------*/
+  /* line 675, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__content .container {
+    width: 1410px; }
+  /* line 676, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__similarcard p {
+    padding: 0 50px; }
+  /*-----------CUPLYA PRODAGA--------------*/
+  /* line 679, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block_top {
+    padding-bottom: 130px; }
+  /* line 680, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__block_bottom {
+    padding-bottom: 130px; }
+  /* line 681, C:/wamp64/www/foderent/css/adaptive.scss */
+  .purchase-sale__formtext {
+    padding-left: 30px; } }
+
+@media (min-width: 1600px) {
+  /*-----------MAIN--------------*/
+  /* line 702, C:/wamp64/www/foderent/css/adaptive.scss */
+  .container {
+    width: 1530px; }
+  /* line 703, C:/wamp64/www/foderent/css/adaptive.scss */
+  .container.small {
+    width: 1270px; }
+  /* line 704, C:/wamp64/www/foderent/css/adaptive.scss */
+  h1 {
+    font-size: 76px;
+    line-height: 1em; }
+  /* line 705, C:/wamp64/www/foderent/css/adaptive.scss */
+  h2 {
+    font-size: 40px; }
+  /* line 707, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen {
+    background-image: url("../img/bg_1_screen.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-top: 171px;
+    padding-bottom: 320px; }
+  /* line 708, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen h1 span {
+    font-size: 64px; }
+  /* line 709, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform {
+    margin-top: 35px;
+    height: 100px; }
+  /* line 710, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field:first-child {
+    padding: 0 30px; }
+  /* line 711, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field_date {
+    padding: 0 30px; }
+  /* line 712, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field_date > img {
+    margin-left: 20px;
+    margin-right: 3px; }
+  /* line 713, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field {
+    padding: 0 18px; }
+  /* line 714, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field:nth-child(2) {
+    width: 22.6%; }
+  /* line 715, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field:nth-child(3) {
+    width: 34.3%; }
+  /* line 716, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform button {
+    width: 7.9%; }
+  /* line 717, C:/wamp64/www/foderent/css/adaptive.scss */
+  .firstscreen .searchform__field_date a {
+    right: 41px; }
+  /* line 718, C:/wamp64/www/foderent/css/adaptive.scss */
+  .technics {
+    height: 900px; }
+  /* line 719, C:/wamp64/www/foderent/css/adaptive.scss */
+  .advantages {
+    padding-top: 88px;
+    padding-bottom: 149px; }
+  /* line 720, C:/wamp64/www/foderent/css/adaptive.scss */
+  .advantages__list li .image {
+    height: 107px; }
+  /* line 721, C:/wamp64/www/foderent/css/adaptive.scss */
+  .advantages__list {
+    margin-top: 145px; }
+  /* line 722, C:/wamp64/www/foderent/css/adaptive.scss */
+  .advantages__list li p {
+    font-size: 16px;
+    margin-top: 45px; }
+  /* line 723, C:/wamp64/www/foderent/css/adaptive.scss */
+  .advantages__list li {
+    width: 23.53%;
+    box-sizing: border-box;
+    padding: 0 19px; }
+  /* line 724, C:/wamp64/www/foderent/css/adaptive.scss */
+  .sale .container {
+    width: 1530px; }
+  /* line 725, C:/wamp64/www/foderent/css/adaptive.scss */
+  .sale__bg {
+    min-height: 602px;
+    background-position: center bottom; }
+  /* line 726, C:/wamp64/www/foderent/css/adaptive.scss */
+  .sale__desktopblock {
+    right: 55px;
+    bottom: 72px; }
+  /* line 727, C:/wamp64/www/foderent/css/adaptive.scss */
+  .sale__link {
+    font-size: 18px;
+    margin-top: 23px; }
+  /* line 728, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news {
+    padding-top: 67px; }
+  /* line 729, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks {
+    margin-top: 80px; }
+  /* line 730, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div {
+    width: 619px;
+    min-height: 345px;
+    padding: 20px 28px; }
+  /* line 731, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div:last-child {
+    margin-left: 232px; }
+  /* line 732, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div:last-child {
+    margin-left: 232px; }
+  /* line 733, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div p.small {
+    font-size: 32px;
+    left: -126px;
+    top: 60px; }
+  /* line 734, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div p {
+    font-size: 28px; }
+  /* line 735, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div .bg:before {
+    left: -257px; }
+  /* line 736, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news .newsblocks div:hover .bg:before {
+    left: -355px;
+    height: 250%;
+    bottom: -240px;
+    width: 240%; }
+  /* line 737, C:/wamp64/www/foderent/css/adaptive.scss */
+  .news__link {
+    font-size: 18px;
+    margin-top: 20px; }
+  /* line 738, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners {
+    margin-top: 94px; }
+  /* line 739, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners .container {
+    padding: 34px 195px; }
+  /* line 740, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners .container > * {
+    margin-right: 30px; }
+  /* line 741, C:/wamp64/www/foderent/css/adaptive.scss */
+  .banners__block:last-child img {
+    height: 108px; }
+  /* line 742, C:/wamp64/www/foderent/css/adaptive.scss */
+  .accordion p img {
+    margin-left: 65px; }
+  /* line 743, C:/wamp64/www/foderent/css/adaptive.scss */
+  .accordion {
+    padding: 50px 0 55px; }
+  /* line 744, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__top-part {
+    justify-content: flex-start; }
+  /* line 745, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__top-part img {
+    padding-right: 0; }
+  /* line 746, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__top-part .button {
+    margin-left: 129px; }
+  /* line 747, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__top-part .button:first-of-type {
+    margin-left: 173px; }
+  /* line 748, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__list {
+    width: 23.53%; }
+  /* line 749, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__form {
+    padding-left: 0;
+    width: 23.53%; }
+  /* line 750, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__form p.big {
+    font-size: 16px; }
+  /* line 751, C:/wamp64/www/foderent/css/adaptive.scss */
+  .footer__bottom-part .container {
+    width: 1530px; }
+  /* line 753, C:/wamp64/www/foderent/css/adaptive.scss */
+  .burgermenu {
+    padding: 20px 0 236px; }
+  /*-----------NEWS--------------*/
+  /* line 756, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks div .bg:before {
+    left: -286px; }
+  /* line 757, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagenews .newsblocks div:hover .bg:before {
+    left: -496px;
+    height: 300%; }
+  /*-----------SEARCH--------------*/
+  /* line 760, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform select, .searchresult .searchform input {
+    font-size: 20px; }
+  /* line 761, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform select {
+    background-position: top 50% right 47px; }
+  /* line 762, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field_date p {
+    font-size: 20px; }
+  /* line 763, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field:first-of-type {
+    width: 32.68%; }
+  /* line 764, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field_date {
+    width: 18.61%;
+    padding: 0 37px; }
+  /* line 765, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field_date > img {
+    margin-left: 30px;
+    margin-right: 23px; }
+  /* line 766, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field:last-of-type {
+    padding: 0 8px; }
+  /* line 767, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult #map {
+    width: 49.05%;
+    height: 780px; }
+  /* line 768, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards {
+    width: 49.185%; }
+  /* line 769, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div {
+    width: 28.7%;
+    margin-top: 18px; }
+  /* line 770, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div .image {
+    height: 73%; }
+  /* line 771, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div:nth-child(-n+3) {
+    margin-top: 0; }
+  /* line 772, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div p {
+    padding: 0 20px;
+    margin-top: 7px; }
+  /* line 773, C:/wamp64/www/foderent/css/adaptive.scss */
+  .search.accordion {
+    width: 50%;
+    padding: 24px 0 30px; }
+  /* line 774, C:/wamp64/www/foderent/css/adaptive.scss */
+  .search.accordion .container {
+    width: 780px; }
+  /*-----------SALES--------------*/
+  /* line 777, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .container {
+    width: 1530px; }
+  /* line 778, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .sales__bg {
+    width: 49.02%;
+    min-height: 280px; }
+  /* line 779, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .heading {
+    padding: 41px 38px; }
+  /* line 780, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .top {
+    margin-top: 25px; }
+  /* line 781, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales p.toptext {
+    margin-right: 50px; }
+  /* line 782, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales select {
+    width: 360px; }
+  /* line 783, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks {
+    margin-top: 40px; }
+  /* line 784, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesales .salesblocks .sales__bg {
+    padding: 22px 24px;
+    margin-top: 33px; }
+  /*-----------SALES PAGE--------------*/
+  /* line 787, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .sale__bg {
+    width: 1530px;
+    margin: 16px auto 0;
+    min-height: 604px; }
+  /* line 788, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .sale__desktopblock {
+    right: 58px;
+    bottom: 75px; }
+  /* line 789, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .sale__desktopblock p.heading {
+    margin-top: 0; }
+  /* line 790, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .content .container {
+    width: 1530px;
+    display: flex;
+    justify-content: space-between; }
+  /* line 791, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .share .container {
+    width: 1530px;
+    border: 0;
+    padding-top: 0; }
+  /* line 792, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .content p {
+    box-sizing: border-box;
+    width: 49.02%;
+    padding-right: 140px;
+    margin-top: 0; }
+  /* line 793, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .content {
+    padding-top: 41px;
+    padding-bottom: 47px; }
+  /* line 794, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .share .icons, .pagesalespage .share p {
+    display: none; }
+  /* line 795, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .share {
+    text-align: center;
+    margin-top: 40px; }
+  /* line 796, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .share .button {
+    float: none; }
+  /*-----------PRODUCT CARD--------------*/
+  /* line 799, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__content .container {
+    width: 1530px; }
+  /* line 800, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__slide {
+    height: 840px; }
+  /* line 801, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__slideinfo .year {
+    font-size: 20px; }
+  /* line 802, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__slideinfo p {
+    font-size: 30px; }
+  /* line 803, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__slideinfo {
+    width: 480px;
+    left: 0;
+    padding: 0 30px;
+    bottom: 72px; }
+  /* line 804, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__block .productcard__blockheading {
+    font-size: 28px; }
+  /* line 805, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__topay {
+    text-align: left;
+    right: 0; }
+  /* line 806, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__similarcard {
+    width: 265px; }
+  /* line 807, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__similarcard p {
+    padding: 0 20px;
+    margin-top: 4px; }
+  /* line 808, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__similarslider {
+    padding-bottom: 40px; }
+  /* line 809, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__sliderarrows {
+    top: 47.1%; }
+  /* line 810, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__sliderdots {
+    bottom: 57px; }
+  /* line 811, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__content {
+    margin-top: 9px; }
+  /* line 812, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__block {
+    width: 40.52333%; }
+  /* line 813, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__characteristicslist {
+    margin-top: 6px; }
+  /* line 814, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__delivery {
+    width: 49.2%; }
+  /* line 815, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__delivery .map {
+    margin-top: 7px;
+    height: 445px; }
+  /* line 816, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__addtocost {
+    padding-top: 10px; }
+  /* line 817, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__addtocost .checkdiv:first-of-type {
+    margin-top: 7px; }
+  /* line 818, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__description {
+    padding-top: 15px; }
+  /* line 819, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__choosedate {
+    top: 537px;
+    width: 49.2%; }
+  /* line 820, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__topay {
+    top: 759px;
+    width: 49.2%; }
+  /*-----------CONTACTS--------------*/
+  /* line 823, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts .heading {
+    padding: 40px 0 40px; }
+  /* line 824, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__mainblock {
+    margin-top: 0;
+    padding-top: 35px;
+    padding-bottom: 41px; }
+  /* line 825, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__map {
+    right: 0;
+    top: 0;
+    width: 62.7%;
+    height: 100%; }
+  /* line 826, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__formblock .container {
+    width: 39%; }
+  /* line 827, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__formbutton {
+    margin-top: 36px; }
+  /* line 828, C:/wamp64/www/foderent/css/adaptive.scss */
+  .contacts__form {
+    padding-bottom: 40px; }
+  /*-----------PISMA--------------*/
+  /* line 831, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters {
+    padding-bottom: 38px; }
+  /* line 832, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters__images .image {
+    width: 17%;
+    margin-top: 0 !important; }
+  /* line 833, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters .heading {
+    padding: 38px  0 39px; }
+  /* line 834, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters__images .image:nth-child(n+6) {
+    display: none; }
+  /* line 835, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters .heading h2 {
+    font-size: 40px; }
+  /* line 836, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters__blockheading {
+    margin-top: 43px; }
+  /* line 837, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters__images {
+    margin-top: 69px; }
+  /* line 838, C:/wamp64/www/foderent/css/adaptive.scss */
+  .letters__button {
+    margin-top: 41px; } }
+
+@media (max-width: 1599px) {
+  /* line 842, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .cards > div:nth-child(n+9) {
+    display: none; }
+  /* line 843, C:/wamp64/www/foderent/css/adaptive.scss */
+  .pagesalespage .content .icons {
+    display: none; }
+  /* line 844, C:/wamp64/www/foderent/css/adaptive.scss */
+  .productcard__similarcard:nth-child(n+5) {
+    display: none; } }
+
+@media (min-width: 1800px) {
+  /*-----------SEARCH--------------*/
+  /* line 849, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .main .container {
+    width: 1740px; }
+  /* line 850, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .searchform__field_date a {
+    right: 52px; }
+  /* line 851, C:/wamp64/www/foderent/css/adaptive.scss */
+  .search.accordion .container {
+    width: 850px; } }
+
+@media (min-width: 1920px) {
+  /*-----------SEARCH--------------*/
+  /* line 856, C:/wamp64/www/foderent/css/adaptive.scss */
+  .searchresult .main .container {
+    width: 1860px; }
+  /* line 857, C:/wamp64/www/foderent/css/adaptive.scss */
+  .search.accordion {
+    width: 50%; }
+  /* line 858, C:/wamp64/www/foderent/css/adaptive.scss */
+  .search.accordion .container {
+    width: 915px; } }
+
+/*# sourceMappingURL=adaptive.css.map */
