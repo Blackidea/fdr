@@ -1,5 +1,5 @@
 <div class="burgermenu">
-	<a href="#" class="close-button"></a>
+	<a class="close-button"></a>
 	<div class="container">
 		<div>
 			<!-- Desktop -->
@@ -12,39 +12,45 @@
 		<div class="lists">
 			<ul>
 				<li class="rentmenu"><p>Аренда спецтехники</p></li>
-				<li><p>Инвесторам</p></li>
-				<li><p>О компании</p></li>
-				<li><p>Благодарственные письма</p></li>
-				<li><p>Акции</p></li>
-				<li><p>Патрнерам</p></li>
-				<li><p>Новости</p></li>
-				<li><p>FAQ</p></li>
-				<li><p>Для прессы</p></li>
-				<li><p>Купля-продажа</p></li>
-				<li><p>Арендодателям</p></li>
-				<li><p>Контакты</p></li>
+				<li class="rentmenu"><p>Инвесторам</p></li>
+				<li class="rentmenu"><p>О компании</p></li>
+				<li class="rentmenu"><p>Благодарственные письма</p></li>
+				<li class="rentmenu"><p>Акции</p></li>
+				<li class="rentmenu"><p>Патрнерам</p></li>
+				<li class="rentmenu"><p>Новости</p></li>
+				<li class="rentmenu"><p>FAQ</p></li>
+				<li class="rentmenu"><p>Для прессы</p></li>
+				<li class="rentmenu"><p>Купля-продажа</p></li>
+				<li class="rentmenu"><p>Арендодателям</p></li>
+				<li class="rentmenu"><p>Контакты</p></li>
 			</ul>
 		</div>
 		<!-- 2-й уровень мобильного меню -->
 		<div class="rent">
-			<p class="link"><a href="#" class="listmenu"><img src="img/icon_arrow_left_white.png" alt="@@">Назад</a></p>
+			<p class="link"><a class="listmenu"><img src="img/icon_arrow_left_white.png" alt="@@">Назад</a></p>
 			<form class="searchform">
-				<p class="heading">Аренда спецтехники</p>
 				<div class="searchform__field">
-					<select name="type" id="technictype">
-						<option value="">Тип техники</option>
-					</select>
+					<div class="selectbox">
+					    <select name="type">
+					        <option value="type1">Тип техники 1</option>
+					        <option value="type2">Тип техники 2</option>
+					    </select>
+					    <ul class="selectbox__selectlist"></ul>
+					</div>
 				</div>
 				<div class="searchform__field searchform__field_date">
-					<p class="huge">24.10</p>
+					<p class="huge datefrom">24.10</p>
 					<img src="img/icon_arrow_right.png" alt="@@">
-					<p class="huge">02.11</p>
-					<a href="#"><img src="img/icon_calendar.svg" alt="@@"></a>
-				</div>
+					<p class="huge dateto">02.11</p>
+					<a href="#" class="calendar" data-dateopen="top_datepicker2"><img src="img/icon_calendar.svg" alt="@@"></a>
+					<div class="datepicker" id="top_datepicke2r"></div>
+					<input type="text" value="" class="inputdatefrom" name="srokarendifrom">
+                    <input type="text" value="" class="inputdateto" name="srokarendito">
+				</div>				
 				<div class="searchform__field">
 					<input type="text" name="workplace" placeholder="Место работ">
 				</div>
-				<a href="#" style="display:none;"><img src="img/icon_loupe.svg" alt="@@"></a>
+				<!-- Mobile -->
 				<button class="firstscreen__button">Найти</button>
 			</form>
 		</div>

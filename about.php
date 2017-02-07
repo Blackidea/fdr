@@ -21,8 +21,7 @@
 <!-------------------------------------------------->
 
 <section class="about">
-	<div class="heading">
-		<div class="gradient"></div>
+	<div class="small-page-heading">
 		<div class="container">
 			<h2>О компании</h2>
 		</div>
@@ -109,37 +108,9 @@
 		</div>
 	</div>
 	<div class="about__map" id="aboutmap"></div>
-	<div class="about__formblock">
-		<div class="container">
-			<form action="" class="about__form">
-				<p class="about__formheading">Обратная связь</p>
-				<div class="about__formfields">
-					<div class="about__formfield">
-						<p>Имя</p>
-						<input type="text" name="name">
-					</div>
-					<div class="about__formfield">
-						<p>Телефон</p>
-						<input type="tel" name="telephone">
-					</div>
-					<div class="about__formfield">
-						<p>Email</p>
-						<input type="email" name="email">
-					</div>
-					<div class="about__formfield about__formfield_file">
-						<p>Вложения</p>
-						<p class="about__formfile">technika.jpg<a href="#"></a></p>
-						<p class="small">Разрешенные расширения: .jpg, .png, .jpeg, .gif</p>
-					</div>
-					<div class="about__formfield about__formfield_message">
-						<p>Сообщение</p>
-						<textarea name="message"></textarea>
-					</div>
-				</div>
-				<button class="button about__formbutton"><span class="button__border-top"></span>отправить<span class="button__border-bottom"></span></button>
-			</form>
-		</div>
-	</div>
+	
+	<?php include "blocks/contactform.php"; ?>
+	
 </section>
 
 <!-------------------------------------------------->

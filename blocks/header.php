@@ -1,38 +1,45 @@
 <header class="header">
-	<div class="header__menubutton">
-		<div class="burger">
-			<div></div>
-			<div></div>
-			<div></div>
-		</div>
-	</div>
+    <div class="overlay"></div>
+	<div class="header__menubutton"><span></span></div>
 	<a href="index.php" class="header__logo"><img src="img/logo_foderent.svg" alt="@@" width="106"></a>
 	<div class="header__icons">
-		<a href="#"><img src="img/icon_cart.svg" alt="@@"></a>
+		<a href="#" class="header__icon "><img src="img/icon_cart.svg" alt="@@"></a>
 		<!-- Desktop -->
-		<a href="#" class="authorized message" style="display:none;"><img src="img/icon_message.png" alt="@@"></a>
+		<a href="#" class="header__icon authorized message" style="display:none;"><img src="img/icon_message.png" alt="@@"><span>3</span></a>
 		<!-- Desktop -->
-		<a href="#" class="authorized" style="display:none;"><img src="img/icon_person.png" alt="@@"></a>
-		<a href="#"><img src="img/icon_loupe.svg" alt="@@"></a>
+		<a href="#" class="header__icon authorized" style="display:none;"><img src="img/icon_person.png" alt="@@"></a>
+		<a href="#" class="header__icon" data-action="toggleheadersearch"><img src="img/icon_loupe.svg" alt="@@"></a>
 		<!-- Desktop 1200 -->
 		<a href="#" class="button button_small button_green login"><span class="button__border-top"></span>Вход / Регистрация<span class="button__border-bottom"></span></a>
 	</div>
+	
 	<!-- Desktop -->
-	<form class="header__searchform" style="display:none;">
-		<div>
-			<select name="type" id="technictype">
-				<option value="">Тип техники</option>
-			</select>
+	<form class="searchform header__searchform">
+		<div class="searchform__field">
+			<div class="selectbox selectbox_green">
+			    <select name="type">
+			        <option value="type1">Тип техники 1</option>
+			        <option value="type2">Тип техники 2</option>
+			    </select>
+			    <ul class="selectbox__selectlist"></ul>
+			</div>
 		</div>
-		<div class="date">
-			<p class="huge">24.10</p>
+		<div class="searchform__field searchform__field_date">
+			<p class="huge datefrom">24.10</p>
 			<img src="img/icon_arrow_right.png" alt="@@">
-			<p class="huge">02.11</p>
-			<a href="#"><img src="img/icon_calendar.svg" alt="@@"></a>
+			<p class="huge dateto">02.11</p>
+			<a href="#" class="calendar" data-dateopen="top_datepicker"><img src="img/icon_calendar.svg" alt="@@"></a>
+			<div class="datepicker" id="top_datepicker"></div>
+			<input type="text" value="" class="inputdatefrom" name="srokarendifrom">
+            <input type="text" value="" class="inputdateto" name="srokarendito">
 		</div>
-		<div>
+		
+		<div class="searchform__field">
 			<input type="text" name="workplace" placeholder="Место работ">
 		</div>
+		<!-- Desktop -->
 		<button class="desktop"><img src="img/icon_loupe.svg" alt="@@"></button>
+		<!-- Activesearch Button -->
+		<a href="#" class="button button_white"><span class="button__border-top"></span>Фильтр<span class="button__border-bottom"></span></a>
 	</form>
 </header>

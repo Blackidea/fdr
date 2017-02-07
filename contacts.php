@@ -21,65 +21,40 @@
 <!-------------------------------------------------->
 
 <section class="contacts">
-	<div class="heading">
-		<div class="gradient"></div>
+	<div class="small-page-heading">
 		<div class="container">
 			<h2>Контакты</h2>
 		</div>
 	</div>
 	<div class="contacts__mainblock">
 		<div class="container">
-			<p class="contacts__heading">Фактический адрес: </p>
-			<p>1-й Волоколамский проезд, д. 10, стр. 1, <br>
-			Москва, 123060 Россия</p>
-			<p class="contacts__heading">Юридический адрес:</p>
-			<p>1-й Волоколамский проезд, д. 10, стр. 1, <br>
-			Москва, 123060 Россия</p>
-			<p class="contacts__heading">Телефоны: </p>
-			<p>+7 (144) 123-34-65, +7 (144) 123-34-65</p>
-			<p class="contacts__heading">E-mail: </p>
-			<p>foderent@foderent.com</p>
-			<p class="contacts__heading">Реквизиты:</p>
-			<p>Общество с ограниченной <br>
-			ответственностью «СпецСтройТехника»</p>
-			<p class="contacts__info">ИНН 5003081582 <br>
-			КПП 500301001 <br>
-			ОГРН 1085003003546 <br>
-			Р/С 40702810340050002304</p>
+			<div class="contacts__textblock">
+				<p class="contacts__heading">Фактический адрес: </p>
+				<p class="contacts__text">1-й Волоколамский проезд, д. 10, стр. 1, <br>
+				Москва, 123060 Россия</p>
+				<p class="contacts__heading">Юридический адрес:</p>
+				<p class="contacts__text">1-й Волоколамский проезд, д. 10, стр. 1, <br>
+				Москва, 123060 Россия</p>
+				<p class="contacts__heading">Телефоны: </p>
+				<p class="contacts__text">+7 (144) 123-34-65, +7 (144) 123-34-65</p>
+				<p class="contacts__heading">E-mail: </p>
+				<p class="contacts__text">foderent@foderent.com</p>
+				<p class="contacts__heading">Реквизиты:</p>
+				<p class="contacts__text">Общество с ограниченной <br>
+				ответственностью «СпецСтройТехника»</p>
+				<p class="contacts__info">ИНН 5003081582 <br>
+				КПП 500301001 <br>
+				ОГРН 1085003003546 <br>
+				Р/С 40702810340050002304</p>
+			</div>
 		</div>
-		<div class="contacts__map" id="contactsmap"></div>
-	</div>
-	<div class="contacts__formblock">
-		<div class="container">
-			<form action="" class="contacts__form">
-				<p class="contacts__formheading">Обратная связь</p>
-				<div class="contacts__formfields">
-					<div class="contacts__formfield">
-						<p>Имя</p>
-						<input type="text" name="name">
-					</div>
-					<div class="contacts__formfield">
-						<p>Телефон</p>
-						<input type="tel" name="telephone">
-					</div>
-					<div class="contacts__formfield">
-						<p>Email</p>
-						<input type="email" name="email">
-					</div>
-					<div class="contacts__formfield contacts__formfield_file">
-						<p>Вложения</p>
-						<p class="contacts__formfile">technika.jpg<a href="#"></a></p>
-						<p class="small">Разрешенные расширения: .jpg, .png, .jpeg, .gif</p>
-					</div>
-					<div class="contacts__formfield contacts__formfield_message">
-						<p>Сообщение</p>
-						<textarea name="message"></textarea>
-					</div>
-				</div>
-				<button class="button contacts__formbutton"><span class="button__border-top"></span>отправить<span class="button__border-bottom"></span></button>
-			</form>
+		<div class="container container__contacts-map">
+			<div class="contacts__map" id="contactsmap"></div>
 		</div>
 	</div>
+	
+	<?php include "blocks/contactform.php"; ?>
+	
 </section>
 
 <!-------------------------------------------------->

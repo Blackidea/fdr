@@ -21,8 +21,7 @@
 <!-------------------------------------------------->
 
 <section class="pagesales">
-	<div class="heading">
-		<div class="gradient"></div>
+	<div class="small-page-heading">
 		<div class="container">
 			<h2>Акции</h2>
 		</div>
@@ -42,36 +41,42 @@
 					<p class="small">с 16/09/16 по 30/09/16</p>
 					<p>Быстрая аренда спецтехники <br> по оптовым ценам</p>
 				</div>
+				<div class="sale__bg-gradients"><span></span><span></span></div>
 			</div>
 			<div class="sales__bg">
 				<div class="sales__block">
 					<p class="small">с 16/09/16 по 30/09/16</p>
 					<p>Быстрая аренда спецтехники <br> по оптовым ценам</p>
 				</div>
+				<div class="sale__bg-gradients"><span></span><span></span></div>
 			</div>
 			<div class="sales__bg">
 				<div class="sales__block">
 					<p class="small">с 16/09/16 по 30/09/16</p>
 					<p>Быстрая аренда спецтехники <br> по оптовым ценам</p>
 				</div>
+				<div class="sale__bg-gradients"><span></span><span></span></div>
 			</div>
 			<div class="sales__bg">
 				<div class="sales__block">
 					<p class="small">с 16/09/16 по 30/09/16</p>
 					<p>Быстрая аренда спецтехники <br> по оптовым ценам</p>
 				</div>
+				<div class="sale__bg-gradients"><span></span><span></span></div>
 			</div>
 			<div class="sales__bg">
 				<div class="sales__block">
 					<p class="small">с 16/09/16 по 30/09/16</p>
 					<p>Быстрая аренда спецтехники <br> по оптовым ценам</p>
 				</div>
+				<div class="sale__bg-gradients"><span></span><span></span></div>
 			</div>
 			<div class="sales__bg">
 				<div class="sales__block">
 					<p class="small">с 16/09/16 по 30/09/16</p>
 					<p>Быстрая аренда спецтехники <br> по оптовым ценам</p>
 				</div>
+				<div class="sale__bg-gradients"><span></span><span></span></div>
 			</div>
 		</div>
 	</div>

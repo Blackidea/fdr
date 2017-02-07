@@ -25,7 +25,8 @@
 		<div class="productcard__wrapper wrapper">
 			<div class="productcard__slide slide active" data-slide="1">
 				<div class="productcard__slideimage">
-					<img src="img/product_card.jpg" alt="@@">
+					<img src="img/product_card.jpg" alt="@@" class="mobile">
+					<img src="img/product_card_desktop.jpg" alt="@@" class="desktop">
 				</div>
 				<div class="productcard__slideinfo">
 					<p class="price">10 000 руб./смена</p>
@@ -35,7 +36,8 @@
 			</div>
 			<div class="productcard__slide slide" data-slide="2">
 				<div class="productcard__slideimage">
-					<img src="img/product_card.jpg" alt="@@">
+					<img src="img/product_card.jpg" alt="@@" class="mobile">
+					<img src="img/product_card_desktop.jpg" alt="@@" class="desktop">
 				</div>
 				<div class="productcard__slideinfo">
 					<p class="price">10 000 руб./смена</p>
@@ -45,7 +47,8 @@
 			</div>
 			<div class="productcard__slide slide" data-slide="3">
 				<div class="productcard__slideimage">
-					<img src="img/product_card.jpg" alt="@@">
+					<img src="img/product_card.jpg" alt="@@" class="mobile">
+					<img src="img/product_card_desktop.jpg" alt="@@" class="desktop">
 				</div>
 				<div class="productcard__slideinfo">
 					<p class="price">10 000 руб./смена</p>
@@ -55,7 +58,8 @@
 			</div>
 			<div class="productcard__slide slide" data-slide="4">
 				<div class="productcard__slideimage">
-					<img src="img/product_card.jpg" alt="@@">
+					<img src="img/product_card.jpg" alt="@@" class="mobile">
+					<img src="img/product_card_desktop.jpg" alt="@@" class="desktop">
 				</div>
 				<div class="productcard__slideinfo">
 					<p class="price">10 000 руб./смена</p>
@@ -65,7 +69,8 @@
 			</div>
 			<div class="productcard__slide slide" data-slide="5">
 				<div class="productcard__slideimage">
-					<img src="img/product_card.jpg" alt="@@">
+					<img src="img/product_card.jpg" alt="@@" class="mobile">
+					<img src="img/product_card_desktop.jpg" alt="@@" class="desktop">
 				</div>
 				<div class="productcard__slideinfo">
 					<p class="price">10 000 руб./смена</p>
@@ -107,8 +112,11 @@
 					<li><p>Эксплуатационная масса (кг)</p><p>19500</p></li>
 					<li><p>Мощность двигателя (л.с.)</p><p>190</p></li>
 					<li><p>Тип отвала</p>
-						<select name="" id="">
+						<select name="">
 							<option value="">Прямой</option>
+							<option value="">Пункт 1</option>
+							<option value="">Пункт 2</option>
+							<option value="">Пункт 3</option>
 						</select>
 					</li>
 				</ul>

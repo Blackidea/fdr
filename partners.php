@@ -21,8 +21,7 @@
 <!-------------------------------------------------->
 
 <section class="partners">
-	<div class="heading">
-		<div class="gradient"></div>
+	<div class="small-page-heading">
 		<div class="container">
 			<h2>Партнерам</h2>
 		</div>
@@ -54,37 +53,9 @@
 			</ul>
 		</div>
 	</div>
-	<div class="partners__formblock">
-		<div class="container">
-			<form action="" class="partners__form">
-				<p class="partners__formheading">Стать партнером</p>
-				<div class="partners__formfields">
-					<div class="partners__formfield">
-						<p>Название компании</p>
-						<input type="text" name="companyname">
-					</div>
-					<div class="partners__formfield">
-						<p><span>*</span>Контактный телефон</p>
-						<input type="tel" name="telephone">
-					</div>
-					<div class="partners__formfield">
-						<p><span>*</span>E-mail</p>
-						<input type="email" name="email">
-					</div>
-					<div class="partners__formfield">
-						<p><span>*</span>Имя контактного лица</p>
-						<input type="text" name="name">
-					</div>
-					<div class="partners__formfield partners__formfield_message">
-						<p>Сообщение</p>
-						<textarea name="message"></textarea>
-					</div>
-				</div>
-				<p class="partners__formtext small"><span>*</span>- поля обязательные для заполнения</p>
-				<button class="button partners__formbutton"><span class="button__border-top"></span>отправить<span class="button__border-bottom"></span></button>
-			</form>
-		</div>
-	</div>
+	
+	<?php include "blocks/supportform.php"; ?>
+	
 </section>
 
 <!-------------------------------------------------->

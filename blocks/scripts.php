@@ -16,17 +16,13 @@
 <!-- AJAX-форма !-->
 <script src="js/jquery.form.js"></script>
 
-<!-- Кроссбраузерность форм !-->
-<script type="text/javascript" src="js/modernizr-2.5.3.forms.js"></script>
-<script type="text/javascript" data-webforms2-support="validation" src="js/html5forms.js"></script>
-
 <!-- Карусель и модальные окна !-->
 <script src="js/owl/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
 
 <!-- jQuery UI !-->
 <script src="js/jqueryui/jquery-ui.js"></script>
-
+<script src="js/datepicker-ru.js"></script>
 <!-- SelectBoxIt !-->
 <script src="js/selectbox.js"></script>
 

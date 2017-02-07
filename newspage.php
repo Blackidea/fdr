@@ -22,7 +22,7 @@
 
 <section class="pagenewspage">
 	<div class="container">
-		<p class="toptext"><a href="#"><img src="img/arrow_green_left.svg" alt="@@" width="31" class="bounce">Все новости</a></p>
+		<p class="toptext"><a href="news.php"><img src="img/arrow_green_left.svg" alt="@@" width="31" class="bounce">Все новости</a></p>
 	</div>
 	<div class="top">
 		<div class="heading">

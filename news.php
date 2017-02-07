@@ -21,8 +21,7 @@
 <!-------------------------------------------------->
 
 <section class="pagenews">
-	<div class="heading">
-		<div class="gradient"></div>
+	<div class="small-page-heading">
 		<div class="container">
 			<h2>Новости</h2>
 		</div>
@@ -34,38 +33,43 @@
 				<option value="">Все новости</option>
 			</select>
 		</div>
-		<div class="newsblocks">
-			<div>
+		<div class="newsblocks newsblocks_pagenews">
+			<a href="newspage.php" class="news-linkblock">
 				<div class="bg"></div>
+				<img src="img/news_1.jpg" alt="@@">
 				<p class="small">16/09/16</p>
 				<p>Специалисты <br>проводят работы <br>по объекту</p>
-			</div>
-			<div>
+			</a>
+			<a href="newspage.php" class="news-linkblock">
 				<div class="bg"></div>
-				<p class="small">03/09/16</p>
-				<p>Специалисты <br>проводят работы <br>по объекту</p>
-			</div>
-			<div>
-				<div class="bg"></div>
+				<img src="img/news_1.jpg" alt="@@">
 				<p class="small">16/09/16</p>
 				<p>Специалисты <br>проводят работы <br>по объекту</p>
-			</div>
-			<div>
+			</a>
+			<a href="newspage.php" class="news-linkblock">
 				<div class="bg"></div>
-				<p class="small">03/09/16</p>
-				<p>Специалисты <br>проводят работы <br>по объекту</p>
-			</div>
-			<!-- Desktop -->
-			<div>
-				<div class="bg"></div>
+				<img src="img/news_1.jpg" alt="@@">
 				<p class="small">16/09/16</p>
 				<p>Специалисты <br>проводят работы <br>по объекту</p>
-			</div>
-			<div>
+			</a>
+			<a href="newspage.php" class="news-linkblock">
 				<div class="bg"></div>
-				<p class="small">03/09/16</p>
+				<img src="img/news_1.jpg" alt="@@">
+				<p class="small">16/09/16</p>
 				<p>Специалисты <br>проводят работы <br>по объекту</p>
-			</div>
+			</a>
+			<a href="newspage.php" class="news-linkblock">
+				<div class="bg"></div>
+				<img src="img/news_1.jpg" alt="@@">
+				<p class="small">16/09/16</p>
+				<p>Специалисты <br>проводят работы <br>по объекту</p>
+			</a>
+			<a href="newspage.php" class="news-linkblock">
+				<div class="bg"></div>
+				<img src="img/news_1.jpg" alt="@@">
+				<p class="small">16/09/16</p>
+				<p>Специалисты <br>проводят работы <br>по объекту</p>
+			</a>
 		</div>
 		<a href="#" class="button button_green"><span class="button__border-top"></span>Показать еще<span class="button__border-bottom"></span></a>
 	</div>

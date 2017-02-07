@@ -21,10 +21,9 @@
 <!-------------------------------------------------->
 
 <section class="letters">
-	<div class="heading">
-		<div class="gradient"></div>
+	<div class="small-page-heading">
 		<div class="container">
-			<h2>Благодарственные письма</h2>
+			<h2>Благодарственные <br> письма</h2>
 		</div>
 	</div>
 	<div class="container">
@@ -35,42 +34,42 @@
 		</div>
 		<div class="letters__images">
 			<a href="#letters__popup" class="image fancybox">
-				<div class="bg"></div>
+				<div class="bg"><img src="img/nut.svg" alt="@@"></div>
 				<img src="img/letter.png" alt="@@">
 				<p>Свидетельство о лучшей аренде спецтехники</p>
 			</a>
 			<a href="#letters__popup" class="image fancybox">
-				<div class="bg"></div>
+				<div class="bg"><img src="img/nut.svg" alt="@@"></div>
 				<img src="img/letter_1.png" alt="@@">
 				<p>Свидетельство о лучшей аренде спецтехники</p>
 			</a>
 			<a href="#letters__popup" class="image fancybox">
-				<div class="bg"></div>
+				<div class="bg"><img src="img/nut.svg" alt="@@"></div>
 				<img src="img/letter.png" alt="@@">
 				<p>Свидетельство о лучшей аренде спецтехники</p>
 			</a>
 			<a href="#letters__popup" class="image fancybox">
-				<div class="bg"></div>
+				<div class="bg"><img src="img/nut.svg" alt="@@"></div>
 				<img src="img/letter_1.png" alt="@@">
 				<p>Свидетельство о лучшей аренде спецтехники</p>
 			</a>
 			<a href="#letters__popup" class="image fancybox">
-				<div class="bg"></div>
+				<div class="bg"><img src="img/nut.svg" alt="@@"></div>
 				<img src="img/letter.png" alt="@@">
 				<p>Свидетельство о лучшей аренде спецтехники</p>
 			</a>
 			<a href="#letters__popup" class="image fancybox">
-				<div class="bg"></div>
+				<div class="bg"><img src="img/nut.svg" alt="@@"></div>
 				<img src="img/letter_1.png" alt="@@">
 				<p>Свидетельство о лучшей аренде спецтехники</p>
 			</a>
 			<a href="#letters__popup" class="image fancybox">
-				<div class="bg"></div>
+				<div class="bg"><img src="img/nut.svg" alt="@@"></div>
 				<img src="img/letter.png" alt="@@">
 				<p>Свидетельство о лучшей аренде спецтехники</p>
 			</a>
 			<a href="#letters__popup" class="image fancybox">
-				<div class="bg"></div>
+				<div class="bg"><img src="img/nut.svg" alt="@@"></div>
 				<img src="img/letter_1.png" alt="@@">
 				<p>Свидетельство о лучшей аренде спецтехники</p>
 			</a>
@@ -82,31 +81,31 @@
 				<div class="image">
 					<img src="img/letter.png" alt="@@">
 				</div>
-				<p><a href="#letters__popup" class="fancybox">Свидетельсьвто о лучшей аренде спецтехники</a></p>
+				<p><a href="#letters__popup" class="fancybox">Свидетельство о лучшей аренде спецтехники</a></p>
 			</div>
 			<div class="letters__slide slide active" data-slide="2">
 				<div class="image">
 					<img src="img/letter.png" alt="@@">
 				</div>
-				<p>Свидетельсьвто о лучшей аренде спецтехники</p>
+				<p>Свидетельство о лучшей аренде спецтехники</p>
 			</div>
 			<div class="letters__slide slide active" data-slide="3">
 				<div class="image">
 					<img src="img/letter.png" alt="@@">
 				</div>
-				<p>Свидетельсьвто о лучшей аренде спецтехники</p>
+				<p>Свидетельство о лучшей аренде спецтехники</p>
 			</div>
 			<div class="letters__slide slide active" data-slide="4">
 				<div class="image">
 					<img src="img/letter.png" alt="@@">
 				</div>
-				<p>Свидетельсьвто о лучшей аренде спецтехники</p>
+				<p>Свидетельство о лучшей аренде спецтехники</p>
 			</div>
 			<div class="letters__slide slide active" data-slide="5">
 				<div class="image">
 					<img src="img/letter.png" alt="@@">
 				</div>
-				<p>Свидетельсьвто о лучшей аренде спецтехники</p>
+				<p>Свидетельство о лучшей аренде спецтехники</p>
 			</div>
 		</div>
 		<div class="letters__sliderarrows">

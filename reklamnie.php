@@ -21,8 +21,7 @@
 <!-------------------------------------------------->
 
 <section class="reclame">
-	<div class="heading">
-		<div class="gradient"></div>
+	<div class="small-page-heading">
 		<div class="container">
 			<h2>Рекламные материалы</h2>
 		</div>

@@ -21,8 +21,7 @@
 <!-------------------------------------------------->
 
 <section class="investors">
-	<div class="heading">
-		<div class="gradient"></div>
+	<div class="small-page-heading">
 		<div class="container">
 			<h2>Инвесторам</h2>
 		</div>
@@ -97,37 +96,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="investors__formblock">
-		<div class="container">
-			<form action="" class="investors__form">
-				<p class="investors__formheading">Хотите поддержать проект?</p>
-				<div class="investors__formfields">
-					<div class="investors__formfield">
-						<p>Название компании</p>
-						<input type="text" name="companyname">
-					</div>
-					<div class="investors__formfield">
-						<p><span>*</span>Контактный телефон</p>
-						<input type="tel" name="telephone">
-					</div>
-					<div class="investors__formfield">
-						<p><span>*</span>E-mail</p>
-						<input type="email" name="email">
-					</div>
-					<div class="investors__formfield">
-						<p><span>*</span>Имя контактного лица</p>
-						<input type="text" name="name">
-					</div>
-					<div class="investors__formfield investors__formfield_message">
-						<p>Сообщение</p>
-						<textarea name="message"></textarea>
-					</div>
-				</div>
-				<p class="investors__formtext small"><span>*</span>- поля обязательные для заполнения</p>
-				<button class="button investors__formbutton"><span class="button__border-top"></span>отправить<span class="button__border-bottom"></span></button>
-			</form>
-		</div>
-	</div>
+	
+	<?php include "blocks/supportform.php"; ?>
+	
 </section>
 
 <!-------------------------------------------------->

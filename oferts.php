@@ -21,8 +21,7 @@
 <!-------------------------------------------------->
 
 <section class="oferts">
-	<div class="heading">
-		<div class="gradient"></div>
+	<div class="small-page-heading">
 		<div class="container">
 			<h2>Публичная оферта</h2>
 		</div>
