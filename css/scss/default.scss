@@ -2318,9 +2318,9 @@ body.active {-webkit-transform: translate3d(683px,0,0);transform: translate3d(68
     &.active:after {-webkit-transform: rotate(180deg);transform: rotate(180deg);}
 }
 
-.selectbox.selectbox_inputbox {
+/*.selectbox.selectbox_inputbox {
   select {display:none}
-}
+}*/
 
 .newsblocks {display: -webkit-box;display: -ms-flexbox;display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;
 	.news-linkblock {width: 100%; position: relative; min-height: 162px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; padding: 8px; box-sizing: border-box; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; color: #fff; margin-top: 15px;
