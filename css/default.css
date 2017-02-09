@@ -5132,7 +5132,8 @@ body.mainpage .page {
     .account__navigation_desktop li:first-child, .account__navigation_desktop li:last-child {
       margin-left: 0; }
     .account__navigation_desktop li:hover {
-      opacity: 1; }
+      opacity: 1;
+      cursor: pointer; }
     .account__navigation_desktop li.active {
       border-bottom: 2px solid #fff;
       opacity: 1; }
@@ -5865,19 +5866,6 @@ body.mainpage .page {
 
 .account__technics {
   display: none; }
-  .account__technics .button {
-    width: 100%;
-    margin-top: 20px; }
-  .account__technics select {
-    width: 100%;
-    height: 45px;
-    border: 1px solid #b7cfbc;
-    background-image: url("../img/icon_select_arrow.svg");
-    background-repeat: no-repeat;
-    background-size: 11px 7px;
-    background-position: top 50% right 10px;
-    margin-top: 20px;
-    padding: 0 13px; }
 
 .account__technics-searchfield {
   position: relative;
@@ -6314,6 +6302,28 @@ body.mainpage .page {
     -o-object-fit: cover;
     object-fit: cover; }
 
+@media (max-width: 1023px) {
+  .account__technics .container {
+    width: 100%; } }
+
+.account .container.container_active {
+  position: relative; }
+
+.account .container.container_active:after {
+  content: "Активен";
+  font-size: 12px;
+  font-weight: 300;
+  color: white;
+  display: inline-block;
+  background-color: rgba(35, 105, 43, 0.6);
+  bottom: 100%;
+  left: 50%;
+  position: absolute;
+  width: 62px;
+  line-height: 15px;
+  margin-left: -31px;
+  text-align: center; }
+
 /*-------------------------------------------------*/
 /*---------------------NEW ACCOUNT---------------------*/
 /*-------------------------------------------------*/
@@ -6329,19 +6339,6 @@ body.mainpage .page {
       width: 100%; }
   .accountpage__contentblock {
     position: relative; }
-    .accountpage__contentblock_active:after {
-      content: "Активен";
-      font-size: 12px;
-      font-weight: 300;
-      color: white;
-      display: inline-block;
-      background-color: rgba(35, 105, 43, 0.6);
-      bottom: 100%;
-      left: 50%;
-      position: absolute;
-      width: 62px;
-      line-height: 15px;
-      margin-left: -31px; }
   .accountpage__contenthead {
     padding: 20px 15px; }
     .accountpage__contenthead_technics .button {
@@ -6356,7 +6353,7 @@ body.mainpage .page {
     z-index: 2;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); }
     .accountpage__mobilenav li {
-      width: 25%;
+      width: 100%;
       background-color: #23692b;
       height: 40px;
       display: -webkit-box;
@@ -8112,6 +8109,191 @@ a:hover .bounce {
   animation-name: bounce; }
 
 /* Всплывающие окна и другие элементы сайта //*/
+/* FIX */
+.paymentpopup .formpart input[type="text"] {
+  padding: 0 13px; }
+
+.paymentpopup .formpart p.small {
+  font-size: 12px; }
+
+.popup.getbill {
+  padding: 53px 70px 53px; }
+
+.getbill .formfield p {
+  font-size: 18px; }
+
+.getbill .formfield {
+  margin-top: 30px; }
+
+.getbill input {
+  margin-top: 13px; }
+
+.getbill .button {
+  margin-top: 55px; }
+
+.getbill .popup .button:nth-of-type(2) {
+  margin-left: 66px; }
+
+.account__technics-infofield select, .account__technics-infofield input, .account__technics-infofield textarea {
+  padding: 0 13px; }
+
+.account p.toptext {
+  margin-top: 0;
+  margin-bottom: 16px; }
+
+.account__technics-info .container {
+  width: 100%;
+  padding-top: 4px;
+  padding: 4px 15px 0;
+  box-sizing: border-box;
+  max-width: 600px; }
+
+.account__technics-infofield_mod {
+  padding-right: 59px;
+  position: relative; }
+
+.account__technics-infofield_mod a.plusicon {
+  position: absolute;
+  margin: 0;
+  right: 0;
+  bottom: 0; }
+
+.account__technics-infofield_mod select {
+  width: 100%; }
+
+.account p.toptext a {
+  cursor: pointer; }
+
+.account__technics-infofield_mod a.plusicon:hover {
+  background-color: #2ca346;
+  color: white; }
+
+.account__technics-photos div {
+  margin-top: 10%;
+  height: auto;
+  padding-bottom: 45%;
+  overflow: hidden; }
+
+.account__technics-photos img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 0;
+  min-width: 100%;
+  min-height: 100%; }
+
+.account__technics-photos a {
+  z-index: 2; }
+  .account__technics-photos a:hover {
+    opacity: .7; }
+
+.account__technics-info {
+  padding-bottom: 20px; }
+
+.account__technics-info .container.account__technics-infocontainer {
+  height: 1px;
+  position: relative;
+  top: 21px;
+  width: 100%;
+  left: 0;
+  padding: 0 15px;
+  z-index: 15; }
+
+.account__technics-infomap input {
+  position: static;
+  width: 100%; }
+
+.account__technics-map {
+  margin-top: 0; }
+
+.account__technics-infomap p {
+  margin-bottom: 15px; }
+
+@media (max-width: 1024px) {
+  .popup {
+    width: 510px; }
+  .paymentpopup .formheading, .getbill p.huge {
+    font-size: 30px; }
+  .paymentpopup, .popup.getbill {
+    padding: 30px 0 50px; }
+  .paymentpopup .formpart p.total {
+    font-size: 35px; }
+  .paymentpopup .formpart p, .getbill .formfield p {
+    font-size: 16px; }
+  .paymentpopup .formpart:first-of-type {
+    margin-top: 22px; }
+  .paymentpopup .formpart:nth-of-type(2) {
+    margin-top: 28px; }
+  .paymentpopup .formpart input[type="text"] {
+    margin-top: 10px; }
+  .paymentpopup .formpart:nth-of-type(3) {
+    margin-top: 30px; }
+  .paymentpopup .formpart .radiodiv {
+    margin-top: 10px; }
+  .paymentpopup p.small {
+    margin-top: 30px; }
+  .paymentpopup .container {
+    width: 80%; }
+  .popup.getbill {
+    padding-left: 40px;
+    padding-right: 40px; }
+  .getbill input {
+    margin-top: 5px; }
+  .getbill .button {
+    margin-top: 25px; }
+  .account__technics-info .container.container_technicsinfo {
+    width: 100%;
+    padding: 0;
+    max-width: none; } }
+
+@media (max-width: 600px) {
+  .popup {
+    width: 320px; }
+  .paymentpopup .formheading, .getbill p.huge {
+    font-size: 20px; }
+  .paymentpopup .formpart:first-of-type {
+    margin-top: 15px; }
+  .paymentpopup .formpart p.total {
+    font-size: 26px; }
+  .paymentpopup .formpart p {
+    font-size: 14px;
+    line-height: 1.3em; }
+  .paymentpopup .formpart:nth-of-type(2), .paymentpopup .formpart:nth-of-type(3) {
+    margin-top: 20px; }
+  .paymentpopup .formpart .radiodiv p {
+    font-size: 14px; }
+  .paymentpopup p.small br {
+    display: none; }
+  .paymentpopup {
+    padding-bottom: 30px; }
+  .paymentpopup .container {
+    width: 86%; }
+  .getbill .formfield {
+    width: 100%; }
+  .popup.getbill {
+    padding-left: 25px;
+    padding-right: 25px; }
+  .getbill .button_noborder {
+    width: 100%;
+    margin-top: 20px; }
+  .popup .button:nth-of-type(2) {
+    margin-left: 0;
+    margin-top: 0; } }
+
+@media (max-width: 400px) {
+  .popup {
+    width: 270px; }
+  .fancybox-close {
+    top: 15px;
+    right: 15px; }
+  .getbill .formfield {
+    margin-top: 20px; }
+  .popup.getbill {
+    padding-bottom: 40px; } }
+
 /* Адаптивная верстка //*/
 /* Расстояние между колонками*/
 /* Ширина колонки*/
@@ -8400,6 +8582,10 @@ a:hover .bounce {
 @media (min-width: 1024px) {
   /* Расстояние между колонками*/
   /* Ширина колонки*/
+  .account__technics .accountpage__contentblock {
+    margin-bottom: 70px; }
+  .accountpage__technics-cards {
+    background: white; }
   /* ------------------------------------ */
   .selectbox.selectbox_green ul li {
     font-size: 20px;
@@ -8457,7 +8643,7 @@ a:hover .bounce {
       line-height: 30px;
       height: 59px;
       box-sizing: border-box; }
-  .accountpage__contentblock_active:after {
+  .account .container.container_active:after {
     margin: 0;
     left: 0;
     font-size: 14px;
@@ -8499,6 +8685,8 @@ a:hover .bounce {
       width: 25.6%; }
     .accountpage__contenthead_technics .accountpage__desktoprightcol, .accountpage__technics .accountpage__blockcontent .accountpage__desktoprightcol {
       width: 74.43%; }
+  .account__technics-info .container {
+    max-width: none; }
   .accountpage__contenthead_technics .accountpage__desktopleftcol, .accountpage__contenthead_technics .accountpage__desktoprightcol {
     padding: 22px 15px; }
   .accountpage__searchfilter + .selectbox {
@@ -8539,8 +8727,10 @@ a:hover .bounce {
   .page {
     padding-top: 60px; }
   /*-----------MAIN--------------*/
-  .container, .accountpage__content .container {
+  .container, .accountpage__content .container, .account__technics-info .container.container_technicsinfo {
     width: 990px; }
+  .account__technics-info .container.container_technicsinfo {
+    padding: 0; }
   .container.small {
     width: 790px; }
   h1 {
@@ -10333,64 +10523,7 @@ a:hover .bounce {
     border-top: 0;
     margin-top: 45px;
     padding-top: 0; }
-  .account__technics {
-    position: relative;
-    margin-top: -38px; }
-  .account__technics-prehead {
-    background-color: #fff;
-    text-align: right;
-    position: relative;
-    box-sizing: border-box;
-    padding: 22px 12px; }
-  .account__technics .button {
-    width: 262px;
-    margin-top: 0;
-    position: absolute;
-    left: 15px;
-    top: 22px; }
-  .account__technics-searchfield {
-    display: inline-block;
-    width: 262px;
-    margin-top: 0;
-    margin-right: 36px; }
-  .account__technics select {
-    display: inline-block;
-    width: 262px;
-    margin-top: 0; }
-  .account__technics-cards {
-    margin-top: 0;
-    padding-top: 0;
-    background-color: transparent;
-    padding-bottom: 70px; }
-  .account__technics-list {
-    width: 25.7%; }
-  .account__technics-card {
-    padding: 12px 20px 10px;
-    border-bottom: 1px solid rgba(204, 204, 204, 0.25);
-    margin-top: 0; }
-  .account__technics-note-reserve.mobile {
-    display: none; }
-  .account__technics-note-reserve {
-    margin-top: 0;
-    border-bottom: 1px solid #b7cfbc;
-    margin-left: 8px; }
-  .account__technics-note-reserve:before {
-    display: none; }
-  .account__technics-operator {
-    margin-top: 5px;
-    display: block; }
-  .account__technics-card a.sideicon {
-    right: 15px;
-    top: 14px; }
-  .account__technics-save {
-    color: #ce271a !important;
-    border-bottom: 1px solid #eab6b3;
-    margin-left: 8px; }
-  .account__technics-cards .container {
-    box-shadow: 0px -5px 50px 0px rgba(35, 41, 50, 0.5);
-    position: relative; }
   .account__technics-info {
-    margin-top: -38px;
     position: relative;
     padding-bottom: 70px; }
   .account__technics-info .container {
@@ -10404,7 +10537,8 @@ a:hover .bounce {
     width: 31.6%;
     margin: auto;
     position: relative;
-    margin-top: 30px; }
+    margin-top: 30px;
+    box-sizing: border-box; }
   .account__technics-infofield:first-of-type {
     margin-top: 31px; }
   .account__technics-infofield p.fieldname {
@@ -10425,14 +10559,11 @@ a:hover .bounce {
   .account__technics-photos {
     margin: auto;
     width: 31.6%;
-    margin-top: 15px;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap; }
-  .account__technics-photos div:nth-child(n+3) {
-    display: none; }
+    margin-top: 15px; }
   .account__technics-photos div {
-    width: 39%;
-    height: 147px; }
+    width: 48%;
+    padding-bottom: 48%;
+    margin-top: 4%; }
   .account__technics-infofield_description p.fieldname {
     top: 25px; }
   .account__technics-infofield select, .account__technics-infofield input, .account__technics-infofield textarea {
@@ -10443,16 +10574,21 @@ a:hover .bounce {
     font-size: 16px; }
   .account__technics-map {
     margin: auto;
-    margin-top: 12px;
     height: 400px;
-    width: 1140px; }
+    width: 100%; }
+  .account__technics-info .container.account__technics-infocontainer {
+    background: transparent; }
   .account__technics-infomap input {
     width: 262px;
-    left: 129px;
-    top: 73px; }
+    left: 100px;
+    top: 0;
+    position: absolute; }
   .account__technics-info .button {
     margin-top: 45px;
     width: auto; }
+  .account__settings-infofield p.fieldname {
+    right: 100%;
+    margin-right: 20px; }
   .account__operators {
     margin-top: -38px;
     position: relative;
@@ -10837,10 +10973,6 @@ a:hover .bounce {
     display: none; }
   .account__alltechnics-head {
     display: none; }
-  .account__technics-note-reserve.desktop {
-    display: none; }
-  .account__technics-card:nth-child(3) {
-    display: none; }
   .account__operators-card:nth-child(n+4) {
     display: none; }
   /*-----------SHOPPING BAG--------------*/
@@ -10851,7 +10983,7 @@ a:hover .bounce {
 
 @media (min-width: 1170px) {
   /*-----------MAIN--------------*/
-  .container, .accountpage__content .container {
+  .container, .accountpage__content .container, .account__technics-info .container.container_technicsinfo {
     width: 1140px; }
   .container.small {
     width: 945px; }
@@ -10943,7 +11075,7 @@ a:hover .bounce {
 
 @media (min-width: 1440px) {
   /*-----------MAIN--------------*/
-  .container, .accountpage__content .container {
+  .container, .accountpage__content .container, .account__technics-info .container.container_technicsinfo {
     width: 1410px; }
   .container.small {
     width: 1210px; }
@@ -11018,7 +11150,7 @@ a:hover .bounce {
   /* Расстояние между колонками*/
   /* Ширина колонки*/
   /*-----------MAIN--------------*/
-  .container, .accountpage__content .container {
+  .container, .accountpage__content .container, .account__technics-info .container.container_technicsinfo {
     width: 1530px; }
   .container.small {
     width: 1270px; }

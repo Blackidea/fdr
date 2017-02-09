@@ -1538,7 +1538,7 @@ body.mainpage .page {padding-top:0}
 	&__navigation_desktop {position: relative; margin-top: 34px;
 		li {display: inline-block; opacity: 0.3; margin-left: 87px; border-bottom: 2px solid transparent; -webkit-transition:all 0.25s ease-in-out; transition: all 0.25s ease-in-out;
 			&:first-child, &:last-child {margin-left: 0;}
-			&:hover {opacity: 1;}
+			&:hover {opacity: 1; cursor:pointer;}
 			&.active {border-bottom: 2px solid #fff; opacity: 1;}
 		}
 		p {color: #fff; font-size: 16px; font-weight: 500;}
@@ -1767,10 +1767,7 @@ body.mainpage .page {padding-top:0}
 		}
 	}
 	&__settings-infofield_file + .account__settings-infofield {margin-top: 48px;}
-	&__technics {display: none;
-		.button {width: 100%; margin-top: 20px;}
-		select {width: 100%; height: 45px; border: 1px solid #b7cfbc; background-image: url('../img/icon_select_arrow.svg'); background-repeat: no-repeat; background-size: 11px 7px; background-position: top 50% right 10px; margin-top: 20px; padding: 0 13px;}
-	}
+	&__technics {display: none;}
 	&__technics-searchfield {position: relative; margin-top: 20px;
 		input {width: 100%; height: 45px; border: 1px solid #b7cfbc; padding: 0 13px;}
 		a {position: absolute; right: 9px; top: 0; bottom: 0; margin: auto; width: 22px; height: 21px;}
@@ -1892,9 +1889,12 @@ body.mainpage .page {padding-top:0}
 	}
 }
 
+@media (max-width:1023px) {
+  .account__technics .container {width:100%}
+}
 
-
-
+.account .container.container_active {position:relative;}
+.account .container.container_active:after {content:"Активен"; font-size:12px; font-weight:300; color:white; display:inline-block; background-color:rgba(#23692b,.6); bottom:100%; left:50%; position: absolute; width:62px; line-height:15px; margin-left:-31px; text-align: center;}
 
 
 
@@ -1907,9 +1907,7 @@ body.mainpage .page {padding-top:0}
   &__content {position: relative;
     .container {width:100%;}
   }
-  &__contentblock {position:relative;
-      &_active:after {content:"Активен"; font-size:12px; font-weight:300; color:white; display:inline-block; background-color:rgba(#23692b,.6); bottom:100%; left:50%; position: absolute; width:62px; line-height:15px; margin-left:-31px;}
-  }
+  &__contentblock {position:relative;}
 
   &__contenthead {padding:20px 15px;
     &_technics {
@@ -1919,7 +1917,7 @@ body.mainpage .page {padding-top:0}
   }
 
   &__mobilenav {display:-webkit-box;display:-ms-flexbox;display:flex; position: relative; z-index:2; box-shadow:0 0 10px 0 rgba(black,.5);
-    li {width:25%; background-color:#23692b; height:40px; display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; cursor:pointer; -webkit-transition:opacity .25s ease-in-out; -webkit-transition:opacity .25s ease-in-out, background-color .25s ease-in-out; transition:opacity .25s ease-in-out, background-color .25s ease-in-out;
+    li {width:100%; background-color:#23692b; height:40px; display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; cursor:pointer; -webkit-transition:opacity .25s ease-in-out; -webkit-transition:opacity .25s ease-in-out, background-color .25s ease-in-out; transition:opacity .25s ease-in-out, background-color .25s ease-in-out;
       &:hover {opacity:.9}
       &:nth-of-type(2n) {background-color:#1c5422}
       path, rect {-webkit-transition:fill .25s ease-in-out;transition: fill .25s ease-in-out}
@@ -2546,5 +2544,94 @@ a:hover .bounce {
   	        animation-name: bounce;
 }
 /* Всплывающие окна и другие элементы сайта //*/
+
+
+
+
+
+
+
+/* FIX */
+.paymentpopup .formpart input[type="text"] {padding:0 13px;}
+.paymentpopup .formpart p.small {font-size:12px;}
+.popup.getbill {padding: 53px 70px 53px;}
+.getbill .formfield p {font-size:18px}
+.getbill .formfield {margin-top:30px;}
+.getbill input {margin-top:13px;}
+.getbill .button {margin-top:55px;}
+.getbill .popup .button:nth-of-type(2) {margin-left:66px;}
+
+.account__technics-infofield select, .account__technics-infofield input, .account__technics-infofield textarea {padding:0 13px;}
+
+.account p.toptext {margin-top:0; margin-bottom:16px;}
+.account__technics-info .container {width: 100%; padding-top: 4px; padding: 4px 15px 0; box-sizing: border-box; max-width: 600px;}
+.account__technics-infofield_mod {padding-right:59px; position:relative;}
+.account__technics-infofield_mod a.plusicon {position:absolute; margin:0; right:0; bottom:0;}
+.account__technics-infofield_mod select {width:100%;}
+.account p.toptext a {cursor:pointer;}
+.account__technics-infofield_mod a.plusicon:hover {background-color:#2ca346; color:white;}
+.account__technics-photos div {margin-top:10%; height:auto; padding-bottom:45%; overflow: hidden;}
+.account__technics-photos img {position:absolute; left:0; top:0; right:0; bottom:0; margin:auto; width:0; min-width:100%; min-height:100%;}
+.account__technics-photos a {z-index:2;
+  &:hover {opacity:.7}
+}
+.account__technics-info {padding-bottom:20px;}
+.account__technics-info .container.account__technics-infocontainer {height:1px; position:relative; top:21px; width:100%; left:0; padding:0 15px; z-index:15;}
+.account__technics-infomap input {position:static; width:100%;}
+.account__technics-map {margin-top:0;}
+.account__technics-infomap p {margin-bottom:15px;}
+
+
+@media (max-width:1024px) {
+  .popup {width:510px;}
+  .paymentpopup .formheading, .getbill p.huge {font-size:30px;}
+  .paymentpopup, .popup.getbill {padding:30px 0 50px}
+  .paymentpopup .formpart p.total {font-size:35px;}
+  .paymentpopup .formpart p, .getbill .formfield p {font-size:16px;}
+  .paymentpopup .formpart:first-of-type {margin-top:22px;}
+  .paymentpopup .formpart:nth-of-type(2) {margin-top:28px;}
+  .paymentpopup .formpart input[type="text"] {margin-top:10px;}
+  .paymentpopup .formpart:nth-of-type(3) {margin-top:30px;}
+  .paymentpopup .formpart .radiodiv {margin-top:10px;}
+  .paymentpopup p.small {margin-top:30px;}
+  .paymentpopup .container {width:80%;}
+  .popup.getbill {padding-left:40px; padding-right:40px;}
+  .getbill input {margin-top:5px;}
+  .getbill .button {margin-top:25px;}
+  .account__technics-info .container.container_technicsinfo {width:100%; padding:0; max-width:none;}
+}
+
+@media (max-width:600px) {
+  .popup {width:320px;}
+  .paymentpopup .formheading, .getbill p.huge {font-size:20px;}
+  .paymentpopup .formpart:first-of-type {margin-top:15px;}
+  .paymentpopup .formpart p.total {font-size:26px;}
+  .paymentpopup .formpart p {font-size:14px; line-height:1.3em;}
+  .paymentpopup .formpart:nth-of-type(2), .paymentpopup .formpart:nth-of-type(3) {margin-top:20px;}
+  .paymentpopup .formpart .radiodiv p {font-size:14px;}
+  .paymentpopup p.small br {display:none}
+  .paymentpopup {padding-bottom:30px;}
+  .paymentpopup .container {width:86%}
+  .getbill .formfield {width:100%;}
+  .popup.getbill {padding-left:25px; padding-right:25px;}
+  .getbill .button_noborder {width:100%; margin-top:20px;}
+  .popup .button:nth-of-type(2) {margin-left:0; margin-top:0;}
+}
+
+@media (max-width:400px) {
+  .popup {width:270px;}
+  .fancybox-close {top:15px; right:15px;}
+  .getbill .formfield {margin-top:20px;}
+  .popup.getbill {padding-bottom:40px;}
+}
+
+
+
+
+
+
+
+
+
 
 @import "adaptive.scss";
