@@ -226,10 +226,7 @@ body.mainpage .page {
 /* Секции, header, footer и т.д. //*/
 .diagram {
   display: none;
-  width: 74.3%;
-  position: absolute;
-  right: 0;
-  top: 0;
+  width: 100%;
   height: 100%;
   background-color: #f7f7f7;
   overflow-y: none;
@@ -343,12 +340,12 @@ body.mainpage .page {
         width: 1px;
         height: 12px; }
   .diagram__row {
-    border-bottom: 1px solid rgba(35, 105, 43, 0.15);
+    box-shadow: inset 0 -1px 0 0 rgba(35, 105, 43, 0.15);
     height: 124px;
     width: 100%;
     position: relative; }
     .diagram__row:last-child {
-      border: 0; }
+      box-shadow: none; }
   .diagram__highlight {
     border: 1px solid rgba(234, 105, 0, 0.5);
     box-sizing: border-box;
@@ -6318,6 +6315,318 @@ body.mainpage .page {
     object-fit: cover; }
 
 /*-------------------------------------------------*/
+/*---------------------NEW ACCOUNT---------------------*/
+/*-------------------------------------------------*/
+.accountpage {
+  /* ########################## */
+  /* ########################## */
+  /* ########################## */ }
+  .accountpage__desktopnav {
+    display: none; }
+  .accountpage__content {
+    position: relative; }
+    .accountpage__content .container {
+      width: 100%; }
+  .accountpage__contentblock {
+    position: relative; }
+    .accountpage__contentblock_active:after {
+      content: "Активен";
+      font-size: 12px;
+      font-weight: 300;
+      color: white;
+      display: inline-block;
+      background-color: rgba(35, 105, 43, 0.6);
+      bottom: 100%;
+      left: 50%;
+      position: absolute;
+      width: 62px;
+      line-height: 15px;
+      margin-left: -31px; }
+  .accountpage__contenthead {
+    padding: 20px 15px; }
+    .accountpage__contenthead_technics .button {
+      width: 100%; }
+    .accountpage__contenthead_technics .accountpage__searchfilter {
+      margin-top: 20px; }
+  .accountpage__mobilenav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); }
+    .accountpage__mobilenav li {
+      width: 25%;
+      background-color: #23692b;
+      height: 40px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      cursor: pointer;
+      -webkit-transition: opacity .25s ease-in-out;
+      -webkit-transition: opacity .25s ease-in-out, background-color .25s ease-in-out;
+      transition: opacity .25s ease-in-out, background-color .25s ease-in-out; }
+      .accountpage__mobilenav li:hover {
+        opacity: .9; }
+      .accountpage__mobilenav li:nth-of-type(2n) {
+        background-color: #1c5422; }
+      .accountpage__mobilenav li path, .accountpage__mobilenav li rect {
+        -webkit-transition: fill .25s ease-in-out;
+        transition: fill .25s ease-in-out; }
+      .accountpage__mobilenav li.active {
+        background-color: white; }
+        .accountpage__mobilenav li.active path, .accountpage__mobilenav li.active rect {
+          fill: #2ca346; }
+  .accountpage__diagramcol {
+    display: none; }
+  .accountpage__desktopheading {
+    display: none; }
+  .accountpage__searchfilter {
+    display: block;
+    position: relative; }
+    .accountpage__searchfilter input {
+      line-height: 43px;
+      font-size: 14px;
+      color: #2a2c28;
+      padding: 0 13px;
+      border: 1px solid #b7cfbc;
+      width: 100%;
+      box-sizing: border-box; }
+    .accountpage__searchfilter button {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 9px;
+      background: none;
+      border: none;
+      padding: 0; }
+      .accountpage__searchfilter button img {
+        width: 22px;
+        height: 21px; }
+      .accountpage__searchfilter button:hover {
+        opacity: .7; }
+    .accountpage__searchfilter + .selectbox {
+      margin-top: 20px; }
+    .accountpage__searchfilter ::-webkit-input-placeholder {
+      color: #2a2c28; }
+    .accountpage__searchfilter ::-moz-placeholder {
+      color: #2a2c28; }
+    .accountpage__searchfilter :-ms-input-placeholder {
+      color: #2a2c28; }
+    .accountpage__searchfilter :-moz-placeholder {
+      color: #2a2c28; }
+  .accountpage__technics-cards {
+    background-color: #23692b;
+    background-image: url("../img/index/pattern.svg");
+    padding: 15px; }
+  .accountpage__technics-card {
+    background-color: white;
+    padding: 11px 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    text-align: left;
+    position: relative; }
+    .accountpage__technics-card_checked .accountpage__technics-cardname {
+      color: #b8b8b8; }
+    .accountpage__technics-card_checked .accountpage__technics-cardtext {
+      color: #bfbfbf; }
+    .accountpage__technics-card_checked .accountpage__technics-cardclose {
+      pointer-events: none;
+      background-image: url(../img/icon_tick.svg);
+      background-size: 17px; }
+    .accountpage__technics-card + .accountpage__technics-card {
+      margin-top: 15px; }
+    .accountpage__technics-cardname {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.25em;
+      padding-right: 30px; }
+      .accountpage__technics-cardname + .accountpage__technics-cardtext {
+        margin-top: 4px; }
+    .accountpage__technics-cardclose {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      right: 9px;
+      top: 11px;
+      background-image: url(../img/icon_close_popup.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      cursor: pointer;
+      -webkit-transition: all .25s ease-in-out;
+      transition: all .25s ease-in-out;
+      opacity: 1;
+      background-position: right top;
+      background-size: 12px; }
+      .accountpage__technics-cardclose:hover {
+        opacity: .7; }
+    .accountpage__technics-cardtext {
+      font-size: 16px;
+      color: #333333;
+      line-height: 1.25em; }
+    .accountpage__technics-cardnav li {
+      color: #2ca346;
+      font-size: 14px;
+      display: inline-block;
+      -webkit-transition: all .25s ease-in-out;
+      transition: all .25s ease-in-out;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0); }
+      .accountpage__technics-cardnav li:hover {
+        color: rgba(44, 163, 70, 0.7); }
+    .accountpage__technics-cardnav {
+      margin-top: 6px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+    .accountpage__technics-cardlinkedit {
+      margin-right: 11px;
+      cursor: pointer;
+      text-decoration: underline; }
+      .accountpage__technics-cardlinkedit:after {
+        content: "|";
+        color: #cccccc;
+        margin-left: 10px;
+        text-decoration: none;
+        display: inline-block; }
+    .accountpage__technics-cardlinkoperator {
+      position: relative;
+      cursor: pointer;
+      z-index: 0; }
+      .accountpage__technics-cardlinkoperator span {
+        position: relative;
+        z-index: 1; }
+      .accountpage__technics-cardlinkoperator.active {
+        z-index: 50; }
+      .accountpage__technics-cardlinkoperator.active .accountpage__technics-operatorlist {
+        opacity: 1;
+        pointer-events: all;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0); }
+      .accountpage__technics-cardlinkoperator.chosen:before {
+        content: "";
+        background-image: url("../img/icon_edit.svg");
+        width: 15px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        margin-right: 6px; }
+    .accountpage__technics-cardlinkoperator:before {
+      content: "+ ";
+      height: 15px;
+      display: inline-block;
+      margin-right: 2px; }
+  .accountpage__technics-operatorlist {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 0 1px rgba(35, 105, 43, 0.25);
+    background-color: white;
+    max-height: 140px;
+    overflow: auto;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+    z-index: 2; }
+    .accountpage__technics-operatorlist li {
+      color: #23692b;
+      line-height: 1.3em;
+      padding: 8px 20px;
+      width: 100%;
+      box-sizing: border-box; }
+      .accountpage__technics-operatorlist li:first-child {
+        padding-top: 13px; }
+      .accountpage__technics-operatorlist li:last-child {
+        padding-bottom: 13px; }
+
+@media (max-width: 1023px) {
+  .accountpage__technics-cardnav li.accountpage__technics-cardlinkcheck {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
+    order: 3;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.035em;
+    position: relative;
+    padding-left: 40px;
+    margin-top: 11px;
+    padding-top: 14px;
+    padding-bottom: 4px;
+    width: 100%;
+    cursor: pointer; }
+    .accountpage__technics-cardnav li.accountpage__technics-cardlinkcheck:before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: -1px;
+      top: 13px;
+      bottom: 0;
+      margin: auto;
+      background-image: url("../img/icon_calendar.svg");
+      background-size: contain;
+      height: 26px;
+      width: 31px; }
+    .accountpage__technics-cardnav li.accountpage__technics-cardlinkcheck:after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: -10px;
+      top: 0px;
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      background-color: #dee9df;
+      height: 1px; } }
+
+.selectbox_account select {
+  line-height: 43px;
+  font-size: 14px;
+  color: #2a2c28;
+  padding: 0 13px;
+  border: 1px solid #b7cfbc;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url(../img/icon_select_arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: top 50% right 10px; }
+
+.selectbox_account ul {
+  border: 1px solid #b7cfbc;
+  border-top: 0;
+  box-sizing: border-box;
+  text-align: left;
+  z-index: 60;
+  max-height: 135px;
+  overflow: auto; }
+
+.selectbox_account li {
+  font-size: 14px;
+  background-color: white;
+  padding: 13px 13px;
+  line-height: 1.3em; }
+  .selectbox_account li:hover {
+    background-color: #2ca346;
+    color: white; }
+
+.selectbox_account li + li {
+  border-top: 1px solid #b7cfbc; }
+
+/*-------------------------------------------------*/
 /*-------------------SHOPPING BAG------------------*/
 /*-------------------------------------------------*/
 .shoppingbag__order-forcheck {
@@ -8108,10 +8417,129 @@ a:hover .bounce {
     -ms-flex-align: center;
     align-items: center; }
   /**/
+  .accountpage__mobilenav {
+    display: none; }
+  .accountpage__contentblock {
+    box-shadow: 0 5px 50px 0 rgba(35, 41, 50, 0.5);
+    margin-top: -38px;
+    position: relative;
+    z-index: 2;
+    background-color: white; }
+  .accountpage {
+    padding-bottom: 70px; }
+  .accountpage__desktopnav {
+    display: block;
+    text-align: center;
+    position: relative;
+    margin-top: 38px;
+    margin-bottom: 4px; }
+    .accountpage__desktopnav li {
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.3);
+      font-weight: 500;
+      display: inline-block;
+      border-bottom: 2px solid transparent;
+      -webkit-transition: all .25s ease-in-out;
+      transition: all .25s ease-in-out;
+      padding-bottom: 3px; }
+      .accountpage__desktopnav li.active {
+        color: white;
+        border-color: white; }
+      .accountpage__desktopnav li + li {
+        margin-left: 83px; }
+  .accountpage__desktopheading {
+    display: block;
+    background-color: #23692b; }
+    .accountpage__desktopheading-text {
+      font-size: 22px;
+      color: white;
+      padding: 13px 15px 17px;
+      line-height: 30px;
+      height: 59px;
+      box-sizing: border-box; }
+  .accountpage__contentblock_active:after {
+    margin: 0;
+    left: 0;
+    font-size: 14px;
+    width: auto;
+    padding: 4px 13px; }
+  .accountpage__desktopnav li.accountpage__desktopnav-logout {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    font-size: 14px;
+    padding-left: 24px;
+    color: white; }
+    .accountpage__desktopnav li.accountpage__desktopnav-logout:hover {
+      opacity: 1; }
+    .accountpage__desktopnav li.accountpage__desktopnav-logout:before {
+      content: "";
+      background-image: url("../img/icon_logout.svg");
+      background-size: contain;
+      background-position: center;
+      width: 18px;
+      height: 18px;
+      top: -2px;
+      left: 0;
+      bottom: 0;
+      margin: auto;
+      position: absolute; }
+  .accountpage__diagramcol {
+    display: block;
+    position: relative; }
+  .accountpage__contenthead_technics, .accountpage__technics .accountpage__blockcontent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0; }
+    .accountpage__contenthead_technics .accountpage__desktopleftcol, .accountpage__contenthead_technics .accountpage__desktoprightcol, .accountpage__technics .accountpage__blockcontent .accountpage__desktopleftcol, .accountpage__technics .accountpage__blockcontent .accountpage__desktoprightcol {
+      padding: 0;
+      box-sizing: border-box; }
+    .accountpage__contenthead_technics .accountpage__desktopleftcol, .accountpage__technics .accountpage__blockcontent .accountpage__desktopleftcol {
+      width: 25.6%; }
+    .accountpage__contenthead_technics .accountpage__desktoprightcol, .accountpage__technics .accountpage__blockcontent .accountpage__desktoprightcol {
+      width: 74.43%; }
+  .accountpage__contenthead_technics .accountpage__desktopleftcol, .accountpage__contenthead_technics .accountpage__desktoprightcol {
+    padding: 22px 15px; }
+  .accountpage__searchfilter + .selectbox {
+    margin-top: 0;
+    margin-left: 36px;
+    display: inline-block; }
+  .accountpage__contenthead_technics .accountpage__searchfilter {
+    display: inline-block;
+    margin-top: 0; }
+  .accountpage__contenthead_technics .accountpage__desktoprightcol {
+    text-align: right; }
+  .accountpage__technics-cards {
+    padding: 0; }
+  .accountpage__technics-card + .accountpage__technics-card {
+    margin-top: 0; }
+  .accountpage__technics-card {
+    box-shadow: inset 0 -1px 0 0 #dee9df; }
+    .accountpage__technics-card:last-child {
+      box-shadow: none; }
+  .accountpage__contenthead_technics .selectbox, .accountpage__contenthead_technics .accountpage__searchfilter {
+    width: 259px; }
+  .accountpage__technics-card {
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-bottom: 12px; }
+  .accountpage__technics-cardlinkoperator {
+    margin-top: 6px;
+    width: 100%; }
+  .accountpage__technics-cardlinkcheck {
+    text-decoration: underline; }
+    .accountpage__technics-cardlinkcheck.checked {
+      color: #ce271a; }
+      .accountpage__technics-cardlinkcheck.checked:hover {
+        color: #f93526; }
+  .accountpage__technics-cardnav li:hover {
+    text-decoration: none;
+    cursor: pointer; }
   .page {
     padding-top: 60px; }
   /*-----------MAIN--------------*/
-  .container {
+  .container, .accountpage__content .container {
     width: 990px; }
   .container.small {
     width: 790px; }
@@ -9948,8 +10376,9 @@ a:hover .bounce {
     margin-left: 8px; }
   .account__technics-note-reserve:before {
     display: none; }
-  .account__technics-card-edit p:last-child {
-    margin-top: 5px; }
+  .account__technics-operator {
+    margin-top: 5px;
+    display: block; }
   .account__technics-card a.sideicon {
     right: 15px;
     top: 14px; }
@@ -9958,7 +10387,8 @@ a:hover .bounce {
     border-bottom: 1px solid #eab6b3;
     margin-left: 8px; }
   .account__technics-cards .container {
-    box-shadow: 0px -5px 50px 0px rgba(35, 41, 50, 0.5); }
+    box-shadow: 0px -5px 50px 0px rgba(35, 41, 50, 0.5);
+    position: relative; }
   .account__technics-info {
     margin-top: -38px;
     position: relative;
@@ -10279,7 +10709,8 @@ a:hover .bounce {
   .shoppingbag__order-payment .button {
     width: auto;
     margin-top: 54px;
-    padding: 12px 40px 14px; } }
+    padding: 12px 40px 14px; }
+  /*-----------NEW ACCOUNT--------------*/ }
 
 @media (max-width: 1023px) {
   /*-----------MAIN--------------*/
@@ -10420,7 +10851,7 @@ a:hover .bounce {
 
 @media (min-width: 1170px) {
   /*-----------MAIN--------------*/
-  .container {
+  .container, .accountpage__content .container {
     width: 1140px; }
   .container.small {
     width: 945px; }
@@ -10512,7 +10943,7 @@ a:hover .bounce {
 
 @media (min-width: 1440px) {
   /*-----------MAIN--------------*/
-  .container {
+  .container, .accountpage__content .container {
     width: 1410px; }
   .container.small {
     width: 1210px; }
@@ -10587,7 +11018,7 @@ a:hover .bounce {
   /* Расстояние между колонками*/
   /* Ширина колонки*/
   /*-----------MAIN--------------*/
-  .container {
+  .container, .accountpage__content .container {
     width: 1530px; }
   .container.small {
     width: 1270px; }

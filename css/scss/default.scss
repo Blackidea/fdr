@@ -3,7 +3,7 @@
 body.mainpage .page {padding-top:0}
 
 /* Секции, header, footer и т.д. //*/
-.diagram {display:none; width: 74.3%; position: absolute; right: 0; top: 0; height: 100%; background-color: #f7f7f7; overflow-y: none; overflow-x: scroll; ms-overflow-style: none; cursor:move; overflow: -moz-scrollbars-none;
+.diagram {display:none; width: 100%; height: 100%; background-color: #f7f7f7; overflow-y: none; overflow-x: scroll; ms-overflow-style: none; cursor:move; overflow: -moz-scrollbars-none;
   &-outer {position: relative;}
   * {pointer-events:none}
   &::-webkit-scrollbar {display: none;}
@@ -43,8 +43,8 @@ body.mainpage .page {padding-top:0}
       &:before {width:1px; height:12px;}
     }
   }
-  &__row {border-bottom:1px solid rgba(#23692b, .15); height:124px; width:100%; position: relative;
-    &:last-child {border:0;}
+  &__row {box-shadow:inset 0 -1px 0 0 rgba(#23692b, .15); height:124px; width:100%; position: relative;
+    &:last-child {box-shadow:none;}
   }
   &__highlight {border:1px solid rgba(#ea6900,.5); box-sizing:border-box; background-color:rgba(#ea6900, .2); height:30px; position: absolute; top:0; bottom:0; margin:auto;
     &:before, &:after {color:#666666; font-size:14px; display:block; position: absolute; bottom:100%; margin-bottom:5px;}
@@ -1891,6 +1891,131 @@ body.mainpage .page {padding-top:0}
 		img {width: 100%; height: 100%; -o-object-fit: cover; object-fit: cover;}
 	}
 }
+
+
+
+
+
+
+
+
+/*-------------------------------------------------*/
+/*---------------------NEW ACCOUNT---------------------*/
+/*-------------------------------------------------*/
+.accountpage {
+  &__desktopnav {display:none}
+  &__content {position: relative;
+    .container {width:100%;}
+  }
+  &__contentblock {position:relative;
+      &_active:after {content:"Активен"; font-size:12px; font-weight:300; color:white; display:inline-block; background-color:rgba(#23692b,.6); bottom:100%; left:50%; position: absolute; width:62px; line-height:15px; margin-left:-31px;}
+  }
+
+  &__contenthead {padding:20px 15px;
+    &_technics {
+      .button {width:100%;}
+      .accountpage__searchfilter {margin-top:20px;}
+    }
+  }
+
+  &__mobilenav {display:-webkit-box;display:-ms-flexbox;display:flex; position: relative; z-index:2; box-shadow:0 0 10px 0 rgba(black,.5);
+    li {width:25%; background-color:#23692b; height:40px; display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; cursor:pointer; -webkit-transition:opacity .25s ease-in-out; -webkit-transition:opacity .25s ease-in-out, background-color .25s ease-in-out; transition:opacity .25s ease-in-out, background-color .25s ease-in-out;
+      &:hover {opacity:.9}
+      &:nth-of-type(2n) {background-color:#1c5422}
+      path, rect {-webkit-transition:fill .25s ease-in-out;transition: fill .25s ease-in-out}
+      &.active {background-color:white;
+        path, rect {fill:#2ca346;}
+      }
+    }
+  }
+
+  &__diagramcol {display:none}
+  &__desktopheading {display:none}
+
+  /* ########################## */
+
+  &__searchfilter {display:block; position: relative;
+    input {line-height:43px; font-size:14px; color:#2a2c28; padding:0 13px; border:1px solid #b7cfbc; width:100%; box-sizing:border-box;}
+    button {position: absolute; top:0; bottom:0; right:9px; background:none; border:none; padding:0;
+      img {width:22px; height:21px;}
+      &:hover {opacity:.7}
+    }
+    &+.selectbox {margin-top:20px;}
+    ::-webkit-input-placeholder {color:#2a2c28}
+    ::-moz-placeholder {color:#2a2c28}
+    :-ms-input-placeholder {color:#2a2c28}
+    :-moz-placeholder {color:#2a2c28}
+  }
+
+  /* ########################## */
+
+  &__technics-cards {background-color:#23692b; background-image:url("../img/index/pattern.svg"); padding:15px;}
+  &__technics-card {background-color:white; padding:11px 10px; box-shadow:0 0 10px 0 rgba(black,.5); text-align: left; position:relative;
+    &_checked {
+      .accountpage__technics-cardname {color:#b8b8b8}
+      .accountpage__technics-cardtext {color:#bfbfbf}
+      .accountpage__technics-cardclose {pointer-events:none; background-image: url(../img/icon_tick.svg); background-size:17px;}
+    }
+    &+.accountpage__technics-card {margin-top:15px;}
+    &name {font-size:16px; font-weight:600; line-height:(20/16)*1em; padding-right:30px;
+      &+.accountpage__technics-cardtext {margin-top: 4px;}
+    }
+    &close {position: absolute; width: 20px; height: 20px; right: 9px; top: 11px; background-image: url(../img/icon_close_popup.svg); background-repeat: no-repeat; background-position:center; cursor:pointer; -webkit-transition:all .25s ease-in-out; transition:all .25s ease-in-out; opacity:1; background-position:right top; background-size:12px;
+      &:hover {opacity:.7}
+    }
+    &text {font-size:16px; color:#333333; line-height:(20/16)*1em;}
+    &nav li {color:#2ca346; font-size:14px; display:inline-block; -webkit-transition:all .25s ease-in-out; transition:all .25s ease-in-out; -webkit-transform:translate3d(0,0,0); transform:translate3d(0,0,0);
+      &:hover {color:rgba(#2ca346,.7)}
+    }
+    &nav {margin-top: 6px; display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -ms-flex-wrap:wrap; flex-wrap:wrap;}
+    &linkedit {margin-right:11px; cursor:pointer; text-decoration:underline;
+      &:after {content:"|"; color:#cccccc; margin-left:10px; text-decoration:none; display:inline-block;}
+    }
+    &linkoperator {position: relative; cursor:pointer; z-index:0;
+      span {position: relative; z-index:1;}
+      &.active {z-index:50}
+      &.active .accountpage__technics-operatorlist {opacity:1; pointer-events:all; -webkit-transform: translate3d(0,0,0); transform: translate3d(0,0,0);}
+      &.chosen:before {content:""; background-image:url("../img/icon_edit.svg"); width:15px; background-size:contain; background-position:center; background-repeat:no-repeat; vertical-align: middle; margin-right:6px;}
+    }
+    &linkoperator:before {content:"+ "; height:15px; display:inline-block; margin-right:2px;}
+  }
+  &__technics-operatorlist {position: absolute; top:100%; left:0; opacity:0; pointer-events:none; box-shadow:0 0 0 1px rgba(#23692b, .25); background-color:white; max-height: 140px; overflow: auto; -webkit-transition:all .25s ease-in-out; transition:all .25s ease-in-out; -webkit-transform: translate3d(0,-10px,0); transform: translate3d(0,-10px,0); z-index:2;
+    li {color:#23692b; line-height:1.3em; padding:8px 20px; width:100%; box-sizing:border-box;
+      &:first-child {padding-top:13px;}
+      &:last-child {padding-bottom:13px;}
+    }
+  }
+
+  /* ########################## */
+
+
+}
+
+@media (max-width:1023px) {
+  .accountpage__technics-cardnav li.accountpage__technics-cardlinkcheck {-webkit-box-ordinal-group:4; -ms-flex-order:3; order:3; font-size:16px; text-transform: uppercase; letter-spacing: 0.035em; position:relative; padding-left: 40px; margin-top: 11px; padding-top: 14px; padding-bottom: 4px; width:100%; cursor:pointer;
+    &:before {content:""; display:block; position:absolute; left:-1px; top:13px; bottom:0; margin:auto; background-image:url("../img/icon_calendar.svg"); background-size:contain; height:26px; width:31px;}
+    &:after {content:""; display:block; position:absolute; left:-10px; top:0px; width:100%; padding-left:10px; padding-right:10px; background-color:#dee9df; height:1px;}
+  }
+}
+
+.selectbox_account {
+  select {line-height:43px; font-size:14px; color:#2a2c28; padding:0 13px; border:1px solid #b7cfbc; width:100%; box-sizing:border-box; background-image: url(../img/icon_select_arrow.svg); background-repeat: no-repeat; background-size: 15px; background-position: top 50% right 10px;}
+  ul {border:1px solid #b7cfbc; border-top:0; box-sizing:border-box; text-align: left; z-index:60; max-height:135px; overflow:auto;}
+  li {font-size:14px; background-color:white; padding:13px 13px; line-height:1.3em;
+    &:hover {background-color:#2ca346; color:white;}
+  }
+  li+li {border-top:1px solid #b7cfbc;}
+}
+
+
+
+
+
+
+
+
+
+
 
 /*-------------------------------------------------*/
 /*-------------------SHOPPING BAG------------------*/

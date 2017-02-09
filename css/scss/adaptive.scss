@@ -199,10 +199,78 @@ $twelve-col:$col*12+$col-m*11;
 
 		/**/
 
+
+
+
+
+
+		.accountpage__mobilenav {display:none}
+		.accountpage__contentblock {box-shadow:0 5px 50px 0 rgba(#232932,.5); margin-top:-38px; position: relative; z-index:2; background-color:white;}
+		.accountpage {padding-bottom:70px;}
+		.accountpage__desktopnav {display:block; text-align: center; position:relative; margin-top:38px; margin-bottom:4px;
+			li {font-size:16px; color:rgba(white,.3); font-weight:500; display:inline-block; border-bottom:2px solid transparent; -webkit-transition: all .25s ease-in-out; transition:all .25s ease-in-out; padding-bottom:3px;
+				&.active {color:white; border-color:white;}
+				&+li {margin-left:83px;}
+			}
+		}
+		.accountpage__desktopheading {display:block; background-color:#23692b;
+	    &-text {font-size:22px; color:white; padding: 13px 15px 17px; line-height:30px; height:59px; box-sizing:border-box;}
+		}
+		.accountpage__contentblock_active:after {margin:0; left:0; font-size: 14px; width: auto; padding: 4px 13px;}
+		.accountpage__desktopnav li.accountpage__desktopnav-logout {position:absolute; top:2px; right:0; font-size:14px; padding-left:24px; color:white;
+			&:hover {opacity:1;}
+			&:before {content:""; background-image:url("../img/icon_logout.svg"); background-size:contain; background-position:center; width:18px; height:18px; top:-2px; left:0; bottom:0; margin:auto; position:absolute;}
+		}
+		.accountpage__diagramcol {display:block; position:relative;}
+
+
+
+		.accountpage__contenthead_technics, .accountpage__technics .accountpage__blockcontent {display:-webkit-box;display:-ms-flexbox;display:flex; padding:0;
+			.accountpage__desktopleftcol, .accountpage__desktoprightcol {padding: 0; box-sizing:border-box;}
+			.accountpage__desktopleftcol {width:25.6%}
+			.accountpage__desktoprightcol {width:74.43%}
+		}
+
+
+
+
+		.accountpage__contenthead_technics .accountpage__desktopleftcol, .accountpage__contenthead_technics .accountpage__desktoprightcol{padding: 22px 15px;}
+		.accountpage__searchfilter + .selectbox {margin-top:0; margin-left:36px; display:inline-block}
+		.accountpage__contenthead_technics .accountpage__searchfilter { display:inline-block; margin-top:0;}
+		.accountpage__contenthead_technics {
+			.accountpage__desktoprightcol {text-align: right;}
+		}
+
+		.accountpage__technics-cards {padding:0;}
+		.accountpage__technics-card + .accountpage__technics-card {margin-top:0;}
+		.accountpage__technics-card {box-shadow:inset 0 -1px 0 0 #dee9df;
+	    &:last-child {box-shadow:none}
+		}
+		.accountpage__contenthead_technics .selectbox, .accountpage__contenthead_technics .accountpage__searchfilter {width:259px}
+		.accountpage__technics-card {padding-left:19px; padding-right:19px; padding-bottom:12px;}
+		.accountpage__technics-cardlinkoperator {margin-top:6px; width:100%;}
+		.accountpage__technics-cardlinkcheck {text-decoration:underline;
+			&.checked {color:#ce271a;
+				&:hover {color:#f93526}
+			}
+		}
+		.accountpage__technics-cardnav li:hover {text-decoration:none; cursor:pointer}
+
+
+
+
+
+
+
+
+
+
+
+
 .page {padding-top:60px}
 
 	/*-----------MAIN--------------*/
-	.container {width:990px}
+	.container, .accountpage__content .container {width:990px}
 	.container.small {width: 790px;}
 	h1 {font-size: 62px; line-height: 1em;}
 	h2 {font-size: 32px;}
@@ -850,10 +918,10 @@ $twelve-col:$col*12+$col-m*11;
 	.account__technics-note-reserve.mobile {display: none;}
 	.account__technics-note-reserve {margin-top: 0; border-bottom: 1px solid #b7cfbc; margin-left: 8px;}
 	.account__technics-note-reserve:before {display: none;}
-	.account__technics-card-edit p:last-child {margin-top: 5px;}
+	.account__technics-operator {margin-top: 5px; display:block;}
 	.account__technics-card a.sideicon {right: 15px; top: 14px;}
 	.account__technics-save {color: $red !important; border-bottom: 1px solid #eab6b3; margin-left: 8px;}
-	.account__technics-cards .container {box-shadow: 0px -5px 50px 0px rgba(35, 41, 50, 0.5);}
+	.account__technics-cards .container {box-shadow: 0px -5px 50px 0px rgba(35, 41, 50, 0.5); position:relative;}
 	.account__technics-info {margin-top: -38px; position: relative; padding-bottom: 70px;}
 	.account__technics-info .container {background-color: #fff; text-align: center;}
 	.account__technics-info p.toptext {margin-top: 30px; margin-left: 23px; width: 100%;}
@@ -944,6 +1012,9 @@ $twelve-col:$col*12+$col-m*11;
 	.shoppingbag__formpart .radiodiv:last-child {float: right;}
 	.shoppingbag__formpart .radiodiv p {font-size: 16px;}
 	.shoppingbag__order-payment .button {width: auto; margin-top: 54px; padding: 12px 40px 14px;}
+
+	/*-----------NEW ACCOUNT--------------*/
+
 }
 
 @media (max-width:1023px) {
@@ -1042,7 +1113,7 @@ $twelve-col:$col*12+$col-m*11;
 
 @media (min-width:1170px) {
 	/*-----------MAIN--------------*/
-	.container {width:1140px}
+	.container, .accountpage__content .container {width:1140px}
 	.container.small {width: 945px;}
 
 	.firstscreen .searchform__field:first-child {width: 35.2%;}
@@ -1111,7 +1182,7 @@ $twelve-col:$col*12+$col-m*11;
 
 @media (min-width:1440px) {
 	/*-----------MAIN--------------*/
-	.container {width:1410px}
+	.container, .accountpage__content .container {width:1410px}
 	.container.small {width: 1210px;}
 
 	.sale .container {width: 1410px;}
@@ -1178,7 +1249,7 @@ $twelve-col:$col*12+$col-m*11;
 	$twelve-col:$col*12+$col-m*11;
 
 	/*-----------MAIN--------------*/
-	.container {width:1530px}
+	.container, .accountpage__content .container {width:1530px}
 	.container.small {width: 1270px;}
 	h1 {font-size: 76px; line-height: 1em;}
 	h2 {font-size: 40px;}

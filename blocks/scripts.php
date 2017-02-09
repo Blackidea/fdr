@@ -30,3 +30,4 @@
 <script src="js/jquery.lazyload.min.js"></script>
 
 <script src="js/scripts.min.js"></script>
+<script src="js/accountscripts.js"></script>
