@@ -4,7 +4,7 @@
       <!-- head -->
       <div class="accountpage__contenthead accountpage__contenthead_technics">
         <div class="accountpage__desktopleftcol">
-          <a href="#full-payment" class="button button_green button_big fancybox"><span class="button__border-top"></span>Оплатить<span class="button__border-bottom"></span></a>
+          <a data-change-account="technics-info" class="button button_green button_big"><span class="button__border-top"></span>Добавить технику<span class="button__border-bottom"></span></a>
         </div>
 
         <div class="accountpage__desktoprightcol">

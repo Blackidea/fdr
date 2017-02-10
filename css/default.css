@@ -58,6 +58,13 @@ input:-webkit-autofill:active {
   -webkit-transition: background-color 50000000000s ease-in-out 0s !important;
   transition: background-color 50000000000s ease-in-out 0s !important; }
 
+.button:hover {
+  cursor: pointer; }
+
+.accountpage__contenthead_technics .button.button_green {
+  padding-left: 13px;
+  padding-right: 13px; }
+
 /* Сетка //*/
 /* Расстояние между колонками*/
 /* Ширина колонки*/
