@@ -29,9 +29,13 @@
 	<div class="container">
 		<div class="top">
 			<p class="toptext">Показать:</p>
-			<select name="" id="">
-				<option value="">Все акции</option>
-			</select>
+			<div class="selectbox selectbox_white selectbox_inputbox">
+				<select name="sales">
+					<option value="all">Все акции</option>
+					<option value="part">Не все акции</option>
+				</select>
+			<ul class="selectbox__selectlist"></ul>
+			</div>
 		</div>
 	</div>
 	<div class="salesblocks">

@@ -1,5 +1,5 @@
 <!-- Всплывающая форма заявки !-->
-<!-- <form class="popup" id="popup" action="send.php" method="post">
+<!-- <form class="popup " id="popup" action="send.php" method="post">
 	<p>Заполните заявку!</p>
     <input type="name" name="name" placeholder="Ваше имя" required/>
     <input type="tel" name="tel" placeholder="Телефон" required/>
@@ -244,7 +244,7 @@
 	<div class="container">
 		<p class="heading">Авторизация</p>
 		<p>Нет аккаунта? <a href="#" class="register">Зарегистрируйтесь</a></p>
-		<form action="send.php" method="post">
+		<form class="" action="send.php" method="post">
 			<p class="big">Email/номер телефона</p>
 			<input type="text">
 			<p class="big">Пароль</p>
@@ -256,7 +256,7 @@
 </div>
 
 <!-- Регистрация -->
-<div class="registration">
+<div id="registration_popup" class="registration">
 	<div class="bg"></div>
 	<img src="img/bg_autreg.jpg" alt="@@">
 	<a href="#" class="close-button"></a>

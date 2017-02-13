@@ -1,6 +1,6 @@
 <div class="account__messages page-of-account">
   <div class="container account__messages-prehead">
-    <a href="#" class="button button_green"><span class="button__border-top"></span>Создать обращение<span class="button__border-bottom"></span></a>
+    <a href="#createmessage" class="button button_green fancybox"><span class="button__border-top"></span>Создать обращение<span class="button__border-bottom"></span></a>
     <select name="" id="">
       <option value="">Все 6</option>
     </select>

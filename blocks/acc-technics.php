@@ -8,7 +8,7 @@
         </div>
 
         <div class="accountpage__desktoprightcol">
-          <form class="accountpage__searchfilter" action="index.html" method="post">
+          <form class="accountpage__searchfilter " action="index.html" method="post">
             <input type="search" name="search" placeholder="VIN">
             <button type="submit"><img src="img/index/search.svg"></button>
           </form>

@@ -3,7 +3,7 @@
 		<div class="footer__top-part">
 			<!-- Desktop -->
 			<a href="#" class="footer__logo"><img src="img/logo_foderent_footer.svg" alt="@@" width="217"></a>
-			
+
 			<div class="footer__buttonblock">
 			    <div class="footer__button-container">
 			        <a href="#" class="button"><span class="button__border-top"></span>Начать пользоваться<span class="button__border-bottom"></span></a>
@@ -35,7 +35,7 @@
 			        <li><p><a href="#">Контакты</a></p></li>
 			    </ul>
 			</div>
-			
+
 			<form action="send.php" method="post" class="footer__form">
 				<p class="big">Подписка на новости и акции</p>
 				<input type="text" placeholder="Email">

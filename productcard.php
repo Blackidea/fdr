@@ -112,12 +112,15 @@
 					<li><p>Эксплуатационная масса (кг)</p><p>19500</p></li>
 					<li><p>Мощность двигателя (л.с.)</p><p>190</p></li>
 					<li><p>Тип отвала</p>
-						<select name="">
-							<option value="">Прямой</option>
-							<option value="">Пункт 1</option>
-							<option value="">Пункт 2</option>
-							<option value="">Пункт 3</option>
-						</select>
+						<div class="selectbox selectbox_white selectbox_inputbox">
+							<select name="dumptype">
+								<option value="straight">Прямой</option>
+								<option value="point1">Пункт 1</option>
+								<option value="point2">Пункт 2</option>
+								<option value="point3">Пункт 3</option>
+							</select>
+							<ul class="selectbox__selectlist"></ul>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -168,132 +171,132 @@
 				<div class="productcard__similarslider slider">
 					<div class="productcard__similarwrapper wrapper">
 						<div class="productcard__similarslide slide">
-							<div class="productcard__similarcard">
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
 									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
+							</a>
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
 									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
-								<div class="image">
-									<img src="img/product.jpg" alt="@@">
-								</div>
-								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
+							</a>
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
 									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
+							</a>
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
-									<img src="img/product.jpg" alt="@@">
+									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
+							</a>
+							<a href="#" class="productcard__similarcard">
+								<div class="image">
+									<img src="img/product_2.jpg" alt="@@">
+								</div>
+								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
+							</a>
 						</div>
 						<div class="productcard__similarslide slide">
-							<div class="productcard__similarcard">
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
 									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
+							</a>
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
 									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
-								<div class="image">
-									<img src="img/product.jpg" alt="@@">
-								</div>
-								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
+							</a>
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
 									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
+							</a>
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
-									<img src="img/product.jpg" alt="@@">
+									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
+							</a>
+							<a href="#" class="productcard__similarcard">
+								<div class="image">
+									<img src="img/product_2.jpg" alt="@@">
+								</div>
+								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
+							</a>
 						</div>
 						<div class="productcard__similarslide slide">
-							<div class="productcard__similarcard">
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
 									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
+							</a>
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
 									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
-								<div class="image">
-									<img src="img/product.jpg" alt="@@">
-								</div>
-								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
+							</a>
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
 									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
+							</a>
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
-									<img src="img/product.jpg" alt="@@">
+									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
+							</a>
+							<a href="#" class="productcard__similarcard">
+								<div class="image">
+									<img src="img/product_2.jpg" alt="@@">
+								</div>
+								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
+							</a>
 						</div>
 						<div class="productcard__similarslide slide">
-							<div class="productcard__similarcard">
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
 									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
+							</a>
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
 									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
-								<div class="image">
-									<img src="img/product.jpg" alt="@@">
-								</div>
-								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
+							</a>
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
 									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
-							<div class="productcard__similarcard">
+							</a>
+							<a href="#" class="productcard__similarcard">
 								<div class="image">
-									<img src="img/product.jpg" alt="@@">
+									<img src="img/product_2.jpg" alt="@@">
 								</div>
 								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
-							</div>
+							</a>
+							<a href="#" class="productcard__similarcard">
+								<div class="image">
+									<img src="img/product_2.jpg" alt="@@">
+								</div>
+								<p>Бульдозер гусеничный <br>KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
+							</a>
 						</div>
 					</div>
 					<div class="productcard__similarsliderdots">

@@ -9,7 +9,7 @@
     <?php include "blocks/css.php"; ?>
 </head>
 
-<body> 
+<body>
 
 <?php include "blocks/burgermenu.php"; ?>
 
@@ -33,7 +33,7 @@
 					<p>Техника</p>
 				</div>
 				<ul class="shoppingbag__orders-list">
-					<li>
+					<li class="row-to-diagram">
 						<a href="#" class="deleteicon"><img src="img/icon_close_popup.svg" alt="@@" width="12"></a>
 						<p>Бульдозер гусеничный <br>
 						KOMATSU D85ESS-2A</p>
@@ -46,7 +46,7 @@
 							<a href="#"><img src="img/icon_calendar.svg" alt="@@"></a>
 						</div>
 					</li>
-					<li>
+					<li class="row-to-diagram">
 						<a href="#" class="deleteicon"><img src="img/icon_close_popup.svg" alt="@@" width="12"></a>
 						<p>Бульдозер гусеничный <br>
 						KOMATSU D85ESS-2A</p>
@@ -59,20 +59,7 @@
 							<a href="#"><img src="img/icon_calendar.svg" alt="@@"></a>
 						</div>
 					</li>
-					<li style="display:none;">
-						<a href="#" class="deleteicon"><img src="img/icon_close_popup.svg" alt="@@" width="12"></a>
-						<p>Бульдозер гусеничный <br>
-						KOMATSU D85ESS-2A</p>
-						<p class="shoppingbag__order-cost_info">70 000 руб.</p>
-						<div class="searchform__field searchform__field_date">
-							<p>Дата:</p>
-							<p class="huge">24.10</p>
-							<img src="img/icon_arrow_right.png" alt="@@">
-							<p class="huge">02.11</p>
-							<a href="#"><img src="img/icon_calendar.svg" alt="@@"></a>
-						</div>
-					</li>
-					<li class="shoppingbag__notavailable">
+					<li class="shoppingbag__notavailable row-to-diagram">
 						<a href="#" class="deleteicon"><img src="img/icon_close_popup.svg" alt="@@" width="12"></a>
 						<p>Бульдозер гусеничный <br>
 						KOMATSU D85ESS-2A</p>
@@ -91,16 +78,18 @@
 					</li>
 				</ul>
 			</div>
-			<div class="calendar"></div>
+			<div class="calendar">
+			  <?php include "blocks/shop_diagram.php"; ?>
+			</div>
 		</div>
 	</div>
-	<div class="shoppingbag__topay shoppingbag__check" style="display:none;">
+	<div class="shoppingbag__topay shoppingbag__check">
 		<div class="container">
 			<p class="shoppingbag__cost-total">Сумма: <span>210 000 руб.</span></p>
 			<div class="shoppingbag__actions">
-				<a href="#" class="button button_green"><span class="button__border-top"></span>Проверить наличие<span class="button__border-bottom"></span></a>
-				<p class="red"><img src="img/icon_trash.svg" alt="@@" width="16"><a href="#">Очистить корзину</a></p>
-				<p><img src="img/icon_truck.svg" alt="@@" width="24"><a href="#">Продолжить выбор</a></p>
+				<a href="#" class="button button_green shoppingbag__pay_open"><span class="button__border-top"></span>Проверить наличие<span class="button__border-bottom"></span></a>
+				<p class="red"><img src="img/icon_trash.svg" alt="@@" width="16"><a href="index.php">Очистить корзину</a></p>
+				<p><img src="img/icon_truck.svg" alt="@@" width="24"><a href="index.php">Продолжить выбор</a></p>
 			</div>
 		</div>
 	</div>
@@ -108,7 +97,7 @@
 		<div class="container">
 			<p class="shoppingbag__cost-total">Сумма: <span>210 000 руб.</span></p>
 			<div class="shoppingbag__actions">
-				<a href="#extend-worktime" class="button button_green fancybox"><span class="button__border-top"></span>Оплатить<span class="button__border-bottom"></span></a>
+				<a href="" class="button button_green shoppingbag__order-payment_open"><span class="button__border-top"></span>Оплатить<span class="button__border-bottom"></span></a>
 				<p><img src="img/icon_extend.svg" alt="@@" width="29"><a href="#">Продлить бронь</a></p>
 				<p class="red"><img src="img/icon_trash.svg" alt="@@" width="16"><a href="#">Отменить бронь</a></p>
 			</div>

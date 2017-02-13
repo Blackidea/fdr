@@ -1,13 +1,13 @@
 <section class="searchresult">
 	<div class="container searchresult__buttons">
-		<a href="#" class="button">Фильтр</a>
-		<a href="#map" class="button">Карта</a>
-		<a href="#list" class="button" style="display:none;">Список</a>
+		<a href="#" class="button filter_button">Фильтр</a>
+		<a href="searchresult__map" class="button">Карта</a>
+		<a href="searchresult__cards" class="button" style="display:none;">Список</a>
 	</div>
-	<div class="searchresult__main">
+	<div class="searchresult__main" style="min-height: 345px;">
 		<div class="container">
-			<div class="searchresult__cards">
-				<div>
+			<div class="searchresult__cards ">
+				<div class="searchresult__cards_item">
 					<div class="image">
 						<div class="overlay">
 							<a href="#" class="button"><span class="button__border-top"></span>В корзину<span class="button__border-bottom"></span></a>
@@ -17,7 +17,7 @@
 					</div>
 					<p>Бульдозер гусеничный KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
 				</div>
-				<div>
+				<div class="searchresult__cards_item">
 					<div class="image">
 						<div class="overlay">
 							<a href="#" class="button"><span class="button__border-top"></span>В корзину<span class="button__border-bottom"></span></a>
@@ -27,7 +27,7 @@
 					</div>
 					<p>Бульдозер гусеничный KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
 				</div>
-				<div>
+				<div class="searchresult__cards_item">
 					<div class="image">
 						<div class="overlay">
 							<a href="#" class="button"><span class="button__border-top"></span>В корзину<span class="button__border-bottom"></span></a>
@@ -37,7 +37,7 @@
 					</div>
 					<p>Бульдозер гусеничный KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
 				</div>
-				<div>
+				<div class="searchresult__cards_item">
 					<div class="image">
 						<div class="overlay">
 							<a href="#" class="button"><span class="button__border-top"></span>В корзину<span class="button__border-bottom"></span></a>
@@ -47,7 +47,7 @@
 					</div>
 					<p>Бульдозер гусеничный KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
 				</div>
-				<div>
+				<div class="searchresult__cards_item">
 					<div class="image">
 						<div class="overlay">
 							<a href="#" class="button"><span class="button__border-top"></span>В корзину<span class="button__border-bottom"></span></a>
@@ -57,7 +57,7 @@
 					</div>
 					<p>Бульдозер гусеничный KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
 				</div>
-				<div>
+				<div class="searchresult__cards_item">
 					<div class="image">
 						<div class="overlay">
 							<a href="#" class="button"><span class="button__border-top"></span>В корзину<span class="button__border-bottom"></span></a>
@@ -67,7 +67,7 @@
 					</div>
 					<p>Бульдозер гусеничный KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
 				</div>
-				<div>
+				<div class="searchresult__cards_item">
 					<div class="image">
 						<div class="overlay">
 							<a href="#" class="button"><span class="button__border-top"></span>В корзину<span class="button__border-bottom"></span></a>
@@ -77,7 +77,7 @@
 					</div>
 					<p>Бульдозер гусеничный KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
 				</div>
-				<div>
+				<div class="searchresult__cards_item">
 					<div class="image">
 						<div class="overlay">
 							<a href="#" class="button"><span class="button__border-top"></span>В корзину<span class="button__border-bottom"></span></a>
@@ -87,7 +87,7 @@
 					</div>
 					<p>Бульдозер гусеничный KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
 				</div>
-				<div>
+				<div class="searchresult__cards_item">
 					<div class="image">
 						<div class="overlay">
 							<a href="#" class="button"><span class="button__border-top"></span>В корзину<span class="button__border-bottom"></span></a>
@@ -97,7 +97,7 @@
 					</div>
 					<p>Бульдозер гусеничный KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
 				</div>
-				<div>
+				<div class="searchresult__cards_item">
 					<div class="image">
 						<div class="overlay">
 							<a href="#" class="button"><span class="button__border-top"></span>В корзину<span class="button__border-bottom"></span></a>
@@ -107,7 +107,7 @@
 					</div>
 					<p>Бульдозер гусеничный KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
 				</div>
-				<div>
+				<div class="searchresult__cards_item">
 					<div class="image">
 						<div class="overlay">
 							<a href="#" class="button"><span class="button__border-top"></span>В корзину<span class="button__border-bottom"></span></a>
@@ -117,7 +117,7 @@
 					</div>
 					<p>Бульдозер гусеничный KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
 				</div>
-				<div>
+				<div class="searchresult__cards_item">
 					<div class="image">
 						<div class="overlay">
 							<a href="#" class="button"><span class="button__border-top"></span>В корзину<span class="button__border-bottom"></span></a>
@@ -130,7 +130,7 @@
 				<a href="#" class="button button_green searchresult__showmore"><span class="button__border-top"></span>Показать еще<span class="button__border-bottom"></span></a>
 			</div>
 		</div>
-		<div class="searchresult__map" id="searchresultmap"></div>
+		<div class="searchresult__map " id="searchresultmap" ></div>
 		<div class="searchresult__mapcard">
 			<div class="image"><img src="img/technics_3.jpg" alt="@@"></div>
 			<p>Бульдозер гусеничный KOMATSU D85ESS-2A <span>от&nbsp;10000 руб/смена</span></p>
@@ -152,11 +152,46 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUaCNfcDZQL7nZK07DQmAHsEetCCMIQ5w&callback=initMap"></script>
 <script type="text/javascript">
 		// Аккордион
+		 var comments_size = $('.searchresult__cards').find('.searchresult__cards_item').length;
+		 $('.searchresult__cards_item').hide()
+		 var x=4;
+		 $('.searchresult__cards_item:lt('+x+')').show();
+		 $('.searchresult__showmore').click(function (e) {
+		    console.log('zazaz')
+			 	e.preventDefault();
+			 	x= (x+4 <= comments_size) ? x+4 : comments_size;
+			 	$('.searchresult__cards_item:lt('+x+')').show();
+		 });
+
+		 $('.searchresult__buttons a[href="searchresult__map"]').click(function(e) {
+			 e.preventDefault()
+			 $(this).hide()
+			 $('.searchresult__buttons a[href="searchresult__cards"]').show()
+			 $('.searchresult__cards, .accordion_searchpage').hide()
+			 $('.searchresult').css('padding-bottom', "0px")
+			 $('.searchresult__map').show()
+			 initMap()
+		 })
+		 $('.searchresult__buttons a[href="searchresult__cards"]').click(function(e) {
+			e.preventDefault()
+			$(this).hide()
+			$('.searchresult__buttons a[href="searchresult__map"]').show()
+			$('.searchresult__map').hide()
+			$('.searchresult').css('padding-bottom', "32px")
+			$('.searchresult__cards, .accordion_searchpage').show()
+			initMap()
+		})
+
+		$('.filter_button').click(function(e) {
+			e.preventDefault()
+			$('.technics__allfilters').show()
+		})
+
 		$("[data-accordion]").click(function(){
     		var target = $(this).data("accordion");
     		$(this).toggleClass("active");
     		$("#"+target).slideToggle();
-			});
+		});
 
     // When the window has finished loading create our google map below
     //google.maps.event.addDomListener(window, 'load', initMap);

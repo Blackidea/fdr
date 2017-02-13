@@ -1,6 +1,6 @@
 <div class="account__operators page-of-account">
   <div class="container account__operators-prehead">
-    <a href="#" class="button button_green"><span class="button__border-top"></span>Добавить оператора<span class="button__border-bottom"></span></a>
+    <a href="#operators-info" class="button button_green"><span class="button__border-top"></span>Добавить оператора<span class="button__border-bottom"></span></a>
     <div class="account__operators-sorting">
       <p>Сортировать по:</p>
       <select name="" id="">

@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/*Основные цвета*/
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  /* */
+  border: none; }
+
+*:focus {
+  outline: none; }
+
+/* Цвет выделения текста*/
+::-moz-selection {
+  background: #2ca346;
+  color: white; }
+
+::selection {
+  background: #2ca346;
+  color: white; }
+
+::-moz-selection {
+  background: #2ca346;
+  color: white; }
+
+::-webkit-selection {
+  background: #2ca346;
+  color: white; }
+
+/* Цвет плейсхолдера //*/
+::-webkit-input-placeholder {
+  color: #fff; }
+
+::-moz-placeholder {
+  color: #fff; }
+
+:-ms-input-placeholder {
+  color: #fff; }
+
+:-moz-placeholder {
+  color: #fff; }
+
+/* Фиксирование для body (при кастомных модальных окнах)*/
+.noscroll {
+  position: fixed; }
+
+/* Настройки для автозаполнения Chrome*/
+input:-webkit-autofill {
+  -webkit-text-fill-color: black !important;
+  /* Поменять цвет на аналогичный цвету input'а*/ }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-transition: background-color 50000000000s ease-in-out 0s !important;
+  transition: background-color 50000000000s ease-in-out 0s !important; }
+
+.button:hover {
+  cursor: pointer; }
+
+.accountpage__contenthead_technics .button.button_green {
+  padding-left: 13px;
+  padding-right: 13px; }
+
+/* Сетка //*/
+/* Расстояние между колонками*/
+/* Ширина колонки*/
+/* Равное расстояние между колонками*/
+.cols {
+  text-align: justify;
+  text-justify: distribute; }
+  .cols:after {
+    content: "";
+    display: inline-block;
+    height: 0.0000000000001px;
+    width: 100%; }
+  .cols > * {
+    display: inline-block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    vertical-align: top; }
+
+/* Сетка //*/
+/* Основы //*/
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  width: 100%;
+  float: left;
+  height: 100%;
+  font-size: 0;
+  font-family: "Exo 2", Arial, sans-serif;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out; }
+
+html {
+  overflow-x: hidden; }
+
+/*html, body {overflow-x: hidden;}*/
+header, section, footer {
+  width: 100%;
+  float: left; }
+
+section {
+  text-align: center; }
+
+.container {
+  width: 290px;
+  margin: 0 auto; }
+
+/* Основы //*/
+/* Типографика //*/
+h1, h2, h3, h4, h5, h6, p, span, ul, li {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+span {
+  font-style: inherit;
+  font-family: inherit;
+  font-weight: inherit; }
+
+/* Общие стили для заголовков (если есть)*/
+/* Стили заголовков (удалить лишнее)*/
+h1 {
+  font-size: 35px;
+  line-height: 1.2em;
+  color: #fff;
+  font-weight: 100; }
+
+h2 {
+  font-size: 22px;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  font-family: 'Gotham Pro', Arial, sans-serif; }
+
+h3 {
+  font-size: 24px;
+  line-height: 1.2em; }
+
+h4 {
+  font-size: 20px;
+  line-height: 1.2em; }
+
+h5 {
+  font-size: 18px;
+  line-height: 1.2em; }
+
+/* Стили абзацев (удалить лишнее)*/
+p {
+  font-size: 14px;
+  line-height: 1.7em; }
+
+p.small {
+  font-size: 12px; }
+
+p.big {
+  font-size: 16px; }
+
+p.huge {
+  font-size: 18px; }
+
+/* Типографика //*/
+/* Формы, кнопки, поля ввода //*/
+a, input, button, select, textarea {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+a {
+  text-decoration: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit; }
+
+select, input, textarea {
+  padding: 10px;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  display: inline-block; }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+input[type="checkbox"]:not(old), input[type="radio"]:not(old) {
+  width: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  height: 0;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto; }
+
+.button {
+  text-align: center;
+  border: 0;
+  padding: 10px;
+  display: inline-block;
+  color: white;
+  font-size: 15px;
+  background-color: transparent; }
+  .button::hover {
+    background-color: blue; }
+
+/* Формы, кнопки, поля ввода //*/

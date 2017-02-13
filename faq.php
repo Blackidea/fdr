@@ -41,27 +41,27 @@
 				<li><a href="#oferts">Договор оферты</a></li>
 				<li><a href="#technics-selection">Скидки<img src="img/icon_select_arrow.svg" alt="@@" width="10"></a>
 					<ul class="faq__hiddenlist">
-						<li><a href="#">Самосвалы</a></li>
-						<li><a href="#">Ковши</a></li>
-						<li><a href="#">Бульдозеры</a></li>
-						<li><a href="#">Тракторы</a></li>
+						<li><a href="#oferts">Самосвалы</a></li>
+						<li><a href="#oferts">Ковши</a></li>
+						<li><a href="#oferts">Бульдозеры</a></li>
+						<li><a href="#oferts">Тракторы</a></li>
 					</ul>
 				</li>
 				<li><a href="#oferts">Партнеры</a></li>
 				<li><a href="#technics-selection">Подбор техники<img src="img/icon_select_arrow.svg" alt="@@" width="10"></a>
 					<ul class="faq__hiddenlist">
-						<li><a href="#">Самосвалы</a></li>
-						<li><a href="#">Ковши</a></li>
-						<li><a href="#">Бульдозеры</a></li>
-						<li><a href="#">Тракторы</a></li>
+						<li><a href="#oferts">Самосвалы</a></li>
+						<li><a href="#oferts">Ковши</a></li>
+						<li><a href="#oferts">Бульдозеры</a></li>
+						<li><a href="#oferts">Тракторы</a></li>
 					</ul>
 				</li>
 				<li><a href="#oferts">Договор оферты<img src="img/icon_select_arrow.svg" alt="@@" width="10"></a>
 					<ul class="faq__hiddenlist">
-						<li><a href="#">Самосвалы</a></li>
-						<li><a href="#">Ковши</a></li>
-						<li><a href="#">Бульдозеры</a></li>
-						<li><a href="#">Тракторы</a></li>
+						<li><a href="#oferts">Самосвалы</a></li>
+						<li><a href="#oferts">Ковши</a></li>
+						<li><a href="#oferts">Бульдозеры</a></li>
+						<li><a href="#oferts">Тракторы</a></li>
 					</ul>
 				</li>
 				<li><a href="#technics-selection">Скидки</a></li>

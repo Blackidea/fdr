@@ -3,7 +3,7 @@
 	<div class="header__menubutton"><span></span></div>
 	<a href="index.php" class="header__logo"><img src="img/logo_foderent.svg" alt="@@" width="106"></a>
 	<div class="header__icons">
-		<a href="#" class="header__icon "><img src="img/icon_cart.svg" alt="@@"></a>
+		<a href="#" class="header__icon"><img src="img/icon_cart.svg" alt="@@"></a>
 		<!-- Desktop -->
 		<a href="#" class="header__icon authorized message" style="display:none;"><img src="img/icon_message.png" alt="@@"><span>3</span></a>
 		<!-- Desktop -->

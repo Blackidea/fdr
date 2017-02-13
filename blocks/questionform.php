@@ -1,18 +1,18 @@
-<form action="send.php" method="post" class="bottom-contact-form bottom-contact-form_question">
+<form action="send.php" method="post" class="bottom-contact-form bottom-contact-form_question required-form" id="questionform">
 	<div class="container">
 		<p class="bottom-contact-form__heading">Не нашли ответа<br> на вопрос?</p>
 		<div class="bottom-contact-form__fields">
 			<div class="bottom-contact-form__field">
 				<p><span>*</span>Имя</p>
-				<input type="text" name="name">
+				<input type="text" name="name" data-required>
 			</div>
 			<div class="bottom-contact-form__field">
 				<p><span>*</span>Телефон</p>
-				<input type="tel" name="telephone">
+				<input type="tel" name="telephone" data-required>
 			</div>
 			<div class="bottom-contact-form__field">
 				<p><span>*</span>Email</p>
-				<input type="email" name="email">
+				<input type="email" name="email" data-required>
 			</div>
 			<div class="bottom-contact-form__field bottom-contact-form__field_message">
 				<p>Сообщение</p>

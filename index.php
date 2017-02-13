@@ -30,7 +30,7 @@
 			<form class="searchform">
 				<div class="searchform__field">
 					<div class="selectbox selectbox_green selectbox_inputbox">
-              <!--<input type="text" name="typeget" placeholder="Выберите тип">-->
+              			<input type="text" name="typeget" placeholder="Выберите тип">
 					    <select name="type">
 					        <option value="type1">Тип техники 1</option>
 					        <option value="type2">Тип техники 2</option>
@@ -183,7 +183,7 @@
 	    <!-- Шаг 2. Сопроводительная техника -->
 
 	    <div class="technics__additionals">
-	        <p class="technics__additionals-heading">Сопроводительная техника:</p>
+	        <p class="technics__additionals-heading">Лучшие предложения</p>
 	        <!-- Сопроводительная техника -->
             <div class="technics__additionals-list">
                 <a href="#" class="technics__additional">
@@ -492,7 +492,7 @@
 					<p>Специалисты <br>проводят работы <br>по объекту</p>
 				</a>
 			</div>
-			<p class="news__link"><a href="#">Все новости <img src="img/icon_arrow_right_2.svg" alt="@@" width="31" class="bounce"></a></p>
+			<p class="news__link"><a href="news.php">Все новости <img src="img/icon_arrow_right_2.svg" alt="@@" width="31" class="bounce"></a></p>
 		</div>
 	</section>
 

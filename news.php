@@ -29,9 +29,13 @@
 	<div class="container">
 		<div class="top">
 			<p class="toptext">Показать:</p>
-			<select name="" id="">
-				<option value="">Все новости</option>
-			</select>
+			<div class="selectbox selectbox_white selectbox_inputbox">
+				<select name="news">
+					<option value="all">Все новости</option>
+					<option value="part">Не все новости</option>
+				</select>
+			<ul class="selectbox__selectlist"></ul>
+			</div>
 		</div>
 		<div class="newsblocks newsblocks_pagenews">
 			<a href="newspage.php" class="news-linkblock">

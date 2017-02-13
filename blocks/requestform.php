@@ -1,23 +1,23 @@
-<form action="send.php" method="post" class="bottom-contact-form bottom-contact-form_request">
+<form action="send.php" method="post" class="bottom-contact-form bottom-contact-form_request required-form" id="requestform">
 	<div class="container">
 		<p class="bottom-contact-form__heading">Оставьте заявку <br>
 		на покупку техники</p>
 		<div class="bottom-contact-form__fields">
 			<div class="bottom-contact-form__field">
 				<p>Название компании</p>
-				<input type="text" name="name">
+				<input type="text" name="companyname">
 			</div>
 			<div class="bottom-contact-form__field">
 				<p><span>*</span>Контактный телефон</p>
-				<input type="tel" name="telephone">
+				<input type="tel" name="telephone" data-required>
 			</div>
 			<div class="bottom-contact-form__field">
 				<p><span>*</span>E-mail</p>
-				<input type="email" name="email">
+				<input type="email" name="email" data-required>
 			</div>
 			<div class="bottom-contact-form__field">
 				<p><span>*</span>Имя контактного лица</p>
-				<input type="email" name="email">
+				<input type="text" name="name" data-required>
 			</div>
 			<div class="bottom-contact-form__field bottom-contact-form__field_message">
 				<p>Сообщение</p>
