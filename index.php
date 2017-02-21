@@ -5,7 +5,7 @@
     <?php include "blocks/head.php"; ?>
     <meta name="robots" content="all">
     <?php include "blocks/meta.php"; ?>
-    <title></title>
+    <title>Foderent | Новые технологии аренды спецтехники</title>
     <?php include "blocks/css.php"; ?>
 </head>
 
@@ -49,7 +49,14 @@
 				</div>
 
 				<div class="searchform__field">
-					<input type="text" name="workplace" placeholder="Место работ">
+					<div class="selectbox selectbox_green selectbox_inputbox selectbox_inputbox_noarrow">
+              			<input type="text" name="workplace" placeholder="Место работ">
+					    <select name="place">
+					        <option value="place1">Место 1</option>
+					        <option value="place2">Место 2</option>
+					    </select>
+					    <ul class="selectbox__selectlist"></ul>
+					</div>
 				</div>
 				<!-- Desktop -->
 				<button class="desktop"><img src="img/index/search.svg" alt="@@"></button>
@@ -531,6 +538,7 @@
 			</div>
 		</div>
 	</section>
+   <script src="js/datepicker.js"></script>
     </div>
 
 	<!-------------------------------------------------->

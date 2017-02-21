@@ -5,7 +5,7 @@
     <?php include "blocks/head.php"; ?>
     <meta name="robots" content="all">
     <?php include "blocks/meta.php"; ?>
-    <title></title>
+    <title>Foderent | Новые технологии аренды спецтехники</title>
     <?php include "blocks/css.php"; ?>
 </head>
 

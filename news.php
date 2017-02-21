@@ -5,7 +5,7 @@
     <?php include "blocks/head.php"; ?>
     <meta name="robots" content="all">
     <?php include "blocks/meta.php"; ?>
-    <title></title>
+    <title>Foderent | Новые технологии аренды спецтехники</title>
     <?php include "blocks/css.php"; ?>
 </head>
 
@@ -29,7 +29,7 @@
 	<div class="container">
 		<div class="top">
 			<p class="toptext">Показать:</p>
-			<div class="selectbox selectbox_white selectbox_inputbox">
+			<div class="selectbox selectbox_white">
 				<select name="news">
 					<option value="all">Все новости</option>
 					<option value="part">Не все новости</option>

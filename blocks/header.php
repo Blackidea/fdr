@@ -12,7 +12,7 @@
 		<!-- Desktop 1200 -->
 		<a href="#" class="button button_small button_green login"><span class="button__border-top"></span>Вход / Регистрация<span class="button__border-bottom"></span></a>
 	</div>
-	
+
 	<!-- Desktop -->
 	<form class="searchform header__searchform">
 		<div class="searchform__field">
@@ -33,13 +33,13 @@
 			<input type="text" value="" class="inputdatefrom" name="srokarendifrom">
             <input type="text" value="" class="inputdateto" name="srokarendito">
 		</div>
-		
+
 		<div class="searchform__field">
 			<input type="text" name="workplace" placeholder="Место работ">
 		</div>
 		<!-- Desktop -->
 		<button class="desktop"><img src="img/icon_loupe.svg" alt="@@"></button>
 		<!-- Activesearch Button -->
-		<a href="#" class="button button_white"><span class="button__border-top"></span>Фильтр<span class="button__border-bottom"></span></a>
+		<a data-action="openfilter"  class="button button_white"><span class="button__border-top"></span>Фильтр<span class="button__border-bottom"></span></a>
 	</form>
 </header>

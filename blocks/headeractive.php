@@ -40,6 +40,6 @@
 		<!-- Desktop -->
 		<button class="desktop"><img src="img/icon_loupe.svg" alt="@@"></button>
 		<!-- Activesearch Button -->
-		<a href="#" class="button button_white"><span class="button__border-top"></span>Фильтр<span class="button__border-bottom"></span></a>
+		<a data-action="openfilter" class="button button_white"><span class="button__border-top"></span>Фильтр<span class="button__border-bottom"></span></a>
 	</form>
 </header>
