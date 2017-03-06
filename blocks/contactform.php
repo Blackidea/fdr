@@ -16,8 +16,9 @@
 			</div>
 			<div class="bottom-contact-form__field bottom-contact-form__field_file">
 				<p>Вложения</p>
-				<p class="bottom-contact-form__file">technika.jpg<a href="#"></a></p>
+				<label for="file1"><p class="bottom-contact-form__file"><span>Выберите файл</span><a href="#"></a></p></label>
 				<p class="small">Разрешенные расширения: .jpg, .png, .jpeg, .gif</p>
+				<input id="file1" type="file" name="file">
 			</div>
 			<div class="bottom-contact-form__field bottom-contact-form__field_message">
 				<p>Сообщение</p>

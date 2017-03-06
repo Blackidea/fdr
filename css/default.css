@@ -8600,11 +8600,28 @@ body.mainpage .page {
     width: 100%; }
     /* line 2229, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .bottom-contact-form__field_file {
-      margin-top: 13px; }
+      margin-top: 13px;
+      position: relative; }
       /* line 2230, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .bottom-contact-form__field_file p.small {
         margin-top: 3px; }
-  /* line 2233, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2231, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      .bottom-contact-form__field_file input {
+        position: absolute;
+        opacity: 0;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+        pointer-events: none; }
+      /* line 2232, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      .bottom-contact-form__field_file label {
+        display: block;
+        cursor: pointer; }
+        /* line 2233, C:/Projects/home/foderent/www/foderent/css/default.scss */
+        .bottom-contact-form__field_file label span {
+          color: inherit; }
+  /* line 2237, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .bottom-contact-form input, .bottom-contact-form textarea {
     width: 100%;
     border: 1px solid #b7cfbc;
@@ -8613,30 +8630,32 @@ body.mainpage .page {
     color: #fff;
     margin-top: 7px;
     padding: 0 16px; }
-    /* line 2234, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2238, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .bottom-contact-form input:focus, .bottom-contact-form textarea:focus {
       border-color: #2ca346;
       background-color: rgba(255, 255, 255, 0.05); }
-  /* line 2236, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2240, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .bottom-contact-form textarea {
     resize: none;
     padding: 12px 16px; }
-  /* line 2237, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2241, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .bottom-contact-form__file {
     border: 1px dashed #b7cfbc;
     line-height: 43px;
     position: relative;
     margin-top: 6px;
     padding: 0 18px; }
-    /* line 2238, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2242, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .bottom-contact-form__file a {
       position: absolute;
       top: -1px;
       right: -1px;
       width: 45px;
       height: 45px;
-      background-color: #2ca346; }
-      /* line 2239, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      background-color: #2ca346;
+      opacity: 0;
+      pointer-events: none; }
+      /* line 2243, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .bottom-contact-form__file a:after {
         content: "";
         width: 25px;
@@ -8651,11 +8670,15 @@ body.mainpage .page {
         transform: rotate(-90deg);
         background-image: url("../img/icon_close_formfile.svg");
         background-repeat: no-repeat; }
-  /* line 2242, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2244, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      .bottom-contact-form__file a.active {
+        opacity: 1;
+        pointer-events: all; }
+  /* line 2247, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .bottom-contact-form__button {
     margin-top: 30px;
     width: 100%; }
-  /* line 2245, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2250, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .bottom-contact-form_request .bottom-contact-form__fields, .bottom-contact-form_support .bottom-contact-form__fields {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -8665,18 +8688,18 @@ body.mainpage .page {
     justify-content: space-between;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
-  /* line 2246, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2251, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .bottom-contact-form_request .bottom-contact-form__field_message, .bottom-contact-form_support .bottom-contact-form__field_message {
     position: static !important; }
-  /* line 2248, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2253, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .bottom-contact-form_request .bottom-contact-form__field_file a:after, .bottom-contact-form_support .bottom-contact-form__field_file a:after {
     background-image: url("../img/icon_clip.svg"); }
-  /* line 2253, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2258, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .bottom-contact-form_support .bottom-contact-form__field_message {
     width: 100%; }
 
 /*Попапы*/
-/* line 2260, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2265, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .popup {
   display: none;
   width: 810px;
@@ -8685,45 +8708,45 @@ body.mainpage .page {
   padding: 70px;
   text-align: center;
   z-index: 10; }
-  /* line 2261, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2266, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .popup p.huge {
     color: #23692b;
     font-size: 36px;
     font-weight: 600;
     margin-top: 0; }
-  /* line 2262, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2267, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .popup p {
     font-size: 16px;
     color: #333333;
     margin-top: 55px; }
-  /* line 2263, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2268, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .popup span {
     font-weight: 600; }
-  /* line 2264, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2269, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .popup .button {
     margin-top: 55px; }
-    /* line 2265, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2270, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .popup .button:nth-of-type(2) {
       margin-left: 30px; }
 
-/* line 2269, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2274, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .checkpopup {
   padding: 65px 129px 53px; }
-  /* line 2270, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2275, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .checkpopup p {
     margin-top: 32px;
     line-height: 1.4em; }
-  /* line 2271, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2276, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .checkpopup p:nth-child(2) {
     text-align: left; }
-  /* line 2272, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2277, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .checkpopup .checkdiv {
     margin-top: 52px; }
-    /* line 2273, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2278, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .checkpopup .checkdiv input[type="checkbox"]:not(old) {
       left: 0;
       top: 0; }
-      /* line 2274, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2279, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .checkpopup .checkdiv input[type="checkbox"]:not(old) + label {
         display: inline-block;
         width: 20px;
@@ -8738,7 +8761,7 @@ body.mainpage .page {
         top: -2px;
         vertical-align: middle;
         margin-right: 10px; }
-        /* line 2275, C:/Projects/home/foderent/www/foderent/css/default.scss */
+        /* line 2280, C:/Projects/home/foderent/www/foderent/css/default.scss */
         .checkpopup .checkdiv input[type="checkbox"]:not(old) + label img {
           opacity: 0;
           -webkit-transition: all 0.25s ease-in-out;
@@ -8747,80 +8770,80 @@ body.mainpage .page {
           position: relative;
           top: 4px;
           left: 0; }
-      /* line 2278, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2283, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .checkpopup .checkdiv input[type="checkbox"]:not(old):checked + label img {
         opacity: 1;
         pointer-events: all; }
-    /* line 2281, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2286, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .checkpopup .checkdiv p {
       margin-top: 0;
       display: inline-block;
       vertical-align: middle;
       line-height: 1em; }
 
-/* line 2285, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2290, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .paymentpopup {
   padding: 53px 0 59px; }
-  /* line 2286, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2291, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .container {
     width: 360px; }
-  /* line 2287, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2292, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup p {
     margin-top: 0; }
-  /* line 2288, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2293, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup p.small {
     font-size: 12px;
     color: #999999;
     margin-top: 44px;
     line-height: 1.4em; }
-  /* line 2289, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2294, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formheading {
     font-size: 36px;
     color: #23692b;
     font-weight: 600;
     margin-top: 0; }
-  /* line 2290, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2295, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formpart {
     text-align: left;
     margin-top: 21px; }
-    /* line 2291, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2296, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .paymentpopup .formpart:first-of-type {
       margin-top: 29px; }
-    /* line 2292, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2297, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .paymentpopup .formpart:nth-of-type(2) {
       margin-top: 38px; }
-    /* line 2293, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2298, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .paymentpopup .formpart:nth-of-type(3) {
       margin-top: 41px; }
-    /* line 2294, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2299, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .paymentpopup .formpart p {
       font-size: 18px;
       font-weight: 500; }
-    /* line 2295, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2300, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .paymentpopup .formpart p.total {
       font-size: 44px;
       font-weight: 600;
       line-height: 1.25em; }
-    /* line 2296, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2301, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .paymentpopup .formpart p.small {
       margin-top: 4px;
       line-height: 1.7em; }
-    /* line 2297, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2302, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .paymentpopup .formpart input[type="text"] {
       background-color: rgba(255, 255, 255, 0.15);
       border: 1px solid #b7cfbc;
       width: 100%;
       margin-top: 14px;
       height: 45px; }
-    /* line 2298, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2303, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .paymentpopup .formpart .radiodiv {
       display: inline-block;
       min-width: 45%;
       margin-top: 15px; }
-      /* line 2299, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2304, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .paymentpopup .formpart .radiodiv:last-child {
         float: right; }
-      /* line 2300, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2305, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .paymentpopup .formpart .radiodiv p {
         font-weight: 400;
         display: inline-block;
@@ -8828,7 +8851,7 @@ body.mainpage .page {
         margin-left: 6px;
         font-size: 16px;
         color: #999999; }
-      /* line 2301, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2306, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .paymentpopup .formpart .radiodiv label {
         width: 20px;
         height: 20px;
@@ -8840,7 +8863,7 @@ body.mainpage .page {
         cursor: pointer;
         -webkit-transition: all 0.25s ease-in-out;
         transition: all 0.25s ease-in-out; }
-        /* line 2302, C:/Projects/home/foderent/www/foderent/css/default.scss */
+        /* line 2307, C:/Projects/home/foderent/www/foderent/css/default.scss */
         .paymentpopup .formpart .radiodiv label span {
           width: 12px;
           height: 12px;
@@ -8857,90 +8880,90 @@ body.mainpage .page {
           pointer-events: none;
           -webkit-transition: all 0.25s ease-in-out;
           transition: all 0.25s ease-in-out; }
-      /* line 2304, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2309, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .paymentpopup .formpart .radiodiv input:checked + label {
         border-color: #2ca346; }
-        /* line 2305, C:/Projects/home/foderent/www/foderent/css/default.scss */
+        /* line 2310, C:/Projects/home/foderent/www/foderent/css/default.scss */
         .paymentpopup .formpart .radiodiv input:checked + label span {
           opacity: 1; }
-        /* line 2306, C:/Projects/home/foderent/www/foderent/css/default.scss */
+        /* line 2311, C:/Projects/home/foderent/www/foderent/css/default.scss */
         .paymentpopup .formpart .radiodiv input:checked + label + p {
           color: #000; }
-  /* line 2310, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2315, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .button {
     margin-top: 30px;
     padding: 12px 40px 14px; }
 
-/* line 2313, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2318, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .extendpopup {
   padding: 53px 0 60px; }
-  /* line 2314, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2319, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup .container {
     width: 555px; }
-  /* line 2315, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2320, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup p {
     margin-top: 0; }
-  /* line 2316, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2321, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup p.heading {
     color: #23692b;
     font-size: 36px;
     font-weight: 600;
     margin-top: 0; }
-    /* line 2317, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2322, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .extendpopup p.heading + p {
       margin-top: 33px;
       line-height: 1.4em; }
-  /* line 2319, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2324, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup p.phone {
     font-size: 24px;
     font-weight: 600;
     margin-top: 6px; }
-  /* line 2320, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2325, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup form {
     width: 360px;
     margin: 33px auto 0;
     text-align: left; }
-  /* line 2321, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2326, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup select, .extendpopup input, .extendpopup textarea, .extendpopup p.date {
     border: 1px solid #b7cfbc;
     width: 100%;
     margin-top: 9px;
     padding: 0 10px;
     box-sizing: border-box; }
-  /* line 2322, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2327, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup select {
     background-image: url("../img/icon_select_arrow.svg");
     background-size: 19px 11px;
     background-position: top 50% right 15px;
     background-repeat: no-repeat;
     height: 50px; }
-  /* line 2323, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2328, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup input {
     height: 45px; }
-  /* line 2324, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2329, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup textarea {
     resize: none;
     height: 105px; }
-  /* line 2325, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2330, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup .formfield {
     margin-top: 27px; }
-    /* line 2326, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2331, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .extendpopup .formfield:first-of-type {
       margin-top: 0; }
-    /* line 2327, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2332, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .extendpopup .formfield:last-of-type {
       margin-top: 30px; }
-  /* line 2329, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2334, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup .forfmfield p {
     font-size: 16px; }
-  /* line 2330, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2335, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup .formfile {
     border: 1px dashed #b7cfbc;
     line-height: 43px;
     position: relative;
     margin-top: 9px;
     padding: 0 18px; }
-    /* line 2331, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2336, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .extendpopup .formfile a {
       position: absolute;
       top: -1px;
@@ -8948,7 +8971,7 @@ body.mainpage .page {
       width: 45px;
       height: 45px;
       background-color: #2ca346; }
-      /* line 2332, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2337, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .extendpopup .formfile a:after {
         content: "";
         width: 20px;
@@ -8963,31 +8986,31 @@ body.mainpage .page {
         transform: rotate(-90deg);
         background-image: url("../img/icon_clip.svg");
         background-repeat: no-repeat; }
-  /* line 2335, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2340, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup p.small {
     font-size: 12px;
     color: #999999;
     margin-top: 5px; }
-  /* line 2336, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2341, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup .button {
     display: block;
     margin: 74px auto 0;
     padding: 12px 39px 14px; }
-  /* line 2337, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2342, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup.worktime {
     padding: 53px 0 51px; }
-    /* line 2338, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2343, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .extendpopup.worktime form {
       margin-top: 39px; }
-    /* line 2339, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2344, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .extendpopup.worktime input {
       height: 50px; }
-    /* line 2340, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2345, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .extendpopup.worktime p.date {
       height: 50px;
       line-height: 50px;
       position: relative; }
-      /* line 2341, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2346, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .extendpopup.worktime p.date a {
         position: absolute;
         width: 31px;
@@ -8999,29 +9022,29 @@ body.mainpage .page {
         background-image: url("../img/icon_calendar.svg");
         background-repeat: no-repeat;
         background-size: 31px 27px; }
-    /* line 2343, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2348, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .extendpopup.worktime .formfield {
       margin-top: 37px; }
-    /* line 2344, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2349, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .extendpopup.worktime .button {
       margin-top: 40px;
       padding: 12px 35px 14px; }
 
-/* line 2349, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2354, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .getbill p {
   margin-top: 0; }
 
-/* line 2350, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2355, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .getbill .formfield {
   text-align: left;
   width: 360px;
   margin: auto;
   margin-top: 48px; }
-  /* line 2351, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2356, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .getbill .formfield p {
     font-weight: 500; }
 
-/* line 2353, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2358, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .getbill input {
   height: 45px;
   border: 1px solid #b7cfbc;
@@ -9029,30 +9052,30 @@ body.mainpage .page {
   padding: 0 10px;
   margin-top: 18px; }
 
-/* line 2354, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2359, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .getbill .button_noborder {
   display: inline-block;
   border: 0; }
-  /* line 2355, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2360, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .getbill .button_noborder img {
     vertical-align: middle;
     margin-right: 10px; }
 
-/* line 2360, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2365, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .deletetechnics .formfield {
   text-align: left;
   width: 360px;
   margin: auto; }
 
-/* line 2361, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2366, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .deletetechnics .radiodiv {
   display: inline-block;
   min-width: 45%;
   margin-top: 15px; }
-  /* line 2362, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2367, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .deletetechnics .radiodiv:last-child {
     float: right; }
-  /* line 2363, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2368, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .deletetechnics .radiodiv p {
     font-weight: 400;
     display: inline-block;
@@ -9061,7 +9084,7 @@ body.mainpage .page {
     font-size: 16px;
     color: #000;
     margin-top: 0; }
-  /* line 2364, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2369, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .deletetechnics .radiodiv label {
     width: 20px;
     height: 20px;
@@ -9073,7 +9096,7 @@ body.mainpage .page {
     cursor: pointer;
     -webkit-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out; }
-    /* line 2365, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2370, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .deletetechnics .radiodiv label span {
       width: 12px;
       height: 12px;
@@ -9090,44 +9113,44 @@ body.mainpage .page {
       pointer-events: none;
       -webkit-transition: all 0.25s ease-in-out;
       transition: all 0.25s ease-in-out; }
-  /* line 2367, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2372, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .deletetechnics .radiodiv input:checked + label {
     border-color: #2ca346; }
-    /* line 2368, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2373, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .deletetechnics .radiodiv input:checked + label span {
       opacity: 1; }
 
-/* line 2371, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2376, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .deletetechnics p.small {
   font-size: 12px;
   color: #999999; }
 
-/* line 2375, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2380, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .createmessage .container {
   width: 360px; }
 
-/* line 2376, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2381, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .createmessage p.huge {
   text-align: center; }
 
-/* line 2377, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2382, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .createmessage p {
   margin-top: 0;
   text-align: left; }
 
-/* line 2378, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2383, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .createmessage .formfield {
   text-align: left;
   margin-top: 35px; }
 
-/* line 2379, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2384, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .createmessage input {
   height: 45px;
   border: 1px solid #b7cfbc;
   width: 100%;
   padding: 0 10px; }
 
-/* line 2380, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2385, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .createmessage textarea {
   height: 105px;
   border: 1px solid #b7cfbc;
@@ -9135,7 +9158,7 @@ body.mainpage .page {
   padding: 0 10px;
   resize: none; }
 
-/* line 2381, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2386, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .createmessage .file {
   text-align: left;
   border: 1px dashed #b7cfbc;
@@ -9143,7 +9166,7 @@ body.mainpage .page {
   position: relative;
   margin-top: 9px;
   padding: 0 18px; }
-  /* line 2382, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2387, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .createmessage .file a {
     position: absolute;
     top: -1px;
@@ -9151,7 +9174,7 @@ body.mainpage .page {
     width: 45px;
     height: 45px;
     background-color: #2ca346; }
-    /* line 2383, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2388, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .createmessage .file a:after {
       content: "";
       width: 20px;
@@ -9167,12 +9190,12 @@ body.mainpage .page {
       background-image: url("../img/icon_clip.svg");
       background-repeat: no-repeat; }
 
-/* line 2386, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2391, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .createmessage p.small {
   font-size: 12px;
   color: #999999; }
 
-/* line 2389, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2394, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .authorization {
   position: fixed;
   left: 0;
@@ -9189,11 +9212,11 @@ body.mainpage .page {
   height: 100%;
   overflow-y: scroll;
   box-sizing: border-box; }
-  /* line 2390, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2395, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .authorization.active {
     opacity: 1;
     pointer-events: all; }
-  /* line 2391, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2396, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .authorization .bg {
     position: fixed;
     left: 0;
@@ -9202,7 +9225,7 @@ body.mainpage .page {
     height: 100%;
     background: rgba(35, 105, 43, 0.5);
     z-index: -1; }
-  /* line 2392, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2397, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .authorization img {
     position: fixed;
     left: 0;
@@ -9212,7 +9235,7 @@ body.mainpage .page {
     -o-object-fit: cover;
     object-fit: cover;
     z-index: -2; }
-  /* line 2393, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2398, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .authorization .close-button {
     position: absolute;
     right: 15px;
@@ -9220,29 +9243,29 @@ body.mainpage .page {
     width: 20px;
     height: 20px;
     background-image: url("../img/icon_close_popup.svg"); }
-  /* line 2394, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2399, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .authorization p.heading {
     font-size: 30px;
     font-weight: 600; }
-    /* line 2395, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2400, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .authorization p.heading + p {
       color: #999999;
       margin-top: 3px; }
-      /* line 2396, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2401, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .authorization p.heading + p a {
         color: #fff;
         text-decoration: underline; }
-  /* line 2399, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2404, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .authorization form {
     text-align: left;
     margin-top: 42px; }
-    /* line 2400, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2405, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .authorization form p.big {
       font-weight: 500; }
-      /* line 2401, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2406, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .authorization form p.big:nth-of-type(2) {
         margin-top: 26px; }
-    /* line 2403, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2408, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .authorization form input {
       width: 100%;
       border: 1px solid #b7cfbc;
@@ -9250,25 +9273,25 @@ body.mainpage .page {
       padding: 12px;
       background-color: rgba(255, 255, 255, 0.15);
       font-size: 16px; }
-    /* line 2404, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2409, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .authorization form p.small {
       margin-top: 5px; }
-    /* line 2405, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2410, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .authorization form a {
       color: #999999;
       text-decoration: underline; }
-    /* line 2406, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2411, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .authorization form .button {
       margin-top: 31px;
       width: 100%; }
-      /* line 2407, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2412, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .authorization form .button:before {
         background-color: #23692b; }
-      /* line 2408, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2413, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .authorization form .button:after {
         background-color: #23692b; }
 
-/* line 2413, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2418, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .registration {
   position: fixed;
   left: 0;
@@ -9285,11 +9308,11 @@ body.mainpage .page {
   height: 100%;
   overflow-y: scroll;
   box-sizing: border-box; }
-  /* line 2414, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2419, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .registration.active {
     opacity: 1;
     pointer-events: all; }
-  /* line 2415, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2420, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .registration .bg {
     position: fixed;
     left: 0;
@@ -9298,7 +9321,7 @@ body.mainpage .page {
     height: 100%;
     background: rgba(35, 105, 43, 0.5);
     z-index: -1; }
-  /* line 2416, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2421, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .registration img {
     position: fixed;
     left: 0;
@@ -9308,7 +9331,7 @@ body.mainpage .page {
     -o-object-fit: cover;
     object-fit: cover;
     z-index: -2; }
-  /* line 2417, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2422, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .registration .close-button {
     position: absolute;
     right: 15px;
@@ -9316,34 +9339,34 @@ body.mainpage .page {
     width: 20px;
     height: 20px;
     background-image: url("../img/icon_close_popup.svg"); }
-  /* line 2418, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2423, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .registration p.heading {
     font-size: 30px;
     font-weight: 600; }
-    /* line 2419, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2424, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .registration p.heading + p {
       color: #999999;
       margin-top: 3px; }
-      /* line 2420, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2425, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .registration p.heading + p a {
         color: #fff;
         text-decoration: underline; }
-  /* line 2423, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2428, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .registration .button {
     margin-top: 28px;
     letter-spacing: 0.035em;
     width: 100%; }
-    /* line 2424, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2429, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .registration .button:first-of-type {
       margin-top: 44px; }
-    /* line 2425, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2430, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .registration .button:before {
       background-color: #23692b; }
-    /* line 2426, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2431, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .registration .button:after {
       background-color: #23692b; }
 
-/* line 2430, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2435, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .burgermenu {
   position: absolute;
   -webkit-transform: translate3d(0, 0, 0);
@@ -9362,7 +9385,7 @@ body.mainpage .page {
   box-sizing: border-box;
   position: fixed;
   height: 100vh; }
-  /* line 2431, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2436, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .burgermenu .close-button {
     position: absolute;
     right: -42px;
@@ -9372,13 +9395,13 @@ body.mainpage .page {
     background-color: #2ca346;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg); }
-    /* line 2432, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2437, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu .close-button:hover:before {
       background-color: #23692b; }
-    /* line 2433, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2438, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu .close-button:hover:after {
       background-color: #23692b; }
-    /* line 2434, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2439, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu .close-button:before {
       content: "";
       position: absolute;
@@ -9391,7 +9414,7 @@ body.mainpage .page {
       transform: rotate(90deg);
       -webkit-transition: all 0.25s ease-in-out;
       transition: all 0.25s ease-in-out; }
-    /* line 2435, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2440, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu .close-button:after {
       content: "";
       position: absolute;
@@ -9402,29 +9425,29 @@ body.mainpage .page {
       background-color: #fff;
       -webkit-transition: all 0.25s ease-in-out;
       transition: all 0.25s ease-in-out; }
-  /* line 2437, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2442, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .burgermenu p.desktop {
     font-size: 20px;
     color: #23692b;
     margin-top: 6px;
     display: inline-block; }
-    /* line 2438, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2443, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu p.desktop img {
       margin-right: 10px; }
-  /* line 2440, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2445, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .burgermenu p.big {
     color: #999999;
     font-weight: 300; }
-    /* line 2441, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2446, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu p.big a {
       color: #fff;
       font-weight: 400;
       margin-left: 3px; }
-  /* line 2443, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2448, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .burgermenu .button {
     margin-top: 21px;
     width: 100%; }
-  /* line 2444, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2449, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .burgermenu .lists {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -9433,42 +9456,42 @@ body.mainpage .page {
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin-top: 26px; }
-    /* line 2445, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2450, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu .lists ul {
       width: 100%; }
-      /* line 2446, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2451, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .burgermenu .lists ul li {
         height: 64px;
         width: 44.83%;
         display: inline-block;
         vertical-align: top; }
-        /* line 2447, C:/Projects/home/foderent/www/foderent/css/default.scss */
+        /* line 2452, C:/Projects/home/foderent/www/foderent/css/default.scss */
         .burgermenu .lists ul li p {
           font-weight: 300;
           line-height: 1.45em; }
-  /* line 2451, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2456, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .burgermenu .rent {
     margin-top: 20px;
     display: none; }
-    /* line 2452, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2457, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu .rent p.link {
       font-weight: 300;
       text-transform: uppercase; }
-      /* line 2453, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2458, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .burgermenu .rent p.link img {
         margin-right: 15px; }
-    /* line 2455, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2460, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu .rent .searchform {
       margin-top: 23px; }
-      /* line 2456, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2461, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .burgermenu .rent .searchform > div {
         margin-top: 18px; }
-      /* line 2457, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2462, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .burgermenu .rent .searchform p.heading {
         font-size: 20px;
         text-align: center;
         font-weight: 600; }
-  /* line 2460, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2465, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .burgermenu .desktop_lists {
     margin-top: 23px;
     display: -webkit-box;
@@ -9484,17 +9507,17 @@ body.mainpage .page {
     border-bottom: 1px solid #e5ebe0;
     padding-top: 19px;
     padding-bottom: 18px; }
-    /* line 2461, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2466, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu .desktop_lists p.heading {
       width: 100%;
       font-size: 20px;
       font-weight: 600;
       color: #333333; }
-    /* line 2462, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2467, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu .desktop_lists ul {
       margin-top: 13px;
       width: 100%; }
-      /* line 2463, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2468, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .burgermenu .desktop_lists ul li {
         padding-left: 11px;
         position: relative;
@@ -9502,7 +9525,7 @@ body.mainpage .page {
         width: 47.3%;
         display: inline-block;
         vertical-align: top; }
-        /* line 2464, C:/Projects/home/foderent/www/foderent/css/default.scss */
+        /* line 2469, C:/Projects/home/foderent/www/foderent/css/default.scss */
         .burgermenu .desktop_lists ul li:before {
           content: "";
           display: block;
@@ -9512,42 +9535,42 @@ body.mainpage .page {
           width: 2px;
           height: 2px;
           background-color: #23692b; }
-        /* line 2465, C:/Projects/home/foderent/www/foderent/css/default.scss */
+        /* line 2470, C:/Projects/home/foderent/www/foderent/css/default.scss */
         .burgermenu .desktop_lists ul li p {
           font-size: 16px; }
-    /* line 2468, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2473, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu .desktop_lists a {
       -webkit-transition: all 0.25s ease-in-out;
       transition: all 0.25s ease-in-out; }
-    /* line 2469, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2474, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu .desktop_lists a:hover {
       color: #2ca346;
       border-bottom: 1px solid #2ca346; }
-  /* line 2471, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2476, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .burgermenu .desktop_links {
     margin-top: 24px; }
-    /* line 2472, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2477, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu .desktop_links p {
       font-size: 20px;
       font-weight: 600;
       color: #23692b;
       margin-top: 21px; }
-      /* line 2473, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2478, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .burgermenu .desktop_links p:first-child {
         margin-top: 0; }
-    /* line 2475, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2480, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu .desktop_links a {
       -webkit-transition: all 0.25s ease-in-out;
       transition: all 0.25s ease-in-out; }
-    /* line 2476, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2481, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .burgermenu .desktop_links a:hover {
       color: #2ca346;
       border-bottom: 1px solid #2ca346; }
-  /* line 2479, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2484, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .burgermenu .ui-datepicker .ui-datepicker-header, .burgermenu .ui-datepicker .ui-datepicker-title {
     margin-top: 0; }
 
-/* line 2482, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2487, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .page {
   position: relative;
   -webkit-transition: all 0.25s ease-in-out;
@@ -9556,14 +9579,14 @@ body.mainpage .page {
   min-height: 100%;
   float: left;
   padding-top: 41px; }
-  /* line 2483, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2488, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .page.active {
     cursor: pointer; }
-    /* line 2484, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2489, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .page.active .overlay {
       opacity: 0.7;
       pointer-events: all; }
-  /* line 2486, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2491, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .page .overlay {
     position: absolute;
     width: 100%;
@@ -9577,19 +9600,19 @@ body.mainpage .page {
     transition: all 0.25s ease-in-out;
     z-index: 5; }
 
-/* line 2489, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2494, C:/Projects/home/foderent/www/foderent/css/default.scss */
 body.active {
   -webkit-transform: translate3d(683px, 0, 0);
   transform: translate3d(683px, 0, 0); }
 
-/* line 2491, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2496, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .selectbox.selectbox_green {
   height: 100%;
   width: 100%; }
-  /* line 2492, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2497, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .selectbox.selectbox_green select {
     background-image: none !important; }
-  /* line 2493, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2498, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .selectbox.selectbox_green ul {
     background: #23692b;
     padding: 0 1px;
@@ -9601,16 +9624,16 @@ body.active {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23692b', endColorstr='#1c5422',GradientType=1 );
     overflow: auto;
     max-height: 174px; }
-  /* line 2494, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2499, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .selectbox.selectbox_green ul li {
     padding: 17px 16px 0;
     font-size: 18px;
     font-weight: 300;
     color: #b7cfbc; }
-    /* line 2495, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2500, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .selectbox.selectbox_green ul li:hover {
       color: white; }
-    /* line 2496, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2501, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .selectbox.selectbox_green ul li:after {
       width: 100%;
       height: 1px;
@@ -9618,13 +9641,13 @@ body.active {
       display: block;
       content: "";
       margin-top: 18px; }
-    /* line 2497, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2502, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .selectbox.selectbox_green ul li:last-child:after {
       display: none; }
-    /* line 2498, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2503, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .selectbox.selectbox_green ul li:last-child {
       padding-bottom: 19px; }
-  /* line 2500, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2505, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .selectbox.selectbox_green:after {
     background-image: url("../img/icon_select_arrow.svg");
     background-size: 27px 15px;
@@ -9641,19 +9664,19 @@ body.active {
     transition: all .25s ease-in-out;
     content: "";
     margin: auto; }
-  /* line 2501, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2506, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .selectbox.selectbox_green.active:after {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg); }
 
-/* line 2504, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2509, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .selectbox.selectbox_white {
   height: 100%;
   width: 100%; }
-  /* line 2505, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2510, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .selectbox.selectbox_white select {
     background-image: none !important; }
-  /* line 2506, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2511, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .selectbox.selectbox_white ul {
     background: #fff;
     padding: 0 1px;
@@ -9664,18 +9687,18 @@ body.active {
     border: 1px solid #b7cfbc;
     box-sizing: border-box;
     border-top: 0; }
-  /* line 2507, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2512, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .selectbox.selectbox_white ul li {
     padding: 17px 16px 0;
     font-size: 18px;
     font-weight: 300;
     color: #333333;
     background-color: #fff; }
-    /* line 2508, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2513, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .selectbox.selectbox_white ul li:hover {
       color: white;
       background-color: #2ca346; }
-    /* line 2509, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2514, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .selectbox.selectbox_white ul li:after {
       width: 100%;
       height: 1px;
@@ -9683,13 +9706,13 @@ body.active {
       display: block;
       content: "";
       margin-top: 18px; }
-    /* line 2510, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2515, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .selectbox.selectbox_white ul li:last-child:after {
       display: none; }
-    /* line 2511, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2516, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .selectbox.selectbox_white ul li:last-child {
       padding-bottom: 19px; }
-  /* line 2513, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2518, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .selectbox.selectbox_white:after {
     background-image: url("../img/icon_select_arrow.svg");
     background-size: 27px 15px;
@@ -9706,31 +9729,31 @@ body.active {
     transition: all .25s ease-in-out;
     content: "";
     margin: auto; }
-  /* line 2514, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2519, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .selectbox.selectbox_white.active:after {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg); }
 
-/* line 2518, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2523, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .selectbox.selectbox_inputbox select {
   display: none; }
 
-/* line 2520, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2525, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .selectbox.selectbox_inputbox_noarrow:after {
   display: none; }
 
-/* line 2525, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2530, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .required-field.error input, .required-field.error select, .required-field.error textarea {
   border-color: #ff0000; }
 
-/* line 2528, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2533, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .newsblocks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
-  /* line 2529, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2534, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .newsblocks .news-linkblock {
     width: 100%;
     position: relative;
@@ -9752,11 +9775,11 @@ body.active {
     flex-direction: column;
     color: #fff;
     margin-top: 15px; }
-    /* line 2530, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2535, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .newsblocks .news-linkblock:hover .bg:before {
       -webkit-transform: skewX(45deg) scale3d(2, 2, 1);
       transform: skewX(45deg) scale3d(2, 2, 1); }
-    /* line 2531, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2536, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .newsblocks .news-linkblock .bg {
       position: absolute;
       width: 100%;
@@ -9768,7 +9791,7 @@ body.active {
       background: -webkit-linear-gradient(top, rgba(22, 31, 27, 0) 0%, #161f1b 100%);
       background: linear-gradient(to bottom, rgba(22, 31, 27, 0) 0%, #161f1b 100%);
       z-index: 1; }
-      /* line 2532, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2537, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .newsblocks .news-linkblock .bg:before {
         content: "";
         display: block;
@@ -9784,13 +9807,13 @@ body.active {
         width: 200%;
         -webkit-transition: all 0.25s ease-in-out;
         transition: all 0.25s ease-in-out; }
-    /* line 2534, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2539, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .newsblocks .news-linkblock:first-child {
       margin-top: 0; }
-      /* line 2535, C:/Projects/home/foderent/www/foderent/css/default.scss */
+      /* line 2540, C:/Projects/home/foderent/www/foderent/css/default.scss */
       .newsblocks .news-linkblock:first-child .bg {
         margin-top: 0; }
-    /* line 2537, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2542, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .newsblocks .news-linkblock img {
       position: absolute;
       left: 0;
@@ -9799,33 +9822,33 @@ body.active {
       height: 100%;
       -o-object-fit: cover;
       object-fit: cover; }
-    /* line 2538, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2543, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .newsblocks .news-linkblock p {
       text-align: left;
       line-height: 1.45em;
       position: relative;
       z-index: 2; }
-    /* line 2539, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2544, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .newsblocks .news-linkblock p.small {
       color: #999999;
       font-weight: 300; }
 
-/* line 2543, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2548, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .small-page-heading {
   background-image: url("../img/bg_title.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
   padding: 23px 0; }
-  /* line 2544, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2549, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .small-page-heading .container {
     position: relative;
     z-index: 2; }
-  /* line 2545, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2550, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .small-page-heading h2 {
     color: #fff; }
 
-/* line 2548, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2553, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .subscribe {
   background-image: url("../img/bg_feedback.jpg");
   background-size: cover;
@@ -9833,17 +9856,17 @@ body.active {
   text-align: center;
   padding-top: 43px;
   padding-bottom: 84px; }
-  /* line 2549, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2554, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .subscribe form {
     position: relative;
     margin: 0 auto;
     width: 750px; }
-    /* line 2550, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2555, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .subscribe form p {
       color: #fff;
       font-weight: 600;
       font-size: 36px; }
-    /* line 2551, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2556, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .subscribe form input {
       background-color: transparent;
       width: 360px;
@@ -9851,7 +9874,7 @@ body.active {
       margin-top: 90px;
       padding-bottom: 12px;
       font-size: 16px; }
-    /* line 2552, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2557, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .subscribe form button {
       border: 0;
       padding: 0;
@@ -9860,7 +9883,7 @@ body.active {
       right: 193px;
       bottom: 18px; }
 
-/* line 2557, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2562, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .icons a {
   width: 45px;
   height: 45px;
@@ -9875,31 +9898,31 @@ body.active {
   -ms-flex-align: center;
   align-items: center;
   transition: all 0.25s ease-in-out; }
-  /* line 2558, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2563, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .icons a svg {
     transition: all 0.25s ease-in-out; }
-  /* line 2559, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2564, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .icons a:hover {
     border-color: #1b5e2a; }
-    /* line 2560, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2565, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .icons a:hover svg {
       fill: #1b5e2a; }
 
-/* line 2563, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2568, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .icons_aside {
   position: absolute;
   right: 0;
   top: 8px;
   border-left: 1px solid rgba(42, 44, 40, 0.7);
   padding-left: 56px; }
-  /* line 2564, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2569, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .icons_aside a {
     margin-top: 20px; }
-    /* line 2565, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2570, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .icons_aside a:first-child {
       margin-top: 0; }
 
-/* line 2568, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2573, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .icons_bottom {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9949,7 +9972,7 @@ body.active {
     -webkit-transform: translateX(0);
     transform: translateX(0); } }
 
-/* line 2625, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2630, C:/Projects/home/foderent/www/foderent/css/default.scss */
 a:hover .bounce {
   -webkit-animation-duration: 1.2s;
   animation-duration: 1.2s;
@@ -9958,48 +9981,48 @@ a:hover .bounce {
 
 /* Всплывающие окна и другие элементы сайта //*/
 /* FIX */
-/* line 2640, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2645, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .paymentpopup .formpart input[type="text"] {
   padding: 0 13px; }
 
-/* line 2641, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2646, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .paymentpopup .formpart p.small {
   font-size: 12px; }
 
-/* line 2642, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2647, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .popup.getbill {
   padding: 53px 70px 53px; }
 
-/* line 2643, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2648, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .getbill .formfield p {
   font-size: 18px; }
 
-/* line 2644, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2649, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .getbill .formfield {
   margin-top: 30px; }
 
-/* line 2645, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2650, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .getbill input {
   margin-top: 13px; }
 
-/* line 2646, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2651, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .getbill .button {
   margin-top: 55px; }
 
-/* line 2647, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2652, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .getbill .popup .button:nth-of-type(2) {
   margin-left: 66px; }
 
-/* line 2649, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2654, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__technics-infofield select, .account__technics-infofield input, .account__technics-infofield textarea {
   padding: 0 13px; }
 
-/* line 2651, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2656, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account p.toptext {
   margin-top: 0;
   margin-bottom: 16px; }
 
-/* line 2652, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2657, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__technics-info .container {
   width: 100%;
   padding-top: 4px;
@@ -10007,39 +10030,39 @@ a:hover .bounce {
   box-sizing: border-box;
   max-width: 600px; }
 
-/* line 2653, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2658, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__technics-infofield_mod {
   padding-right: 59px;
   position: relative; }
 
-/* line 2654, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2659, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__technics-infofield_mod a.plusicon {
   position: absolute;
   margin: 0;
   right: 0;
   bottom: 0; }
 
-/* line 2655, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2660, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__technics-infofield_mod select {
   width: 100%; }
 
-/* line 2656, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2661, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account p.toptext a {
   cursor: pointer; }
 
-/* line 2657, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2662, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__technics-infofield_mod a.plusicon:hover {
   background-color: #2ca346;
   color: white; }
 
-/* line 2658, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2663, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__technics-photos div {
   margin-top: 10%;
   height: auto;
   padding-bottom: 45%;
   overflow: hidden; }
 
-/* line 2659, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2664, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__technics-photos img {
   position: absolute;
   left: 0;
@@ -10051,18 +10074,18 @@ a:hover .bounce {
   min-width: 100%;
   min-height: 100%; }
 
-/* line 2660, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2665, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__technics-photos a {
   z-index: 2; }
-  /* line 2661, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2666, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .account__technics-photos a:hover {
     opacity: .7; }
 
-/* line 2663, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2668, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__technics-info {
   padding-bottom: 20px; }
 
-/* line 2664, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2669, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__technics-info .container.account__technics-infocontainer {
   height: 1px;
   position: relative;
@@ -10072,264 +10095,264 @@ a:hover .bounce {
   padding: 0 15px;
   z-index: 15; }
 
-/* line 2665, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2670, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__technics-infomap input {
   position: static;
   width: 100%; }
 
-/* line 2666, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2671, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__technics-map {
   margin-top: 0; }
 
-/* line 2667, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2672, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__technics-infomap p {
   margin-bottom: 15px; }
 
-/* line 2668, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2673, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__settings_fiz {
   padding-bottom: 20px; }
 
-/* line 2669, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2674, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__order__diagram {
   position: relative;
   display: flex;
   flex-flow: row wrap;
   width: 100%;
   overflow: hidden; }
-  /* line 2670, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2675, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .account__order__diagram .diagramm-outer {
     width: calc(100% - 25.7%); }
 
-/* line 2676, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2681, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__operators-info {
   padding-bottom: 20px; }
 
-/* line 2677, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2682, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .account__settings_jur {
   padding-bottom: 20px; }
 
-/* line 2678, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2683, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .shoppingbag__order-forcheck .calendar {
   width: 76.6%;
   position: relative; }
 
-/* line 2679, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2684, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .shoppingbag__pay {
   display: none; }
 
-/* line 2680, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2685, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .shoppingbag__order-payment {
   display: none; }
 
-/* line 2681, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2686, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .searchresult__showmore {
   height: 45px; }
 
 @media (max-width: 1024px) {
-  /* line 2685, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2690, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .popup {
     width: 510px; }
-  /* line 2686, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2691, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formheading, .getbill p.huge {
     font-size: 30px; }
-  /* line 2687, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2692, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup, .popup.getbill {
     padding: 30px 0 50px; }
-  /* line 2688, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2693, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formpart p.total {
     font-size: 35px; }
-  /* line 2689, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2694, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formpart p, .getbill .formfield p {
     font-size: 16px; }
-  /* line 2690, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2695, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formpart:first-of-type {
     margin-top: 22px; }
-  /* line 2691, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2696, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formpart:nth-of-type(2) {
     margin-top: 28px; }
-  /* line 2692, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2697, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formpart input[type="text"] {
     margin-top: 10px; }
-  /* line 2693, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2698, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formpart:nth-of-type(3) {
     margin-top: 30px; }
-  /* line 2694, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2699, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formpart .radiodiv {
     margin-top: 10px; }
-  /* line 2695, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2700, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup p.small {
     margin-top: 30px; }
-  /* line 2696, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2701, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .container {
     width: 80%; }
-  /* line 2697, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2702, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .popup.getbill {
     padding-left: 40px;
     padding-right: 40px; }
-  /* line 2698, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2703, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .getbill input {
     margin-top: 5px; }
-  /* line 2699, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2704, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .getbill .button {
     margin-top: 25px; }
-  /* line 2700, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2705, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .account__technics-info .container.container_technicsinfo {
     width: 100%;
     padding: 0;
     max-width: none; } }
 
 @media (max-width: 600px) {
-  /* line 2704, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2709, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .popup {
     width: 320px;
     padding: 10px !important; }
-    /* line 2705, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2710, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .popup .container {
       width: 100%; }
-  /* line 2709, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2714, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup form {
     width: 100%; }
-  /* line 2710, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2715, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formheading, .getbill p.huge {
     font-size: 20px; }
-  /* line 2711, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2716, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formpart:first-of-type {
     margin-top: 15px; }
-  /* line 2712, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2717, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formpart p.total {
     font-size: 26px; }
-  /* line 2713, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2718, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formpart p {
     font-size: 14px;
     line-height: 1.3em; }
-  /* line 2714, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2719, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formpart:nth-of-type(2), .paymentpopup .formpart:nth-of-type(3) {
     margin-top: 20px; }
-  /* line 2715, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2720, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .formpart .radiodiv p {
     font-size: 14px; }
-  /* line 2716, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2721, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup p.small br {
     display: none; }
-  /* line 2717, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2722, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup {
     padding-bottom: 30px; }
-  /* line 2718, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2723, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .paymentpopup .container {
     width: 86%; }
-  /* line 2719, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2724, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .getbill .formfield {
     width: 100%; }
-  /* line 2720, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2725, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .popup.getbill {
     padding-left: 25px;
     padding-right: 25px; }
-  /* line 2721, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2726, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .getbill .button_noborder {
     width: 100%;
     margin-top: 20px; }
-  /* line 2722, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2727, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .popup .button:nth-of-type(2) {
     margin-left: 0;
     margin-top: 0; } }
 
 @media (max-width: 400px) {
-  /* line 2726, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2731, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .popup {
     width: 270px;
     padding: 5px !important; }
-    /* line 2727, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2732, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .popup .container {
       width: 100%; }
-  /* line 2731, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2736, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .extendpopup form {
     width: 100%; }
-  /* line 2732, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2737, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .fancybox-close {
     top: 15px;
     right: 15px; }
-  /* line 2733, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2738, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .getbill .formfield {
     margin-top: 20px; }
-  /* line 2734, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2739, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .popup.getbill {
     padding-bottom: 40px; } }
 
 @media (max-width: 1023px) {
-  /* line 2743, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2748, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .technics-search-page .technics {
     display: block; }
-  /* line 2744, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2749, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .technics-search-page {
     padding-top: 42px; }
-  /* line 2747, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2752, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .technics-search-page .technics__categories {
     display: none; }
-  /* line 2748, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2753, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .technics-search-page .technics__allfilters-col {
     width: 100%; }
-    /* line 2749, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2754, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .technics-search-page .technics__allfilters-col + .technics__allfilters-col {
       margin-top: 31px; }
-  /* line 2751, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2756, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .technics-search-page .technics__allfilters {
     left: 0;
     width: 100%; }
-  /* line 2752, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2757, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .technics-search-page .technics__step-three-summary {
     z-index: 30;
     width: 100%;
     padding: 10px;
     justify-content: space-between;
     pointer-events: none; }
-    /* line 2753, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2758, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .technics-search-page .technics__step-three-summary * {
       pointer-events: all; }
-  /* line 2755, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2760, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .technics-search-page .technics__summary-heading, .technics-search-page .technics__summary-list {
     display: none; }
-  /* line 2756, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2761, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .technics-search-page .technics__allfilters .technics__allfilters-scrollarea {
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 80px; }
-  /* line 2757, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2762, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .technics-search-page .technics__summary-button {
     margin-bottom: 10px;
     background-color: #2ca346;
     color: white; }
-  /* line 2758, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2763, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .technics-search-page .technics__stepback {
     margin: 0; }
-  /* line 2759, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2764, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .technics-search-page .technics__filtercross {
     display: none; }
-  /* line 2760, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2765, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .technics-search-page .technics__allfilters .dates-input-block .datepicker {
     z-index: 10; }
-  /* line 2762, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2767, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .searchresult__map {
     margin-top: 12px; } }
 
 @media (min-width: 1024px) {
-  /* line 2766, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2771, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .technics-search-page .technics__stepback {
     display: none; } }
 
-/* line 2772, C:/Projects/home/foderent/www/foderent/css/default.scss */
+/* line 2777, C:/Projects/home/foderent/www/foderent/css/default.scss */
 .marker {
   position: absolute;
   bottom: 0;
   left: 0; }
-  /* line 2773, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2778, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .marker__pin {
     width: 30px;
     position: absolute;
     bottom: 0;
     left: -15px;
     cursor: pointer; }
-  /* line 2774, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2779, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .marker__content {
     position: absolute;
     bottom: 10px;
@@ -10343,25 +10366,25 @@ a:hover .bounce {
     pointer-events: none;
     transition: all .25s ease-in-out;
     transform: translate3d(0, 7px, 0); }
-    /* line 2775, C:/Projects/home/foderent/www/foderent/css/default.scss */
+    /* line 2780, C:/Projects/home/foderent/www/foderent/css/default.scss */
     .marker__content.active {
       opacity: 1;
       transform: translate3d(0, 0, 0);
       pointer-events: all; }
-  /* line 2777, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2782, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .marker__image {
     width: 100%; }
-  /* line 2778, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2783, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .marker__name, .marker__price {
     font-size: 14px;
     line-height: 1.28571em; }
-  /* line 2779, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2784, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .marker__price {
     font-weight: 500;
     font-size: 16px;
     padding: 3px 10px 6px;
     letter-spacing: 0.01em; }
-  /* line 2780, C:/Projects/home/foderent/www/foderent/css/default.scss */
+  /* line 2785, C:/Projects/home/foderent/www/foderent/css/default.scss */
   .marker__name {
     padding-top: 3px; }
 

@@ -2226,8 +2226,12 @@ body.mainpage .page {padding-top:0}
 	&__heading {font-size: 22px; font-weight: 600; line-height: 1.1em;}
 	&__fields {margin-top: 11px; position: relative;}
 	&__field {text-align: left; margin-top: 13px; width: 100%;
-		&_file {margin-top: 13px;
+		&_file {margin-top: 13px; position: relative;
 			p.small {margin-top: 3px;}
+            input {position: absolute; opacity: 0; left:0; top:0; width:0; height:0; pointer-events: none;}
+            label {display:block; cursor:pointer;
+                span {color:inherit}
+            }
 		}
 	}
 	input, textarea {width: 100%; border: 1px solid #b7cfbc; background-color: rgba(#fff, 0.15); height: 45px; color: #fff; margin-top: 7px; padding: 0 16px;
@@ -2235,8 +2239,9 @@ body.mainpage .page {padding-top:0}
 	}
 	textarea {resize: none; padding: 12px 16px;}
 	&__file {border: 1px dashed #b7cfbc; line-height: 43px; position: relative; margin-top: 6px; padding: 0 18px;
-		a {position: absolute; top: -1px; right: -1px; width: 45px; height: 45px; background-color: $green;
+		a {position: absolute; top: -1px; right: -1px; width: 45px; height: 45px; background-color: $green; opacity:0; pointer-events:none;
 			&:after {content: ""; width: 25px; height: 25px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; -webkit-transform: rotate(-90deg); transform: rotate(-90deg); background-image: url('../img/icon_close_formfile.svg'); background-repeat: no-repeat;}
+            &.active {opacity:1; pointer-events:all}
 		}
 	}
 	&__button {margin-top: 30px; width: 100%;}
