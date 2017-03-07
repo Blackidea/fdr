@@ -131,15 +131,69 @@ function animateinit() {
     }, 2300);
 }
 
+
+
+
+
+
+
+
+
+/* ################################################### */
+/* Функции запрета/разрешения скролла */
+/* ################################################### */
+
+// left: 37, up: 38, right: 39, down: 40,
+// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
+/*
+var keys = {37: 1, 38: 1, 39: 1, 40: 1};
+
+function preventDefault(e) {
+  e = e || window.event;
+  if (e.preventDefault)
+      e.preventDefault();
+  e.returnValue = false;  
+}
+
+function preventDefaultForScrollKeys(e) {
+    if (keys[e.keyCode]) {
+        preventDefault(e);
+        return false;
+    }
+}
+
+function disableScroll() {
+  if (window.addEventListener) // older FF
+      window.addEventListener('DOMMouseScroll', preventDefault, false);
+  window.onwheel = preventDefault; // modern standard
+  window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
+  window.ontouchmove  = preventDefault; // mobile
+  document.onkeydown  = preventDefaultForScrollKeys;
+}
+
+function enableScroll() {
+    if (window.removeEventListener)
+        window.removeEventListener('DOMMouseScroll', preventDefault, false);
+    window.onmousewheel = document.onmousewheel = null; 
+    window.onwheel = null; 
+    window.ontouchmove = null;  
+    document.onkeydown = null;  
+}*/
+
+
+
+
+
+
+
+
+
 /* ################################################### */
 /* Поэкранный скролл первых блоков */
 /* ################################################### */
-window.activescreen = "first";
 window.newscroll;
-
 var isFirefox = typeof InstallTrigger !== 'undefined';
 var isChrome = !!window.chrome && !!window.chrome.webstore;
-
 window.sc = $("body"); // scroll container
 
 if (isFirefox) {
@@ -150,6 +204,87 @@ window.firstblock = $(".firstscreen");
 window.secondblock = $(".technics");
 window.thirdblock = $("section.advantages");
 
+$(document).ready(function(){
+    var st = $(window).scrollTop();
+    if (st < thirdblock.offset().top - thirdblock.outerHeight()/2) {
+    }
+});
+
+function scrollAnim() {
+    sc.animate({scrollTop: newscroll}, 800, "easeOutCubic");
+}
+
+$(window).bind('DOMMouseScroll mousewheel', function(e){
+    sc.stop(); // Прерываем активную анимацию скролла
+    window.st = sc.scrollTop();
+
+    function scrolll() {
+      if (parseInt(e.originalEvent.wheelDelta || -e.originalEvent.detail) > 0) {
+          // Скроллим вверх
+          
+          // Скролл ко второму блоку
+          if (st > secondblock.offset().top && st <= thirdblock.offset().top) {
+              e.preventDefault();
+              newscroll = secondblock.offset().top;
+              if ($(".technics__allfilters-scrollarea:hover").length > 0) {
+                  newscroll = secondblock.offset().top;
+              }
+              scrollAnim();
+              animateinit();
+          }
+          
+          // Скролл к первому блоку
+          if (st > firstblock.offset().top && st <= secondblock.offset().top) {
+              e.preventDefault();
+              newscroll = firstblock.offset().top;
+              if ($(".technics__allfilters-scrollarea:hover").length > 0) {
+                  newscroll = secondblock.offset().top;
+              }
+              scrollAnim();
+          }
+          
+          if (st > secondblock.offset().top && st <= thirdblock.offset().top && $(".technics__allfilters-scrollarea:hover").length > 0 ) {
+              sc.animate({scrollTop: secondblock.offset().top}, 1, "easeOutCubic");
+          }
+      } else {
+          // Скроллим вниз
+          
+          // Скролл ко второму блоку
+          if (st >= firstblock.offset().top && st < secondblock.offset().top) {
+              e.preventDefault();
+              newscroll = secondblock.offset().top;
+              scrollAnim();
+              animateinit();
+          }
+          
+          // Скролл ко третьему блоку
+          if (st >= secondblock.offset().top && st < thirdblock.offset().top) {
+              e.preventDefault();
+              newscroll = thirdblock.offset().top;
+              if ($(".technics__allfilters-scrollarea:hover").length > 0) {
+                  newscroll = secondblock.offset().top;
+              }
+              scrollAnim();
+          }
+      }
+    }
+    
+    scrolll();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 $(window).bind('DOMMouseScroll mousewheel', function(e){
     sc.stop(); // Прерываем активную анимацию скролла
     window.scrolltop = sc.scrollTop();
@@ -217,7 +352,7 @@ $(window).bind('DOMMouseScroll mousewheel', function(e){
 
     if ($(".technics__allfilters:hover").length>0) {
       // Считаем максимальный скролл
-      window.maxscroll = 0;
+      /*window.maxscroll = 0;
       $(".technics__allfilters-scrollarea>*").each(function(){
         maxscroll += $(this).outerHeight(true);
       });
@@ -225,12 +360,17 @@ $(window).bind('DOMMouseScroll mousewheel', function(e){
       console.log($(".technics__allfilters-scrollarea").scrollTop()+$(".technics__allfilters-scrollarea").outerHeight() + " " + maxscroll);
       if ($(".technics__allfilters-scrollarea").scrollTop()+$(".technics__allfilters-scrollarea").outerHeight() >= maxscroll) {
         scrolll();
-      }
+      }*/
+/*
     } else {
       scrolll();
       e.preventDefault();
     }
-});
+});*/
+
+
+
+
 
 // Запускаем анимацию, если активен 2 экран
 /*
@@ -244,7 +384,7 @@ $(document).ready(function(){
 console.log(sc.scrollTop());
 console.log(secondblock.offset().top/2);
 console.log(thirdblock.offset().top);*/
-
+/*
 $(document).ready(function(){
    if (sc.scrollTop() >= (secondblock.offset().top/2) && (sc.scrollTop() < thirdblock.offset().top)) {
     animateinit();
@@ -258,6 +398,21 @@ $(window).scroll(function(){
   }
     }
 });
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // AJAX отправка формы
 

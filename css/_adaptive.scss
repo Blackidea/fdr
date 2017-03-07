@@ -132,6 +132,14 @@ $twelve-col:$col*12+$col-m*11;
 	.newsblocks_pagepress .news-linkblock .bg {background-size: cover;}
 	.newsblocks_pagepress .news-linkblock .bg:before {left: -146%;}
 	.pagepress .button {width: auto; padding: 12px 21px 14px;}
+	
+	/*-----------ABOUT--------------*/
+	.about__advantageslist li {width: 50%;}
+	.about__advantageslist li:first-child {margin-top: 25px;}
+	
+	/*-----------FAQ--------------*/
+	.faq__categorylist {display: inline-block; width: 31%; vertical-align: top;}
+	.faq__popular {display: inline-block; width: 69%; vertical-align: top;}
 }
 
 @media (max-width:768px) {
@@ -656,8 +664,6 @@ $twelve-col:$col*12+$col-m*11;
 	/*-----------FAQ--------------*/
 	.faq__searchfield_mobile {display: none;}
 	.faq .container {width: 79%;}
-	.faq__categorylist {display: inline-block; width: 31%; vertical-align: top;}
-	.faq__popular {display: inline-block; width: 69%; vertical-align: top;}
 	.faq__details {display: inline-block; width: 69%; vertical-align: top; padding-bottom: 22px;}
 	.faq__formheading {font-size: 36px;}
 	.faq__formfield {width: 48%;}
@@ -848,7 +854,7 @@ $twelve-col:$col*12+$col-m*11;
 	.diagram {display:block;}
 	.account__alltechnics-prehead {background-color: #fff; position: relative; text-align: left; padding: 21px 0 23px; padding-left: 0; box-sizing: border-box; z-index:1;}
 	.account__alltechnics {position: relative; margin-top: -38px;}
-	.account__alltechnics-sorting {display: inline-block; border: 1px solid $green; width: 34.4%; box-sizing: border-box; height: 45px; position: relative; left:25.7%}
+	.account__alltechnics-sorting {display: inline-block; border: 1px solid $green; width: 290px; box-sizing: border-box; height: 45px; position: relative; left:25.7%}
 	.account__alltechnics-sorting p {display: inline-block; box-sizing: border-box; padding-left: 13px; width: 50%;}
 	.account__alltechnics-sorting select {width: 50%; height: 100%; color: $green; background-image: url('../img/icon_select_arrow.svg'); background-size: 11px 7px; background-repeat: no-repeat; background-position: top 50% right 10px; padding-left: 73px;}
 	.account__alltechnics-head {text-align: left; background-color: $darkgreen; height: 59px;}
@@ -1037,6 +1043,7 @@ $twelve-col:$col*12+$col-m*11;
 	.burgermenu p.desktop {display: none;}
 	.burgermenu .desktop_lists {display: none;}
 	.burgermenu .desktop_links {display: none;}
+	.burgermenu.active {-webkit-transform: translate3d(-100%,0,0); transform: translate3d(-100%,0,0);}
 
 	/*-----------NEWS--------------*/
 	.newsblocks_pagenews .news-linkblock:nth-child(n+5) {display: none;}
@@ -1171,6 +1178,9 @@ $twelve-col:$col*12+$col-m*11;
 
 	/*-----------ABOUT COMPANY--------------*/
 	.about__targets .container {width: 1140px;}
+	
+	/*-----------ACCOUNT--------------*/
+	.account__messages-categories {margin-left: 46px;}
 }
 
 @media (min-width:1250px) {

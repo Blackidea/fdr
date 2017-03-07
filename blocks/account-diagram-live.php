@@ -27,10 +27,11 @@
     <div class="diagram__row">
       <div class="diagram__highlight" data-from="01.02" data-to="07.02"></div>
       <div class="diagram__highlight diagram__highlight_grey" data-from="09.02" data-to="11.02"></div>
+      <div class="diagram__highlight" data-from="13.02" data-to="15.02"></div>
     </div>
     <div class="diagram__row">
       <div class="diagram__highlight" data-from="03.02" data-to="15.02"></div>
-      <div class="diagram__highlight_grey" data-from="16.02" data-to="01.03"></div>
+      <div class="diagram__highlight diagram__highlight_grey" data-from="16.02" data-to="01.03"></div>
     </div>
     <div class="diagram__row">
       <div class="diagram__highlight diagram__highlight_grey" data-from="07.02" data-to="10.03"></div>

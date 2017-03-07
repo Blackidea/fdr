@@ -11,7 +11,6 @@ body.mainpage .page {padding-top:0}
 /* Секции, header, footer и т.д. //*/
 .diagram {display:none; width: 100%; height: 100%; background-color: #f7f7f7; overflow-y: none; overflow-x: scroll; ms-overflow-style: none; cursor:move; overflow: -moz-scrollbars-none;
   &-outer {position: relative;}
-  * {pointer-events:none}
   &::-webkit-scrollbar {display: none;}
   &__header {white-space: nowrap; display:inline-block;
     &-month {background-color: #185d20; box-shadow:inset -1px 0 0 #0f3b15; display:inline-block; vertical-align: top; font-size:14px;
@@ -56,6 +55,7 @@ body.mainpage .page {padding-top:0}
     &:before, &:after {color:#666666; font-size:14px; display:block; position: absolute; bottom:100%; margin-bottom:5px;}
     &:before {content: attr(data-from); left:0;}
     &:after {content: attr(data-to); right:0;}
+    &_hide_to:after {display: none;}
     &_grey {border:0; background-image:url(../img/index/pattern.svg); background-position:left center; background-color:transparent; opacity:.5;
       &:before, &:after {display:none}
     }
@@ -66,7 +66,7 @@ body.mainpage .page {padding-top:0}
     .overlay {position: absolute; z-index:10; top:0; left:0; width:100%; height:100%; pointer-events:none;}
 	&__menubutton {width: 73px; height: 100%; position: relative; cursor: pointer; padding-left: 15px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; overflow: hidden; z-index:1; padding-bottom:4px; box-sizing:border-box; -webkit-transition:opacity .25s ease-in-out; transition:opacity .25s ease-in-out; opacity:1; position:absolute; left:0; top:0;
 		&:after {content: ""; background-color: $green; z-index:0; width: 160px; height: 160px; position: absolute; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); right: 0px; bottom: 0px; pointer-events: none;}
-		span {position: relative; z-index:1; width: 17px; height: 2px; background-color: #fff; -webkit-transition:all 0.25s ease-in-out; transition: all 0.25s ease-in-out;
+		span {display: inline-block; position: relative; z-index:1; width: 17px; height: 2px; background-color: #fff; -webkit-transition:all 0.25s ease-in-out; transition: all 0.25s ease-in-out;
             &:before, &:after {content:""; width: 100%; height: 100%; background-color: #fff; -webkit-transition:all 0.25s ease-in-out; transition: all 0.25s ease-in-out; position: absolute;}
 			&:before {left:0; top:-6px; -webkit-transform: translateY(0); transform: translateY(0);}
             &:after {left: 0; top: 6px; -webkit-transform: translateY(0); transform: translateY(0);}
@@ -1702,7 +1702,7 @@ body.mainpage .page {padding-top:0}
 		.button {width: 100%;}
 		select {border: 1px solid #d1d1d1; height: 45px; width: 100%; font-size: 16px; color: $green; background-image: url('../img/icon_select_arrow.svg'); background-repeat: no-repeat; background-size: 11px 7px; background-position: top 50% right 12px; margin-top: 19px; padding: 0 15px;}
 	}
-	&__messages-categories {display: inline-block; margin-left: 46px;
+	&__messages-categories {display: inline-block; margin-left: 36px;
 		li {display: inline-block; margin-left: 23px; -webkit-transition:all 0.25s ease-in-out; transition: all 0.25s ease-in-out; padding: 12px 14px; border: 1px solid transparent;
 			&:first-child {margin-left: 0;}
 			&.active {border: 1px solid #d1d1d1;
@@ -2458,7 +2458,9 @@ body.mainpage .page {padding-top:0}
 			img {margin-right: 15px;}
 		}
 		.searchform {margin-top: 23px;
-			>div {margin-top: 18px;}
+			>div {margin-top: 18px;
+				.selectbox {height: 100%;}
+			}
 			p.heading {font-size: 20px; text-align: center; font-weight: 600;}
 		}
 	}

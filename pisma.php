@@ -113,7 +113,7 @@
 			<img src="img/icon_slidearrow_green.svg" alt="@@" width="20" height="36" class="arrow right">
 		</div>
 	</div>
-	<a href="#booking-request" class="button button_green letters__button fancybox"><span class="button__border-top"></span>Показать еще<span class="button__border-bottom"></span></a>
+	<a href="#" class="button button_green letters__button"><span class="button__border-top"></span>Показать еще<span class="button__border-bottom"></span></a>
 </section>
 
 <!-------------------------------------------------->
