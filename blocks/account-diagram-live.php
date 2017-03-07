@@ -8,16 +8,76 @@
   <div class="diagram__wrapper">
   <!-- Шапка -->
   <div class="diagram__header">
+    <div class="diagram__header-month" data-month="1">
+      <p class="diagram__header-name"><span>Январь</span></p>
+      <ol class="diagram__header-days">
+        <?=str_repeat('<li></li>', 31)?>
+      </ol>
+    </div>
     <div class="diagram__header-month" data-month="2">
       <p class="diagram__header-name"><span>Февраль</span></p>
       <ol class="diagram__header-days">
-        <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+        <?=str_repeat('<li></li>', 28)?>
       </ol>
     </div>
     <div class="diagram__header-month" data-month="3">
       <p class="diagram__header-name"><span>Март</span></p>
       <ol class="diagram__header-days">
-        <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+        <?=str_repeat('<li></li>', 31)?>
+      </ol>
+    </div>
+    <div class="diagram__header-month" data-month="4">
+      <p class="diagram__header-name"><span>Апрель</span></p>
+      <ol class="diagram__header-days">
+        <?=str_repeat('<li></li>', 31)?>
+      </ol>
+    </div>
+    <div class="diagram__header-month" data-month="5">
+      <p class="diagram__header-name"><span>Май</span></p>
+      <ol class="diagram__header-days">
+        <?=str_repeat('<li></li>', 31)?>
+      </ol>
+    </div>
+    <div class="diagram__header-month" data-month="6">
+      <p class="diagram__header-name"><span>Июнь</span></p>
+      <ol class="diagram__header-days">
+        <?=str_repeat('<li></li>', 30)?>
+      </ol>
+    </div>
+    <div class="diagram__header-month" data-month="7">
+      <p class="diagram__header-name"><span>Июль</span></p>
+      <ol class="diagram__header-days">
+        <?=str_repeat('<li></li>', 31)?>
+      </ol>
+    </div>
+    <div class="diagram__header-month" data-month="8">
+      <p class="diagram__header-name"><span>Август</span></p>
+      <ol class="diagram__header-days">
+        <?=str_repeat('<li></li>', 31)?>
+      </ol>
+    </div>
+    <div class="diagram__header-month" data-month="9">
+      <p class="diagram__header-name"><span>Сентябрь</span></p>
+      <ol class="diagram__header-days">
+        <?=str_repeat('<li></li>', 30)?>
+      </ol>
+    </div>
+    <div class="diagram__header-month" data-month="10">
+      <p class="diagram__header-name"><span>Октябрь</span></p>
+      <ol class="diagram__header-days">
+        <?=str_repeat('<li></li>', 30)?>
+      </ol>
+    </div>
+    <div class="diagram__header-month" data-month="11">
+      <p class="diagram__header-name"><span>Ноябрь</span></p>
+      <ol class="diagram__header-days">
+        <?=str_repeat('<li></li>', 30)?>
+      </ol>
+    </div>
+    <div class="diagram__header-month" data-month="12">
+      <p class="diagram__header-name"><span>Декабрь</span></p>
+      <ol class="diagram__header-days">
+        <?=str_repeat('<li></li>', 31)?>
       </ol>
     </div>
   </div>

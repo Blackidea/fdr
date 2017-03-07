@@ -270,6 +270,7 @@ body.mainpage .page {
     white-space: nowrap;
     display: inline-block; }
     .diagram__header-month {
+      position: relative;
       background-color: #185d20;
       box-shadow: inset -1px 0 0 #0f3b15;
       display: inline-block;
@@ -281,6 +282,15 @@ body.mainpage .page {
         background-color: #0f3b15; }
         .diagram__header-month[data-month="2"] .diagram__header-days li:nth-of-type(2n), .diagram__header-month:nth-of-type(2n) .diagram__header-days li:nth-of-type(2n) {
           background-color: #124618; }
+      .diagram__header-month_scale_m2:nth-of-type(odd):after {
+        position: absolute;
+        top: 62px;
+        left: 0;
+        content: '';
+        width: 100%;
+        display: block;
+        height: 99999px;
+        background-color: #f1f1f1; }
     .diagram__header-name {
       color: white;
       text-align: left;
@@ -311,6 +321,15 @@ body.mainpage .page {
           content: counter(list); }
         .diagram__header-days li:nth-of-type(2n) {
           background-color: #0f3b15; }
+      .diagram__header-days_scale_m1 li {
+        width: 18px; }
+      .diagram__header-days_scale_m2 li {
+        width: 9px;
+        background-color: inherit !important; }
+        .diagram__header-days_scale_m2 li:before {
+          content: ''; }
+        .diagram__header-days_scale_m2 li:nth-of-type(2n) {
+          background-color: transparent !important; }
   .diagram__wrapper {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -320,6 +339,10 @@ body.mainpage .page {
     -ms-flex-direction: column;
     flex-direction: column;
     background: url("../img/diagram-bg.svg") left top; }
+    .diagram__wrapper_scale_m1 {
+      background-size: 36px; }
+    .diagram__wrapper_scale_m2 {
+      background: transparent; }
   .diagram__header-buttons {
     position: absolute;
     top: 7px;
@@ -393,6 +416,20 @@ body.mainpage .page {
     .diagram__highlight:after {
       content: attr(data-to);
       right: 0; }
+    .diagram__highlight_scale_m1, .diagram__highlight_scale_m2 {
+      transition: opacity 1s ease-in-out; }
+      .diagram__highlight_scale_m1:before, .diagram__highlight_scale_m2:before {
+        left: 100%;
+        opacity: 0; }
+      .diagram__highlight_scale_m1:after, .diagram__highlight_scale_m2:after {
+        right: 100%;
+        opacity: 0; }
+      .diagram__highlight_scale_m1:hover:before, .diagram__highlight_scale_m1:hover:after, .diagram__highlight_scale_m2:hover:before, .diagram__highlight_scale_m2:hover:after {
+        opacity: 1; }
+    .diagram__highlight_dragged:before {
+      opacity: 1; }
+    .diagram__highlight_dragged:after {
+      opacity: 1; }
     .diagram__highlight_hide_to:after {
       display: none; }
     .diagram__highlight_grey {

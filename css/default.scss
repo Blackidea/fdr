@@ -13,12 +13,22 @@ body.mainpage .page {padding-top:0}
   &-outer {position: relative;}
   &::-webkit-scrollbar {display: none;}
   &__header {white-space: nowrap; display:inline-block;
-    &-month {background-color: #185d20; box-shadow:inset -1px 0 0 #0f3b15; display:inline-block; vertical-align: top; font-size:14px;
+    &-month {position: relative; background-color: #185d20; box-shadow:inset -1px 0 0 #0f3b15; display:inline-block; vertical-align: top; font-size:14px;
       &:last-child {box-shadow:none}
       &[data-month="2"], &:nth-of-type(2n) {
         .diagram__header-days li {background-color:#0f3b15;
           &:nth-of-type(2n) {background-color:#124618;}
         }
+      }
+      &_scale_m2:nth-of-type(odd):after{
+          position: absolute;
+          top: 62px;
+          left: 0;
+          content: '';
+          width: 100%;
+          display: block;
+          height: 99999px;
+          background-color: #f1f1f1;
       }
     }
     &-name {color:white; text-align: left; display:block; line-height:34px; height:34px; position:relative;
@@ -29,9 +39,17 @@ body.mainpage .page {padding-top:0}
         &:before {counter-increment: list; content: counter(list);}
         &:nth-of-type(2n) {background-color:#0f3b15;}
       }
+      &_scale_m1 li {width: 18px;}
+      &_scale_m2 li {width: 9px; background-color:inherit !important;
+        &:before { content: '';}
+        &:nth-of-type(2n) {background-color:transparent !important;}
+      }
     }
   }
-  &__wrapper {display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; background:url("../img/diagram-bg.svg") left top;}
+  &__wrapper {display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; background:url("../img/diagram-bg.svg") left top;
+    &_scale_m1 {background-size: 36px}
+    &_scale_m2 {background: transparent;}
+  }
   /*&__scroll {width:100%; height:100%; overflow: auto; padding:0 25px 25px 0;}*/
   &__header-buttons {position: absolute; top:7px; right:7px; z-index:3;}
   &__header-button {box-sizing:border-box; border:1px solid white; width:21px; height:20px; background-color:#185d20; -webkit-transition:all .25s ease-in-out; transition:all .25s ease-in-out; display:inline-block; position: relative; pointer-events:all; cursor:pointer;
@@ -55,6 +73,19 @@ body.mainpage .page {padding-top:0}
     &:before, &:after {color:#666666; font-size:14px; display:block; position: absolute; bottom:100%; margin-bottom:5px;}
     &:before {content: attr(data-from); left:0;}
     &:after {content: attr(data-to); right:0;}
+    &_scale_m1, &_scale_m2 {
+        transition: opacity 1s ease-in-out;
+        &:before {left: 100%; opacity: 0;}
+        &:after {right: 100%; opacity: 0;}
+
+        &:hover {
+            &:before, &:after {opacity: 1;}
+        }
+    }
+    &_dragged {
+        &:before {opacity: 1;}
+        &:after {opacity: 1;}
+    }
     &_hide_to:after {display: none;}
     &_grey {border:0; background-image:url(../img/index/pattern.svg); background-position:left center; background-color:transparent; opacity:.5;
       &:before, &:after {display:none}
