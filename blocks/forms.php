@@ -263,8 +263,84 @@
 	<div class="container">
 		<p class="heading">Регистрация</p>
 		<p>Уже есть аккаунт? <a href="#" class="login">Авторизуйтесь</a></p>
-		<a href="#" class="button"><span class="button__border-top"></span>Арендовать технику<span class="button__border-bottom"></span></a>
-		<a href="#" class="button"><span class="button__border-top"></span>Сдать технику<span class="button__border-bottom"></span></a>
+		<div class="registration__button">
+			<a href="#" data-formid="reg1" class="button"><span class="button__border-top"></span>Арендовать технику<span class="button__border-bottom"></span></a>
+			<a href="#" data-formid="reg2" class="button"><span class="button__border-top"></span>Сдать технику<span class="button__border-bottom"></span></a>
+		</div>
+		<div class="registration__form registration__form_one" data-formid="reg1">
+			<form class="" action="send.php" method="post">
+				<p class="big">Зарегистрироваться как:</p>
+				<div class="checkradio">
+						<input type="radio" name="regas" id="regas1" value="ИП">
+						<label for="type1"><span></span>ИП</label>
+				</div>
+				<div class="checkradio">
+						<input type="radio" name="regas" id="regas2" value="ООО">
+						<label for="type2"><span></span>ООО</label>
+				</div>
+				<div class="checkradio">
+						<input type="radio" name="regas" id="regas3" value="Физическое лицо">
+						<label for="regas3"><span></span>Физическое лицо</label>
+				</div>
+
+				<p class="big">Имя</p>
+				<input type="text">
+				<p class="big">Фамилия</p>
+				<input type="text">
+				<p class="big">Номер телефона</p>
+				<input type="tel">
+				<p class="big">Email</p>
+				<input type="text">
+				<p class="big">Пароль</p>
+				<input type="password">
+				<p class="small">Ваш пароль должен содержать минимум 6 символов<br> верхнего и нижнего регистров латиницей, а так же цифры</p>
+				<p class="big">Повторить пароль</p>
+				<input type="password">
+				<div class="checkradio checkbox_margin">
+						<input type="checkbox" name="type" id="iagree" value="Физическое лицо">
+						<label for="iagree"><span></span>Согласен с условиями <a href="#" target="_blank">публичной оферты</a></label>
+				</div>
+				<button class="button button_green"><span class="button__border-top"></span>Зарегистрироваться<span class="button__border-bottom"></span></button>
+			</form>
+		</div>
+		<div class="registration__form registration__form_two" data-formid="reg2">
+			<form class="" action="send.php" method="post">
+				<p class="big">Зарегистрироваться как:</p>
+				<div class="checkradio">
+						<input type="radio" name="regas" id="regas1" value="ИП">
+						<label for="type1"><span></span>ИП</label>
+				</div>
+				<div class="checkradio">
+						<input type="radio" name="regas" id="regas2" value="ООО">
+						<label for="type2"><span></span>ООО</label>
+				</div>
+				<div class="checkradio">
+						<input type="radio" name="regas" id="regas3" value="Физическое лицо">
+						<label for="regas3"><span></span>Физическое лицо</label>
+				</div>
+
+				<p class="big">Имя</p>
+				<input type="text">
+				<p class="big">Фамилия</p>
+				<input type="text">
+				<p class="big">Фамилия</p>
+				<input type="text">
+				<p class="big">Номер телефона</p>
+				<input type="tel">
+				<p class="big">Email</p>
+				<input type="text">
+				<p class="big">Пароль</p>
+				<input type="password">
+				<p class="small">Ваш пароль должен содержать минимум 6 символов<br> верхнего и нижнего регистров латиницей, а так же цифры</p>
+				<p class="big">Повторить пароль</p>
+				<input type="password">
+				<div class="checkradio checkbox_margin">
+						<input type="checkbox" name="type" id="iagree" value="Физическое лицо">
+						<label for="iagree"><span></span>Согласен с условиями <a href="#" target="_blank">публичной оферты</a></label>
+				</div>
+				<button class="button button_green"><span class="button__border-top"></span>Зарегистрироваться<span class="button__border-bottom"></span></button>
+			</form>
+		</div>
 	</div>
 </div>
 

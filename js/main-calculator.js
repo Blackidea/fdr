@@ -215,6 +215,7 @@ function scrollAnim() {
 }
 
 $(window).bind('DOMMouseScroll mousewheel', function(e){
+    if (!$("body").hasClass("noscroll")) {
     sc.stop(); // Прерываем активную анимацию скролла
     window.st = sc.scrollTop();
 
@@ -270,6 +271,7 @@ $(window).bind('DOMMouseScroll mousewheel', function(e){
     }
     
     scrolll();
+        }
 });
 
 
